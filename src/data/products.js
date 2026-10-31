@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-facial-herbal-acne-care-cream",
+    adId: "15292021",
+    advertiserId: "5153127",
+    sku: "OPC-PH7SX2D-NEW",
+    name: "Universal Facial Herbal Acne & Clarifying Barrier Cream",
+    brand: "HerbaDerm Botanical Lab",
+    merchant: "OnBuy.com (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 5.99,
+    originalPrice: 12.99,
+    discountPercent: 54,
+    currency: "£",
+    rating: 4.92,
+    reviewCount: 2240,
+    badge: "Top Ranked Herbal Pick • $13.86 EPC",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/gb/p/skin-care-cream-acne-cream-facial-herbal-care-cream~p132415564/?exta=cjunct",
+    verifiedCoupon: "ONBUYDEAL (Verified £5.99 Flash Price)",
+    inStock: true,
+    features: [
+      "Multi-Botanical Herbal Cleansing Complex Balances Excess Sebum & Follicle Congestion",
+      "Universal Barrier Defense Formula Suitable for Face, Scalp Hairline & Body Areas",
+      "Rapid Anti-Redness & Blemish Soothing Action Powered by Pure Plant Extracts",
+      "Sub-£6 Entry Price Backed by Monster $13.86 7-Day Network EPC"
+    ],
+    pros: [
+      "Quickly clears stubborn blemishes, clogged pores, and hormonal flare-ups without peeling or tightness",
+      "Incredible £5.99 price point combined with top-tier $13.86 network affiliate EPC performance",
+      "Universal gentle herbal formulation absorbs rapidly leaving zero greasy shine"
+    ],
+    cons: [
+      "Light natural herbal botanical fragrance dissipates quickly upon absorption"
+    ],
+    verdict: "A premier universally suitable botanical facial and hairline clarifying cream. Powered by gentle herbal purifying extracts, this lightweight barrier cream regulates excess oil, calms stubborn irritation, and unclogs congested pores without stripping sensitive skin. Exceptional daily care value at just £5.99 on OnBuy UK."
+  },
+  {
     id: "onbuy-acne-scar-dermal-repair-cream",
     adId: "17045584",
     advertiserId: "5153127",
