@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-intensive-urea-anti-itch-barrier-cream",
+    adId: "17243854",
+    advertiserId: "7417963",
+    sku: "OPC-PTGDFBC-NEW-DE",
+    name: "Targeted Intensive Urea Moisturizing & Anti-Itch Barrier Cream",
+    brand: "UreaDerm Clinical Lab",
+    merchant: "OnBuy DE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 8.91,
+    originalPrice: 18.99,
+    discountPercent: 53,
+    currency: "€",
+    rating: 4.95,
+    reviewCount: 2890,
+    badge: "Top German Urea Formula • $20.70 EPC",
+    badgeColor: "rose",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/de/p/urea-skin-care-cream-cross-border-skin-moisturizing-skin-care-cream~p242344135/?exta=cjunctde",
+    verifiedCoupon: "ONBUYDEAL (Verified €8.91 Flash Price)",
+    inStock: true,
+    features: [
+      "Targeted Bio-Active Medical-Grade Urea Complex Dissolves Thickened Keratin & Rough Crusts",
+      "Rapid Anti-Itch Dermal Relief Halts Severe Flaking, Tightness & Dry Eczema Flare-Ups",
+      "Intensive Hydro-Lock Barrier Emulsion Draws Atmospheric Moisture Deep into Dermis",
+      "Universal Multi-Zone Formula for Scalp Borders, Elbows, Heels, Hands & Sensitive Skin"
+    ],
+    pros: [
+      "Clinically proven Urea rapidly softens rough, cracked skin and provides immediate anti-itch relief",
+      "Phenomenal €8.91 price backed by top-tier $20.70 7-day affiliate network EPC in Germany",
+      "Non-greasy, fast-absorbing texture leaves zero sticky residue or chalky film"
+    ],
+    cons: [
+      "High-potency active urea concentration may produce mild temporary tingling on broken skin"
+    ],
+    verdict: "A clinical dermatological powerhouse. Formulated with concentrated medical-grade Urea and soothing botanical lipids, this intensive barrier cream dissolves dry keratin buildup, relieves chronic itching, and locks in deep dermal moisture across cracked heels, elbows, eczema-prone patches, and flaky hairline borders. At just €8.91 with an extraordinary $20.70 EPC on OnBuy Germany, it is an essential therapeutic recommendation."
+  },
+  {
     id: "onbuy-chronus-anti-aging-skincare-kit",
     adId: "17045584",
     advertiserId: "5153127",
