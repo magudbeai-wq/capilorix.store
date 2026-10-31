@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-back-cream-massage-applicator",
+    adId: "17244229",
+    advertiserId: "7417963",
+    sku: "OPC-PNRBX8K-NEW-IE",
+    name: "Ergonomic Long-Reach Back Cream & Lotion Applicator (19 Massage Rollerballs)",
+    brand: "ErgoCare Lab",
+    merchant: "OnBuy EU (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 28.99,
+    originalPrice: 36.99,
+    discountPercent: 22,
+    currency: "€",
+    rating: 4.89,
+    reviewCount: 1180,
+    badge: "Top Mobility & Self-Care Tool • 22% OFF",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/ie/p/cream-applicator-back-cream-applicator-massage-cream-applicator-back-cream-applicator-shower-aid-cream~p186567329/?exta=cjunctie",
+    verifiedCoupon: "ONBUYDEAL (Verified €28.99 Sale)",
+    inStock: true,
+    features: [
+      "19 Smooth Rotating Massage Balls for Deep Dermal Absorption & Circulation",
+      "Extra-Long Curved Ergonomic Handle Reaches 100% of Back, Neck & Lower Limbs",
+      "Airtight Leak-Proof Chamber Holds Lotions, Tallow Creams, Sunscreens & Body Oils",
+      "Removable Easy-Clean Head with Acupressure Rolling Action — Zero Mess or Greasy Hands"
+    ],
+    pros: [
+      "Effortlessly apply thick moisturizers, barrier salves, and medicinal creams to difficult-to-reach areas",
+      "19 smooth rolling spheres gently stimulate microcirculation and release muscle tension",
+      "Pairs flawlessly with solid tallow butter, eczema balms, and post-shower hydrating formulas"
+    ],
+    cons: [
+      "Rinse applicator head with warm water after using high-density waxes or unrefined oils"
+    ],
+    verdict: "An essential daily self-care and mobility game-changer. Equipped with 19 precision massage rollerballs and an extended ergonomic reach handle, this multi-purpose applicator allows you to apply barrier creams, tallow butter, and body lotions across your entire back and shoulders without straining or messy hands."
+  },
+  {
     id: "woot-abreva-docosanol-cream",
     adId: "15521341",
     advertiserId: "4909784",
