@@ -33,13 +33,13 @@ export default function HeroCarousel({ onOpenQuiz }) {
     },
     {
       id: 3,
-      badge: "Korean Bio-Tech Scalp Care",
-      tagline: "Sulwhasoo & Laneige Curated",
-      title: "Deep Dermal & Follicle Hydration",
-      subtitle: "Restore your scalp's protective barrier and unclog micro-capillary roots with fermented Asian botanicals.",
-      ctaText: "Discover K-Beauty Deals",
-      ctaLink: "#picks-section",
-      dealBadge: "Up to 63% Savings",
+      badge: "Amore Mall Featured Partner",
+      tagline: "Ad ID: 17067613 • IOPE Clinical Sun Care",
+      title: "IOPE UV Shield Tone Up Sun SPF50+",
+      subtitle: "High-performance Korean anti-aging sunscreen with tone-up correction. Blocks micro-dust and UV rays with zero greasy hairline residue.",
+      ctaText: "Check IOPE Price ($38)",
+      ctaLink: "https://global.amoremall.com/products/iope-uv-sheild-tone-up-sun-spf50-pa-4?variant=45414287376522&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+      dealBadge: "$38.00 • In Stock",
       modelImg: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1200&q=80",
       productImg: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80",
       bgGradient: "from-emerald-950/40 via-[#121624] to-[#0b0d13]"
@@ -198,3 +198,4 @@ export default function HeroCarousel({ onOpenQuiz }) {
     </div>
   );
 }
+

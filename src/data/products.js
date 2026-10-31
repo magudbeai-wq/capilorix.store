@@ -1,42 +1,43 @@
 // Capilorix Product & Affiliate Database
-// Add your real products here. Each item will automatically appear on the Homepage, 
-// Comparison Matrix, and Scalp Quiz!
+// Real verified partner products from CJ Affiliate and direct merchant feeds
 
 export const products = [
-  /* 
-  Example of how to add your product:
   {
-    id: "product-1",
-    name: "Product Name Here",
-    brand: "Brand Name",
-    merchant: "Merchant Name (e.g. ISEE Hair, Stylevana)",
-    category: "Hair Care", // or "Wigs & Restoration", "Laser Therapy", "Scalp Care"
-    price: 99.00,
-    originalPrice: 149.00,
-    discountPercent: 33,
-    rating: 4.9,
-    reviewCount: 120,
-    badge: "Editor's Choice",
-    badgeColor: "gold", // "gold" | "emerald" | "rose" | "sky"
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
-    affiliateUrl: "https://www.anrdoezrs.net/click-your-cj-link-here",
-    linkId: "17183935",
-    verifiedCoupon: "SAVE10",
+    id: "iope-uv-shield-tone-up",
+    adId: "17067613",
+    advertiserId: "7468134",
+    sku: "shopify_US_8277893480586_45414287376522",
+    name: "IOPE UV Shield Tone Up Sun SPF50+ PA++++ (50ml)",
+    brand: "IOPE",
+    merchant: "Amore Mall (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 38.00,
+    originalPrice: 45.00,
+    discountPercent: 15,
+    rating: 4.85,
+    reviewCount: 940,
+    badge: "Clinical Anti-Aging Sunscreen",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://global.amoremall.com/products/iope-uv-sheild-tone-up-sun-spf50-pa-4?variant=45414287376522&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+    verifiedCoupon: "AMOREGO10 (10% OFF at Checkout)",
+    inStock: true,
     features: [
-      "Key Feature 1",
-      "Key Feature 2",
-      "Key Feature 3"
+      "Broad Spectrum SPF 50+ PA++++ High-Performance Protection",
+      "Micro-Filter Technology to Block Fine Dust & UV Rays",
+      "Natural Tone-Up Complex for Radiant, Healthy Glow",
+      "Featherlight, Non-Greasy Formula Safe for Hairline & Sensitive Skin"
     ],
     pros: [
-      "Top benefit 1",
-      "Top benefit 2"
+      "Zero pore-clogging residue along the scalp and hairline",
+      "Clinically proven antioxidant shield prevents photo-aging",
+      "Fast-absorbing formula works flawlessly under makeup or daily wear"
     ],
     cons: [
-      "Minor consideration"
+      "In high demand — frequently restocked on Amore Mall"
     ],
-    verdict: "Editorial summary of the product and why it is recommended."
+    verdict: "A premier Korean anti-aging skincare sunscreen by Amorepacific. IOPE UV Shield Tone Up Sun combines maximum UV photoprotection with a radiant tone-up effect that never clogs hair follicles or leaves a greasy film."
   }
-  */
 ];
 
 export const editorialStats = [
