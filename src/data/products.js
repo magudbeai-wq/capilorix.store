@@ -38,6 +38,42 @@ export const products = [
     verdict: "Ranked the undisputed #1 luxury cushion foundation in Korean department stores, the HERA Black Cushion provides a second-skin micro-fit finish. The Duo Set includes a full compact plus an extra 15g refill, giving you double the luxury wear."
   },
   {
+    id: "alternativestereo-soap-nude-base",
+    adId: "17067613",
+    advertiserId: "7468134",
+    sku: "shopify_US_8332640419978_45616742727818",
+    name: "Alternativestereo Soap Nude Milky Tone-Up Base (01 Egg Soap)",
+    brand: "Alternativestereo",
+    merchant: "Amore Mall (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 22.00,
+    originalPrice: 28.00,
+    discountPercent: 21,
+    rating: 4.86,
+    reviewCount: 860,
+    badge: "Viral 'Egg Skin' Pore Priming Gel",
+    badgeColor: "amber",
+    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://global.amoremall.com/products/alternativestereo-soap-nude-milky-tone-up-base?variant=45616742727818&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+    verifiedCoupon: "AMOREGO10 (10% OFF at Checkout)",
+    inStock: true,
+    features: [
+      "Hydrated Inside, Smooth Outside Ceramide & Amino Acid Priming Gel",
+      "01 Egg Soap: Natural Tone-Up Glow Inspired by Radiant, Smooth Egg Skin",
+      "Pore-Blurring Soft-Focus Texture Preps Skin Flawlessly for All-Day Wear",
+      "Featherlight, Non-Greasy Formula Safe for Hairline & Sensitive Pores"
+    ],
+    pros: [
+      "Instantly blurs enlarged pores and texture without drying out dermal layers",
+      "Infused with ceramides to strengthen the skin barrier while priming",
+      "Can be worn alone as a radiant tone-up base or under cushion foundations"
+    ],
+    cons: [
+      "Sheer natural tone-up glow rather than high-pigment foundation coverage"
+    ],
+    verdict: "Inspired by the smooth, luminous finish of Korean 'egg skin', Alternativestereo Soap Nude Milky Tone-Up Base infuses ceramides and amino acids into a refreshing priming gel that blurs pores, hydrates from within, and leaves zero greasy buildup."
+  },
+  {
     id: "etude-glow-fixing-tint-pure-coral",
     adId: "17067613",
     advertiserId: "7468134",
