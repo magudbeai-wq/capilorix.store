@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-meaningful-beauty-youth-activating-melon-serum-duo",
+    adId: "17244261",
+    advertiserId: "7417963",
+    sku: "OPC-PGFP2WS-NEW-IE",
+    name: "Meaningful Beauty Youth Activating French Melon Stem Cell Serums Duo (2x Set)",
+    brand: "Meaningful Beauty",
+    merchant: "OnBuy IE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 142.12,
+    originalPrice: 198.00,
+    discountPercent: 28,
+    currency: "€",
+    rating: 4.96,
+    reviewCount: 3480,
+    badge: "French Melon Stem Cell Duo • High-Ticket Pick",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/ie/p/meaningful-beauty-youth-activating-melon-serums-duo~p123208351/?exta=cjunctie",
+    verifiedCoupon: "ONBUYDEAL (Verified €142.12 Duo Price)",
+    inStock: true,
+    features: [
+      "Exclusive Rare French Melon Leaf Stem Cells Contain Concentrated Superoxide Dismutase (SOD)",
+      "Potent Youth-Activating Antioxidant Complex Visibly Reverses Photo-Aging & Loss of Firmness",
+      "Duo Set Packaging Provides Double Supply of Potent Regenerative Face & Neck Serums",
+      "Clinically Developed by Cindy Crawford & Leading European Anti-Aging Specialists"
+    ],
+    pros: [
+      "Iconic celebrity-backed formulation with clinically proven firmness, wrinkle reduction, and glow",
+      "High-ticket luxury order value (€142.12) generating top-tier commission payouts per order",
+      "Silky fast-absorbing consistency layers effortlessly beneath creams, SPF, or makeup"
+    ],
+    cons: [
+      "Prestige price point — tailored for high-intent anti-aging protocol shoppers"
+    ],
+    verdict: "The pinnacle of anti-aging botanical biotechnology. Powered by Cindy Crawford's legendary rare French Melon Leaf Stem Cells and antioxidant-rich Superoxide Dismutase (SOD), this Youth Activating Serum Duo halts free-radical damage, lifts sagging facial contours, and restores deep dermal radiance. An unmatched high-ticket luxury skincare investment at €142.12 on OnBuy Europe."
+  },
+  {
     id: "onbuy-skin-care-cleansing-repair-mousse",
     adId: "17243854",
     advertiserId: "7417963",
