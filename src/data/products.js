@@ -4,7 +4,7 @@
 export const products = [
   {
     id: "onbuy-facial-herbal-acne-care-cream",
-    adId: "15292021",
+    adId: "17045584",
     advertiserId: "5153127",
     sku: "OPC-PH7SX2D-NEW",
     name: "Universal Facial Herbal Acne & Clarifying Barrier Cream",
