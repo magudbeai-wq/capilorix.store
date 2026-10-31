@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "woot-abreva-docosanol-cream",
+    adId: "15521341",
+    advertiserId: "4909784",
+    sku: "0ca6890c-4137-4e11-8b18-b3d4fb34b587",
+    name: "Abreva Docosanol 10% Rapid Healing Cold Sore Cream (2g Tube)",
+    brand: "Abreva",
+    merchant: "Woot! / Amazon (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 9.99,
+    originalPrice: 21.99,
+    discountPercent: 55,
+    currency: "$",
+    rating: 4.93,
+    reviewCount: 3420,
+    badge: "#1 Pharmacist Pick • 55% OFF",
+    badgeColor: "rose",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://grocery.woot.com/offers/ded3c95e-ffcb-4292-b787-be2c13ef4796",
+    verifiedCoupon: "WOOTDEAL (Verified $9.99 Flash Price)",
+    inStock: true,
+    features: [
+      "Only FDA-Approved Non-Prescription Treatment with 10% Docosanol",
+      "#1 Pharmacist-Recommended Brand Clinically Proven to Shorten Healing Time",
+      "Deep Cellular Penetration Blocks Virus Replication at the Tingle Stage",
+      "Sub-$10 Amazon Woot! Deal — Over 55% Savings vs Pharmacy Retail"
+    ],
+    pros: [
+      "Heals fever blisters in as few as 2.5 days when applied at early tingle",
+      "Unbeatable $9.99 price point on Woot! compared to $22+ retail pharmacy prices",
+      "High-converting everyday wellness essential with $6.82 7-day EPC"
+    ],
+    cons: [
+      "Woot! grocery deals have limited inventory and sell out quickly"
+    ],
+    verdict: "The undisputed gold standard in cold sore and fever blister relief. Backed by 10% Docosanol, Abreva penetrates deep into cell membranes to block viral spread and cut healing time in half. At $9.99 on Woot! (55% off retail), it is an unbeatable daily health essential."
+  },
+  {
     id: "onbuy-solid-tallow-honey-cream",
     adId: "17244261",
     advertiserId: "7417963",
