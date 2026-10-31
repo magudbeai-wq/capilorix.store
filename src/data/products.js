@@ -3,6 +3,41 @@
 
 export const products = [
   {
+    id: "hera-black-cushion-foundation-duo",
+    advertiserId: "7468134",
+    sku: "shopify_US_7602483232906_42589462298762",
+    name: "HERA Black Cushion Foundation Duo Set (15g x 2 Cushion + Refill) 21N1 Vanilla",
+    brand: "HERA",
+    merchant: "Amore Mall (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 60.00,
+    originalPrice: 78.00,
+    discountPercent: 23,
+    rating: 4.95,
+    reviewCount: 1450,
+    badge: "Korea's #1 Luxury Prestige Cushion",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://global.amoremall.com/products/hera-black-cushion-foundation-duo-set?variant=42589462298762&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+    verifiedCoupon: "AMOREGO10 (10% OFF at Checkout)",
+    inStock: true,
+    features: [
+      "Korea's #1 Best-Selling Prestige Cushion Foundation (Beaute Research)",
+      "Luxury Duo Set: Includes Full Compact + 15g Replacement Refill",
+      "Ultra-Fine Powder Dispersion for Seamless Micro-Fit Full Coverage",
+      "24-Hour Comfort Soft Satin Finish — Resists Oxidation & Humidity Transfer"
+    ],
+    pros: [
+      "Flawless airbrushed coverage that conceals redness and blemishes without looking heavy",
+      "Includes bonus 15g full refill, offering exceptional cost-per-use value",
+      "Sweat and transfer-resistant formula that stays fresh all day without hairline creasing"
+    ],
+    cons: [
+      "Shade 21N1 Vanilla is in high global demand and sells out quickly"
+    ],
+    verdict: "Ranked the undisputed #1 luxury cushion foundation in Korean department stores, the HERA Black Cushion provides a second-skin micro-fit finish. The Duo Set includes a full compact plus an extra 15g refill, giving you double the luxury wear."
+  },
+  {
     id: "tonework-vegan-cushion-airy-matte",
     advertiserId: "7468134",
     sku: "shopify_US_8003224764554_44674711060618",

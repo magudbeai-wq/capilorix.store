@@ -20,15 +20,15 @@ export default function HeroCarousel({ onOpenQuiz }) {
     },
     {
       id: 2,
-      badge: "Glueless 100% Human Hair",
-      tagline: "Zero Adhesive • 3-Sec Install",
-      title: "Instant Volume & Undetectable Lace",
-      subtitle: "Pre-cut 9x6 HD lace and breathable 3D caps protect your native edges while delivering salon-grade volume.",
-      ctaText: "View #1 Glueless Wigs",
-      ctaLink: "#picks-section",
-      dealBadge: "34% OFF Flash Sale",
+      badge: "Korea's #1 Luxury Prestige Cushion",
+      tagline: "Beaute Research #1 • Duo Set + 15g Refill",
+      title: "HERA Black Cushion Foundation Duo Set",
+      subtitle: "The gold standard Korean luxury cushion foundation. Delivers airbrushed 24H soft-satin coverage that resists heat, humidity, and hairline creasing.",
+      ctaText: "Check HERA Duo Set ($60)",
+      ctaLink: "https://global.amoremall.com/products/hera-black-cushion-foundation-duo-set?variant=42589462298762&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+      dealBadge: "$60.00 • Includes Extra Refill",
       modelImg: "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&q=80",
-      productImg: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=600&q=80",
+      productImg: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=80",
       bgGradient: "from-purple-950/40 via-[#121624] to-[#0b0d13]"
     },
     {
