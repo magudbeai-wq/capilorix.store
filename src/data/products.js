@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "macys-floral-textured-cotton-maternity-dress",
+    adId: "15586047",
+    advertiserId: "6511865",
+    sku: "637844528584",
+    name: "Macy's Floral Textured Cotton Maternity Maxi Dress (Cream)",
+    brand: "Macy's Maternity Studio",
+    merchant: "Macy's (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 89.00,
+    originalPrice: 119.00,
+    discountPercent: 25,
+    currency: "$",
+    rating: 4.92,
+    reviewCount: 890,
+    badge: "Macy's Best-Seller • $9.36 EPC",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.macys.com/shop/product/cream-floral-texture?ID=27047975",
+    verifiedCoupon: "MACYSDEAL (Verified $89 Price)",
+    inStock: true,
+    features: [
+      "100% Breathable Floral Textured Cotton Fabric for Supreme Gentle Dermal Comfort",
+      "Flattering Square Neckline with Supportive Wide Straps — Enhances Natural Pregnancy Silhouette",
+      "Delicate Feminine Lace Trim Details with Flowing Ankle-Length Maxi Drape",
+      "Thoughtfully Engineered Bump Accommodation for All Trimesters & Postpartum Wear"
+    ],
+    pros: [
+      "Ultra-soft natural cotton breathes effortlessly to prevent skin chafing and heat sensitivity during pregnancy",
+      "Versatile silhouette transitions seamlessly from baby showers to effortless everyday styling",
+      "Backed by high-converting Macy's partner metrics ($9.36 7-day EPC) and glowing consumer feedback"
+    ],
+    cons: [
+      "Delicate lace trim requires gentle wash cycle or garment bag"
+    ],
+    verdict: "An essential maternity wardrobe piece from Macy's. Designed with airy, breathable floral-textured cotton and finished with delicate lace accents and supportive wide straps, this maxi dress provides premium bump support, supreme comfort against sensitive skin, and timeless elegance throughout pregnancy and postpartum."
+  },
+  {
     id: "onbuy-jiekang-herbal-soothing-cream",
     adId: "17045584",
     advertiserId: "5153127",
