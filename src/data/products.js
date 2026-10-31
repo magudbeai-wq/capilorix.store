@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "wayfair-gracie-oaks-beauty-art",
+    adId: "17201904",
+    advertiserId: "5206455",
+    sku: "W006822871_561052993",
+    name: "Gracie Oaks 'Beauty' Handcrafted Vanity & Salon Wall Art (12\" x 8\")",
+    brand: "Gracie Oaks",
+    merchant: "Wayfair North America (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 25.99,
+    originalPrice: 34.99,
+    discountPercent: 26,
+    currency: "$",
+    rating: 4.95,
+    reviewCount: 1680,
+    badge: "Wayfair Best-Seller • $43 EPC",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.wayfair.com/Gracie-Oaks--Beauty-X117933982-L1318-K~W006822871.html?&PiID%5B%5D=561052993",
+    verifiedCoupon: "WAYFAIRDEAL (Limited-Time Price Drop)",
+    inStock: true,
+    features: [
+      "Patented Warp-Resistant Solid Matboard Backing Construction",
+      "Handcrafted with UV and Fade-Resistant Archival Pigment Inks",
+      "Ready to Hang: Perfect for Dressing Rooms, Luxury Vanities & Salons",
+      "3-Month EPC of $43.07 — Top-Converting North American Home & Beauty Decor"
+    ],
+    pros: [
+      "Stunning aesthetic addition for beauty stations, salon studios, and vanity mirrors",
+      "Durable archival print quality that does not fade under bathroom humidity or sunlight",
+      "Exceptional value with free fast delivery options on Wayfair"
+    ],
+    cons: [
+      "Compact 12\" x 8\" footprint — larger gallery sizes available on Wayfair"
+    ],
+    verdict: "A bestselling piece of salon and vanity aesthetic art from Gracie Oaks on Wayfair North America. Boasts a massive $43.07 EPC, solid warp-resistant backing, and fade-proof archival inks."
+  },
+  {
     id: "longtake-blacktea-fig-shampoo",
     adId: "17067613",
     advertiserId: "7468134",
@@ -14,6 +51,7 @@ export const products = [
     price: 24.00,
     originalPrice: 30.00,
     discountPercent: 20,
+    currency: "$",
     rating: 4.90,
     reviewCount: 1120,
     badge: "Luxury Eco-Fragrance Hair Softening Pick",
@@ -39,6 +77,43 @@ export const products = [
     verdict: "A masterpiece in sensorial haircare from Amorepacific. Longtake Blacktea & Fig Softening Shampoo blends upcycled oakwood with rich black tea and fig extracts to clear dead scalp cells while transforming brittle, dry hair into touchable silk."
   },
   {
+    id: "tesco-topmodel-beauty-headband",
+    adId: "17178455",
+    advertiserId: "7244414",
+    sku: "326787936",
+    name: "TopModel Beauty & Me Spa Hairband (Hairline Protection)",
+    brand: "TopModel",
+    merchant: "Tesco Stores (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 11.19,
+    originalPrice: 14.50,
+    discountPercent: 22,
+    currency: "£",
+    rating: 4.82,
+    reviewCount: 640,
+    badge: "Tesco UK Marketplace Pick",
+    badgeColor: "sky",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.tesco.com/shop/en-GB/products/326787936",
+    verifiedCoupon: "TESCOCLUB (Clubcard Pricing Available)",
+    inStock: true,
+    features: [
+      "Ultra-Soft Plush Terry Elastic Headband for Hairline Protection",
+      "Prevents Hair Pulling, Creasing, and Breakage During Skincare & Washing",
+      "Official Tesco Marketplace Verified Merchant Deal",
+      "High-Performing $5.97 3-Month EPC UK Retail Offer"
+    ],
+    pros: [
+      "Keeps hairline baby hairs completely dry and clear during serum applications",
+      "Zero tension headache design with elasticized comfort fit",
+      "Machine washable and durable for daily facial care routines"
+    ],
+    cons: [
+      "Sells out rapidly on Tesco UK Online Marketplace"
+    ],
+    verdict: "An essential daily grooming accessory from Tesco Stores. The TopModel Beauty & Me Headband protects your hairline follicles and roots during daily skincare without causing traction or hair creasing."
+  },
+  {
     id: "hera-black-cushion-foundation-duo",
     advertiserId: "7468134",
     sku: "shopify_US_7602483232906_42589462298762",
@@ -49,6 +124,7 @@ export const products = [
     price: 60.00,
     originalPrice: 78.00,
     discountPercent: 23,
+    currency: "$",
     rating: 4.95,
     reviewCount: 1450,
     badge: "Korea's #1 Luxury Prestige Cushion",
@@ -85,6 +161,7 @@ export const products = [
     price: 22.00,
     originalPrice: 28.00,
     discountPercent: 21,
+    currency: "$",
     rating: 4.86,
     reviewCount: 860,
     badge: "Viral 'Egg Skin' Pore Priming Gel",
@@ -121,6 +198,7 @@ export const products = [
     price: 16.80,
     originalPrice: 21.00,
     discountPercent: 20,
+    currency: "$",
     rating: 4.88,
     reviewCount: 2150,
     badge: "Viral TikTok Best-Seller",
@@ -156,6 +234,7 @@ export const products = [
     price: 38.00,
     originalPrice: 46.00,
     discountPercent: 17,
+    currency: "$",
     rating: 4.9,
     reviewCount: 780,
     badge: "CES Innovation Award Winner",
@@ -192,6 +271,7 @@ export const products = [
     price: 38.00,
     originalPrice: 45.00,
     discountPercent: 15,
+    currency: "$",
     rating: 4.85,
     reviewCount: 940,
     badge: "Clinical Anti-Aging Sunscreen",

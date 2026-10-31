@@ -164,11 +164,11 @@ export default function ProductCard({ product, rank }) {
           <div className="text-[11px] text-slate-400">Verified Retail Price</div>
           <div className="flex items-baseline gap-2">
             <span className="text-2xl font-black text-white font-serif">
-              ${product.price.toFixed(2)}
+              {product.currency || '$'}{product.price.toFixed(2)}
             </span>
             {product.originalPrice > product.price && (
               <span className="text-sm text-slate-500 line-through">
-                ${product.originalPrice.toFixed(2)}
+                {product.currency || '$'}{product.originalPrice.toFixed(2)}
               </span>
             )}
           </div>

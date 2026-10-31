@@ -86,7 +86,7 @@ export default function ComparisonTable() {
                 {/* Price */}
                 <td className="py-4 px-4">
                   <span className="font-serif font-black text-white text-base block">
-                    ${p.price.toFixed(2)}
+                    {p.currency || '$'}{p.price.toFixed(2)}
                   </span>
                   {p.discountPercent > 0 && (
                     <span className="text-[11px] text-rose-400 font-bold block">
