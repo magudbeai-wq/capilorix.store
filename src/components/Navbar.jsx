@@ -2,191 +2,314 @@ import React, { useState } from 'react';
 import { 
   Sparkles, 
   Search, 
-  Heart, 
-  User, 
-  ShoppingBag, 
-  Truck, 
-  ShieldCheck, 
-  Percent, 
+  Compass, 
   Menu, 
   X, 
-  Compass, 
-  Flame 
+  Globe, 
+  BookOpen, 
+  ShoppingBag, 
+  ChevronDown, 
+  ShieldCheck,
+  Award
 } from 'lucide-react';
 
-export default function Navbar({ activePage, setActivePage, openQuiz, searchTerm, setSearchTerm }) {
+export default function Navbar({ 
+  currentPath = '/',
+  navigateTo,
+  searchTerm = '', 
+  setSearchTerm,
+  onOpenQuiz,
+  selectedCategory = 'All',
+  onSelectCategory,
+  selectedCurrency = 'USD',
+  onSelectCurrency
+}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
 
-  const categories = [
-    { id: 'all', label: 'All Reviews' },
-    { id: 'laser', label: 'Laser Caps & Tech' },
-    { id: 'wigs', label: 'Glueless Wigs' },
-    { id: 'scalp', label: 'Scalp & Follicles' },
-    { id: 'kbeauty', label: 'K-Beauty Serums' },
-    { id: 'ingrown', label: 'AHA/BHA Pads' },
-    { id: 'deals', label: 'Flash Deals %', highlight: true },
-    { id: 'about', label: 'About Us' },
-    { id: 'disclosure', label: 'Editorial Policy' },
-    { id: 'contact', label: 'Contact' }
+  const currencies = [
+    { code: 'USD', symbol: '$', label: 'USA ($ USD)', flag: '🇺🇸' },
+    { code: 'GBP', symbol: '£', label: 'UK (£ GBP)', flag: '🇬🇧' },
+    { code: 'EUR', symbol: '€', label: 'Europe (€ EUR)', flag: '🇪🇺' },
+    { code: 'CAD', symbol: '$', label: 'Canada ($ CAD)', flag: '🇨🇦' },
+    { code: 'AUD', symbol: '$', label: 'Australia ($ AUD)', flag: '🇦🇺' }
   ];
 
-  const handleNavClick = (id) => {
-    if (id === 'deals' || id === 'all' || id === 'laser' || id === 'wigs' || id === 'scalp' || id === 'kbeauty' || id === 'ingrown') {
-      setActivePage('home');
-      setTimeout(() => {
-        const el = document.getElementById('picks-section');
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }, 100);
-    } else {
-      setActivePage(id);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+  const currentCurrencyObj = currencies.find(c => c.code === selectedCurrency) || currencies[0];
+
+  const departments = [
+    { label: 'All Products', category: 'All' },
+    { label: 'Skincare', category: 'Skincare' },
+    { label: 'Haircare', category: 'Haircare' },
+    { label: 'Cosmetics', category: 'Cosmetics' },
+    { label: 'Anti-Aging', category: 'Anti-Aging' },
+    { label: 'Body & Barrier', category: 'Body & Barrier' },
+  ];
+
+  const handleNav = (path) => {
+    setMobileMenuOpen(false);
+    if (navigateTo) {
+      navigateTo(path);
+    }
+  };
+
+  const handleDepartmentClick = (cat) => {
+    if (onSelectCategory) {
+      onSelectCategory(cat);
+    }
+    if (currentPath !== '/' && currentPath !== '/products') {
+      handleNav('/products');
     }
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-[#0c0e16] border-b border-slate-800 shadow-xl">
-      {/* 1. Main Brand & Search Bar (dm.de style) */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
-        <div className="flex items-center justify-between gap-4">
-          {/* Logo */}
-          <button 
-            onClick={() => handleNavClick('home')}
-            className="flex items-center gap-2.5 shrink-0 group text-left"
-          >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
-              <Sparkles className="w-5 h-5 text-slate-950" />
-            </div>
-            <div>
-              <span className="text-2xl font-serif font-black tracking-tight text-white block">
-                CAPILORIX<span className="text-amber-400">.</span>
-              </span>
-              <span className="text-[9px] tracking-widest text-slate-400 uppercase font-bold block -mt-1">
-                Clinical Scalp & Hair Lab
-              </span>
-            </div>
-          </button>
-
-          {/* Center Search Bar (like dm.de "Suchen und finden") */}
-          <div className="hidden md:flex flex-1 max-w-xl mx-4">
-            <div className="relative w-full">
-              <input
-                type="text"
-                value={searchTerm || ''}
-                onChange={(e) => setSearchTerm && setSearchTerm(e.target.value)}
-                placeholder="Search clinical products, laser caps, wigs, deals..."
-                className="w-full pl-11 pr-4 py-2.5 rounded-full bg-slate-900 border border-slate-700/80 text-white placeholder-slate-400 text-sm focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400 transition-all shadow-inner"
-              />
-              <Search className="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
-            </div>
+    <header className="sticky top-0 z-50 bg-[#FAF8F5]/95 backdrop-blur-md border-b border-[#EFE8DA] shadow-xs text-[#1A1A1A]">
+      {/* 1. International Announcement Top Bar */}
+      <div className="bg-[#1A1A1A] text-[#FDFBF7] text-[11px] font-medium tracking-wider py-1.5 px-4 text-center">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="hidden sm:flex items-center gap-2">
+            <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#D4C3A3]"></span>
+            <span>AUTUMN/WINTER 2026 BEAUTY COMPENDIUM</span>
           </div>
 
-          {/* Right Action Icons (dm.de style: Wishlist, Deals, Quiz) */}
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="flex-1 text-center font-normal tracking-wide">
+            <span className="text-[#D4C3A3] font-semibold">Complimentary Editorial Guides</span> &amp; Verified Merchant Pricing Across USA, UK, Canada &amp; Australia
+          </div>
+
+          <div className="relative hidden md:block">
             <button
-              onClick={openQuiz}
-              className="flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 text-xs font-bold transition-all"
+              onClick={() => setCurrencyDropdownOpen(!currencyDropdownOpen)}
+              className="flex items-center gap-1.5 text-xs text-[#D4C3A3] hover:text-white transition-colors"
             >
-              <Compass className="w-4 h-4 text-amber-400" />
-              <span className="hidden sm:inline">Hair Quiz</span>
+              <span>{currentCurrencyObj.flag} {currentCurrencyObj.code}</span>
+              <ChevronDown className="w-3 h-3" />
             </button>
 
+            {currencyDropdownOpen && (
+              <div className="absolute right-0 top-full mt-1 w-44 bg-[#FFFFFF] border border-[#EFE8DA] rounded-lg shadow-xl py-1 text-left z-50 text-[#1A1A1A]">
+                {currencies.map(cur => (
+                  <button
+                    key={cur.code}
+                    onClick={() => {
+                      if (onSelectCurrency) onSelectCurrency(cur.code);
+                      setCurrencyDropdownOpen(false);
+                    }}
+                    className={`w-full text-left px-3 py-1.5 text-xs flex items-center justify-between hover:bg-[#FAF8F5] transition-colors ${
+                      selectedCurrency === cur.code ? 'font-bold text-[#A4895C] bg-[#FAF8F5]' : ''
+                    }`}
+                  >
+                    <span>{cur.flag} {cur.label}</span>
+                    <span className="font-mono text-gray-400">{cur.symbol}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* 2. Main Luxury Masthead */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
+        <div className="flex items-center justify-between gap-4">
+          
+          {/* Mobile Menu Toggle Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden p-2 rounded-lg text-[#1A1A1A] hover:bg-[#F2ECE4] transition-colors"
+            aria-label="Toggle navigation menu"
+          >
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+
+          {/* Left Editorial Navigation Links */}
+          <nav className="hidden md:flex items-center gap-6 text-[13px] font-medium tracking-wide uppercase text-[#5A5552]">
             <button
-              onClick={() => handleNavClick('deals')}
-              className="p-2.5 rounded-full text-slate-300 hover:text-rose-400 hover:bg-slate-800 transition-colors relative"
-              title="Flash Deals"
+              onClick={() => handleNav('/')}
+              className={`hover:text-[#1A1A1A] transition-colors ${currentPath === '/' ? 'text-[#1A1A1A] font-semibold underline underline-offset-8 decoration-[#D4C3A3]' : ''}`}
             >
-              <Flame className="w-5 h-5 text-rose-400" />
-              <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-rose-500 animate-ping" />
+              Magazine
+            </button>
+            <button
+              onClick={() => handleNav('/products')}
+              className={`hover:text-[#1A1A1A] transition-colors ${currentPath === '/products' ? 'text-[#1A1A1A] font-semibold underline underline-offset-8 decoration-[#D4C3A3]' : ''}`}
+            >
+              Shop Catalog
+            </button>
+            <button
+              onClick={() => handleNav('/blog')}
+              className={`hover:text-[#1A1A1A] transition-colors ${currentPath.startsWith('/blog') ? 'text-[#1A1A1A] font-semibold underline underline-offset-8 decoration-[#D4C3A3]' : ''}`}
+            >
+              Editorial Reviews
+            </button>
+          </nav>
+
+          {/* Centered Brand Logo & Slogan */}
+          <div className="text-center">
+            <button
+              onClick={() => handleNav('/')}
+              className="inline-block group text-center"
+            >
+              <span className="text-2xl sm:text-3xl lg:text-4xl font-serif font-black tracking-widest text-[#1A1A1A] block transition-transform group-hover:scale-[1.01]">
+                CAPILORIX<span className="text-[#A4895C]">.</span>
+              </span>
+              <span className="text-[9px] sm:text-[10px] tracking-[0.25em] text-[#8A7147] uppercase font-semibold block -mt-0.5">
+                Discover Better Beauty. Make Smarter Choices.
+              </span>
+            </button>
+          </div>
+
+          {/* Right Action Cluster */}
+          <div className="flex items-center gap-3">
+            {/* Search Input Trigger (Desktop) */}
+            <div className="relative hidden lg:block w-48 xl:w-60">
+              <input
+                type="text"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm && setSearchTerm(e.target.value)}
+                placeholder="Search formulas, brands..."
+                className="w-full pl-8 pr-3 py-1.5 rounded-full bg-[#FFFFFF] border border-[#EFE8DA] text-xs text-[#1A1A1A] placeholder-[#8A847F] focus:outline-none focus:border-[#A4895C] focus:ring-1 focus:ring-[#A4895C] transition-all"
+              />
+              <Search className="w-3.5 h-3.5 text-[#8A847F] absolute left-2.5 top-1/2 -translate-y-1/2" />
+            </div>
+
+            {/* Diagnostic Quiz Button */}
+            <button
+              onClick={onOpenQuiz}
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#F6EAE8] hover:bg-[#EBD6D4] border border-[#E3B8B8] text-[#8C3D49] text-xs font-semibold tracking-wide transition-all shadow-xs"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-[#B85D6A]" />
+              <span className="hidden sm:inline">Skin Diagnostic</span>
             </button>
 
+            {/* Catalog Button */}
             <button
-              onClick={() => handleNavClick('home')}
-              className="p-2.5 rounded-full text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
-              title="Saved Items"
+              onClick={() => handleNav('/products')}
+              className="p-2 rounded-full text-[#5A5552] hover:text-[#1A1A1A] hover:bg-[#F2ECE4] transition-colors relative"
+              title="Browse Full Product Directory"
             >
-              <Heart className="w-5 h-5 text-slate-300 hover:text-amber-400" />
-            </button>
-
-            {/* Mobile Menu Toggle */}
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-slate-300 md:hidden hover:bg-slate-800"
-            >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              <ShoppingBag className="w-4 h-4" />
             </button>
           </div>
         </div>
 
         {/* Mobile Search Input */}
-        <div className="md:hidden mt-3">
+        <div className="mt-3 block lg:hidden">
           <div className="relative w-full">
             <input
               type="text"
-              value={searchTerm || ''}
+              value={searchTerm}
               onChange={(e) => setSearchTerm && setSearchTerm(e.target.value)}
-              placeholder="Search products, laser caps, deals..."
-              className="w-full pl-10 pr-4 py-2 rounded-full bg-slate-900 border border-slate-700/80 text-white placeholder-slate-400 text-xs focus:outline-none focus:border-amber-400"
+              placeholder="Search clinical products, articles, reviews..."
+              className="w-full pl-9 pr-3 py-2 rounded-full bg-[#FFFFFF] border border-[#EFE8DA] text-xs text-[#1A1A1A] placeholder-[#8A847F] focus:outline-none focus:border-[#A4895C]"
             />
-            <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <Search className="w-4 h-4 text-[#8A847F] absolute left-3 top-1/2 -translate-y-1/2" />
           </div>
         </div>
       </div>
 
-      {/* 2. Sub-Navigation Horizontal Bar (Categories row like dm.de) */}
-      <div className="border-t border-b border-slate-800/80 bg-[#0f121d] overflow-x-auto scrollbar-none">
+      {/* 3. Department Category Navigation Bar */}
+      <div className="border-t border-[#EFE8DA] bg-[#FDFBF7]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex items-center gap-1 sm:gap-2 py-2 text-xs font-semibold whitespace-nowrap">
-            {categories.map((cat) => (
-              <button
-                key={cat.id}
-                onClick={() => handleNavClick(cat.id)}
-                className={`px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5 ${
-                  cat.highlight
-                    ? 'text-rose-400 bg-rose-500/10 border border-rose-500/20 font-bold'
-                    : 'text-slate-300 hover:text-white hover:bg-slate-800/60'
-                }`}
+          <div className="flex items-center justify-between overflow-x-auto py-2.5 gap-2 scrollbar-none text-xs">
+            <div className="flex items-center gap-1.5 sm:gap-2">
+              {departments.map((dept) => (
+                <button
+                  key={dept.category}
+                  onClick={() => handleDepartmentClick(dept.category)}
+                  className={`px-3 py-1 rounded-full whitespace-nowrap transition-all text-xs font-medium ${
+                    selectedCategory === dept.category
+                      ? 'bg-[#1A1A1A] text-[#FDFBF7] shadow-xs'
+                      : 'text-[#5A5552] hover:text-[#1A1A1A] hover:bg-[#F2ECE4]'
+                  }`}
+                >
+                  {dept.label}
+                </button>
+              ))}
+            </div>
+
+            <div className="hidden md:flex items-center gap-4 text-xs font-medium text-[#8A7147] shrink-0 pl-4 border-l border-[#EFE8DA]">
+              <button 
+                onClick={() => handleNav('/blog')} 
+                className="flex items-center gap-1 hover:text-[#1A1A1A] transition-colors"
               >
-                {cat.highlight && <Percent className="w-3 h-3 text-rose-400" />}
-                <span>{cat.label}</span>
+                <BookOpen className="w-3.5 h-3.5" />
+                <span>29 Review Articles</span>
               </button>
-            ))}
-          </nav>
-        </div>
-      </div>
-
-      {/* 3. Continuous dm-Style 3-Perks Ticker Bar */}
-      <div className="bg-[#121624] border-b border-slate-800/60 py-2 px-4 text-[11px] text-slate-300">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2 text-center">
-          <div className="flex items-center justify-center gap-2">
-            <Truck className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-            <span><strong>Free Global Shipping</strong> via authorized partner programs</span>
-          </div>
-          <div className="flex items-center justify-center gap-2">
-            <Percent className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-            <span><strong>Up to 50% Verified Deals</strong> & exclusive daily promo codes</span>
-          </div>
-          <div className="flex items-center justify-center gap-2">
-            <ShieldCheck className="w-3.5 h-3.5 text-sky-400 shrink-0" />
-            <span><strong>100% Dermatologist & Lab Tested</strong> benchmark reviews</span>
+              <button 
+                onClick={() => handleNav('/#compare')} 
+                className="flex items-center gap-1 hover:text-[#1A1A1A] transition-colors"
+              >
+                <Award className="w-3.5 h-3.5" />
+                <span>Side-by-Side Matrix</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Mobile Drawer */}
+      {/* Mobile Drawer Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-b border-slate-800 bg-[#0f121d] px-4 py-4 space-y-2">
-          {categories.map((cat) => (
+        <div className="md:hidden bg-[#FAF8F5] border-b border-[#EFE8DA] px-4 py-4 space-y-3">
+          <div className="space-y-1 text-sm font-medium">
             <button
-              key={cat.id}
+              onClick={() => handleNav('/')}
+              className="block w-full text-left py-2 px-3 rounded-lg hover:bg-[#F2ECE4]"
+            >
+              Magazine Home
+            </button>
+            <button
+              onClick={() => handleNav('/products')}
+              className="block w-full text-left py-2 px-3 rounded-lg hover:bg-[#F2ECE4]"
+            >
+              Shop Full Directory (29 Products)
+            </button>
+            <button
+              onClick={() => handleNav('/blog')}
+              className="block w-full text-left py-2 px-3 rounded-lg hover:bg-[#F2ECE4]"
+            >
+              Editorial Blog &amp; In-Depth Reviews
+            </button>
+            <button
               onClick={() => {
                 setMobileMenuOpen(false);
-                handleNavClick(cat.id);
+                onOpenQuiz();
               }}
-              className="block w-full text-left px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 rounded-lg"
+              className="block w-full text-left py-2 px-3 rounded-lg bg-[#F6EAE8] text-[#8C3D49]"
             >
-              {cat.label}
+              Take Skin Diagnostic Quiz
             </button>
-          ))}
+          </div>
+
+          <div className="pt-3 border-t border-[#EFE8DA]">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-[#8A7147] block mb-2">
+              Select Market Currency
+            </span>
+            <div className="grid grid-cols-2 gap-2 text-xs">
+              {currencies.map(cur => (
+                <button
+                  key={cur.code}
+                  onClick={() => {
+                    if (onSelectCurrency) onSelectCurrency(cur.code);
+                    setMobileMenuOpen(false);
+                  }}
+                  className={`p-2 rounded-lg border text-left flex items-center justify-between ${
+                    selectedCurrency === cur.code ? 'border-[#A4895C] bg-[#FFFFFF] font-bold' : 'border-[#EFE8DA] bg-[#FAF8F5]'
+                  }`}
+                >
+                  <span>{cur.flag} {cur.code}</span>
+                  <span className="text-gray-400 font-mono">{cur.symbol}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="pt-3 border-t border-[#EFE8DA] flex flex-wrap gap-3 text-xs text-[#5A5552]">
+            <button onClick={() => handleNav('/about')} className="hover:underline">About</button>
+            <button onClick={() => handleNav('/disclosure')} className="hover:underline">FTC Disclosure</button>
+            <button onClick={() => handleNav('/privacy')} className="hover:underline">Privacy</button>
+            <button onClick={() => handleNav('/terms')} className="hover:underline">Terms</button>
+            <button onClick={() => handleNav('/contact')} className="hover:underline">Contact</button>
+          </div>
         </div>
       )}
     </header>
