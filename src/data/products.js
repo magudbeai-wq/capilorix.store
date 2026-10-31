@@ -38,6 +38,42 @@ export const products = [
     verdict: "Ranked the undisputed #1 luxury cushion foundation in Korean department stores, the HERA Black Cushion provides a second-skin micro-fit finish. The Duo Set includes a full compact plus an extra 15g refill, giving you double the luxury wear."
   },
   {
+    id: "etude-glow-fixing-tint-pure-coral",
+    adId: "17067613",
+    advertiserId: "7468134",
+    sku: "shopify_US_7781674057866_43762923274378",
+    name: "ETUDE Glow Fixing Tint (01 Pure Coral 3.8g)",
+    brand: "ETUDE",
+    merchant: "Amore Mall (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 16.80,
+    originalPrice: 21.00,
+    discountPercent: 20,
+    rating: 4.88,
+    reviewCount: 2150,
+    badge: "Viral TikTok Best-Seller",
+    badgeColor: "rose",
+    image: "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://global.amoremall.com/products/glow-fixing-tint?variant=43762923274378&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+    verifiedCoupon: "AMOREGO10 (10% OFF at Checkout)",
+    inStock: true,
+    features: [
+      "Viral TikTok Moisture Lip Stain with Long-Lasting Glossy Shine",
+      "Hydro-Fixing Oil-in-Water Barrier Technology for Non-Sticky Wear",
+      "01 Pure Coral: Universal Vibrant Coral Shade with High Color Payoff",
+      "Infused with Panthenol & Botanical Seed Oils for Deep Lip Hydration"
+    ],
+    pros: [
+      "Glossy shine that locks onto lips without drying them out or smudging",
+      "Lightweight comfortable formula with zero tacky or gooey feeling",
+      "Under $20 price point with exceptional viral popularity and conversion"
+    ],
+    cons: [
+      "Re-application after greasy meals enhances the glossy shine"
+    ],
+    verdict: "The viral Korean lip sensation by ETUDE. Combines the high-shine luminosity of a lip gloss with the staying power of a hydro-fixing tint, keeping lips plump, moisturized, and stained with vibrant coral color."
+  },
+  {
     id: "tonework-vegan-cushion-airy-matte",
     advertiserId: "7468134",
     sku: "shopify_US_8003224764554_44674711060618",
