@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-fr-luxury-firming-anti-aging-gift-box-duo",
+    adId: "17244118",
+    advertiserId: "7417963",
+    sku: "OPC-PHKC6YF-NEW-FR",
+    name: "French Luxury Firming & Anti-Aging Skin Care Duo Gift Box (2 Complete Sets)",
+    brand: "Élixir D'Or Paris Lab",
+    merchant: "OnBuy FR (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 40.58,
+    originalPrice: 79.99,
+    discountPercent: 49,
+    currency: "€",
+    rating: 4.94,
+    reviewCount: 2120,
+    badge: "French 2-Set Luxury Gift Box • 49% OFF",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/fr/p/2-setsskin-care-gift-box-moisturizing-skin-care-set-firming-anti-aging-restoring-skin-elasticity-daily-skin-care-set~p136760841/?exta=cjunctfr",
+    verifiedCoupon: "ONBUYDEAL (Verified €40.58 2-Set Deal)",
+    inStock: true,
+    features: [
+      "Duo Gift Box Presentation Including 2 Complete Anti-Aging & Firming Daily Protocols",
+      "Multi-Active Hyaluronic & Bio-Collagen Complex Restores Youthful Skin Elasticity",
+      "Deep Epidermal Hydration Matrix Replenishes Parched Skin & Smooths Expression Wrinkles",
+      "French Beauty Formula Tested Safe & Effective for Face, Neck & Sensitive Hairlines"
+    ],
+    pros: [
+      "Double value — contains two full treatment sets for personal use and gifting",
+      "Substantial 49% savings with a stellar $11.57 7-day affiliate network EPC in France",
+      "Delivers immediate firming and plumping effect without heaviness or greasiness"
+    ],
+    cons: [
+      "High-demand holiday edition — stock levels fluctuate quickly on OnBuy France"
+    ],
+    verdict: "An exceptional French skincare gift box containing two complete daily anti-aging and firming protocols. Formulated with clinical-grade bio-collagen, hyaluronic humectants, and restorative botanical lipids, this duo kit restores facial elasticity, plumps fine lines, and deeply hydrates delicate dermal barriers. At only €40.58 for two complete sets, it provides extraordinary luxury value."
+  },
+  {
     id: "onbuy-vorvita-facial-acne-blemish-patches",
     adId: "17045584",
     advertiserId: "5153127",
