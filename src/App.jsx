@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import HeroCarousel from './components/HeroCarousel';
 import TrustBar from './components/TrustBar';
 import ProductCard from './components/ProductCard';
 import ComparisonTable from './components/ComparisonTable';
@@ -19,36 +19,36 @@ export default function App() {
   const [activePage, setActivePage] = useState('home');
   const [quizOpen, setQuizOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [searchTerm, setSearchTerm] = useState('');
 
   const categories = ['All', 'Wigs & Restoration', 'Laser Therapy Tech', 'Scalp & Skin Barrier', 'Follicular Care', 'Organic Scalp Care'];
 
-  const filteredProducts = selectedCategory === 'All'
-    ? products
-    : products.filter(p => p.category === selectedCategory);
-
-  const handleScrollToPicks = () => {
-    setActivePage('home');
-    setTimeout(() => {
-      const el = document.getElementById('picks-section');
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
-    }, 100);
-  };
+  const filteredProducts = products.filter((p) => {
+    const matchesCat = selectedCategory === 'All' || p.category === selectedCategory;
+    const matchesSearch = !searchTerm || 
+      p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      p.brand.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      p.category.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesCat && matchesSearch;
+  });
 
   return (
     <div className="min-h-screen flex flex-col bg-[#0b0d13] text-slate-100">
-      {/* Navigation */}
+      {/* dm-Style Multilevel Navigation Header */}
       <Navbar
         activePage={activePage}
         setActivePage={setActivePage}
         openQuiz={() => setQuizOpen(true)}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
       />
 
       {/* Main Content Area */}
       <main className="flex-grow">
         {activePage === 'home' && (
           <>
-            <Hero
-              onExplorePicks={handleScrollToPicks}
+            {/* dm.de Style Rotating Hero Ads Carousel */}
+            <HeroCarousel
               onOpenQuiz={() => setQuizOpen(true)}
             />
             
@@ -109,11 +109,11 @@ export default function App() {
                     Ready to Add Your Products
                   </h3>
                   <p className="text-xs text-slate-400 leading-relaxed mb-6">
-                    All sample posts have been removed. Add your affiliate products to <code className="text-amber-300 font-mono bg-slate-900 px-2 py-0.5 rounded border border-slate-800">src/data/products.js</code> and they will immediately appear here with comparison tables and "Check Best Price" affiliate buttons!
+                    Add your affiliate products to <code className="text-amber-300 font-mono bg-slate-900 px-2 py-0.5 rounded border border-slate-800">src/data/products.js</code> and they will immediately appear here with comparison tables and "Check Best Price" affiliate buttons!
                   </p>
                   <div className="inline-flex items-center gap-2 text-xs text-emerald-400 bg-emerald-950/30 px-3 py-1.5 rounded-lg border border-emerald-500/20">
                     <ShieldCheck className="w-4 h-4" />
-                    <span>Your site structure & legal compliance pages are 100% active.</span>
+                    <span>Your site structure, rotating ad banners & legal compliance pages are 100% active.</span>
                   </div>
                 </div>
               )}
