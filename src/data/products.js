@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-skin-care-cleansing-repair-mousse",
+    adId: "17243854",
+    advertiserId: "7417963",
+    sku: "OPC-PTGDGM7-NEW-DE",
+    name: "Targeted Epidermal Cleansing & Barrier Repairing Skin Care Mousse (50ml Press Bottle)",
+    brand: "DermaMousse Clinical Lab",
+    merchant: "OnBuy DE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 9.91,
+    originalPrice: 19.99,
+    discountPercent: 50,
+    currency: "€",
+    rating: 4.93,
+    reviewCount: 2340,
+    badge: "Top German Cleansing Mousse • $20.70 EPC",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/de/p/skin-care-mousse-body-skin-care-cleansing-and-repairing-solution~p242345015/?exta=cjunctde",
+    verifiedCoupon: "ONBUYDEAL (Verified €9.91 Flash Price)",
+    inStock: true,
+    features: [
+      "Ultra-Fine Micro-Bubble Foam Penetrates Pores & Scalp Borders Without Friction",
+      "Active Cleansing & Dermal Repairing Complex Removes Sebum, Impurities & Follicular Buildup",
+      "pH-Balanced Soothing Botanical Matrix Calms Inflammation, Itch & Redness",
+      "Hygienic 50ml Precision Press Bottle Dispenser Delivers Silky, Cloud-Like Foam"
+    ],
+    pros: [
+      "Effortless touchless cleansing — ultra-gentle micro-mousse cleanses sensitive or inflamed skin without harsh rubbing",
+      "Remarkable €9.91 price point backed by an industry-leading $20.70 7-day affiliate network EPC in Germany",
+      "Rinses completely clean leaving zero residue, skin tightness, or post-cleansing dryness"
+    ],
+    cons: [
+      "50ml press bottle — best ordered in multi-packs for extended daily home regimens"
+    ],
+    verdict: "An innovative touchless micro-foam cleansing and barrier repair solution by DermaMousse. Featuring an ultra-gentle 50ml press-pump bottle, this lightweight cloud-like mousse purifies congested pores, washes away stubborn cellular debris, and restores delicate epidermal barriers across the face, body, and sensitive hairline margins. An extraordinary €9.91 recommendation with a massive $20.70 EPC on OnBuy Germany."
+  },
+  {
     id: "onbuy-chronus-anti-aging-skincare-kit",
     adId: "17045584",
     advertiserId: "5153127",
