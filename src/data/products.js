@@ -225,43 +225,6 @@ export const products = [
     verdict: "A high-performance daily skin smoothing and rejuvenating topical cream formulated to refine uneven epidermal texture, eliminate dry flaking, and purge dull surface dead cells. Backed by active botanical renewal agents at an irresistible £6.80 price point on OnBuy UK."
   },
   {
-    id: "onbuy-body-cleansing-smoothing-rejuvenation-cream",
-    adId: "17045584",
-    advertiserId: "5153127",
-    sku: "OPC-PSPPQBZ-NEW",
-    name: "Universal Dermal Cleansing, Smoothing & Rejuvenation Topical Cream",
-    brand: "DermaRejuvenate Science Lab",
-    merchant: "OnBuy.com (CJ Affiliate)",
-    category: "Scalp & Skin Barrier",
-    price: 6.80,
-    originalPrice: 14.99,
-    discountPercent: 55,
-    currency: "£",
-    rating: 4.91,
-    reviewCount: 1850,
-    badge: "Top Rejuvenation Deal • £6.80 Value",
-    badgeColor: "rose",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
-    affiliateUrl: "https://www.onbuy.com/gb/p/skin-care-cream-body-skin-care-cleansing-smoothing-skin-rejuvenation-topical-care-cream~p233350649/?exta=cjunct",
-    verifiedCoupon: "ONBUYDEAL (Verified £6.80 Price)",
-    inStock: true,
-    features: [
-      "Targeted Epidermal Exfoliating & Smoothing Matrix Buffs Rough Keratin Patches",
-      "Gentle Botanical Cleansing Elements Purge Cellular Debris Along Follicles & Hairline",
-      "Cellular Rejuvenation Lipids Restore Deep Dermal Moisture & Supple Elasticity",
-      "Universal Multi-Zone Topical Formula for Face, Neck, Scalp Borders & Body"
-    ],
-    pros: [
-      "Visibly smooths rough, bumpy keratin texture ('strawberry skin') and dry, flaking patches",
-      "Exceptional sub-£7 value with proven $10.17 3-month network affiliate EPC performance",
-      "Silky fast-absorbing consistency that leaves skin soft, conditioned, and non-sticky"
-    ],
-    cons: [
-      "Consistent application for 7-10 days recommended for optimal textural smoothing results"
-    ],
-    verdict: "A high-performance daily skin smoothing and rejuvenating topical cream formulated to refine uneven epidermal texture, eliminate dry flaking, and purge dull surface dead cells. Backed by active botanical renewal agents at an irresistible £6.80 price point on OnBuy UK."
-  },
-  {
     id: "onbuy-skin-purifying-herbal-health-cream",
     adId: "17243854",
     advertiserId: "7417963",
