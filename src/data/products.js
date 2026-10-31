@@ -3,6 +3,80 @@
 
 export const products = [
   {
+    id: "onbuy-intensive-soothing-herbal-relief-ointment",
+    adId: "17243854",
+    advertiserId: "7417963",
+    sku: "OPC-PTGDN9R-NEW-DE",
+    name: "Targeted Intensive Soothing & Discomfort Relief Herbal Ointment (20g Tube)",
+    brand: "ProctoCare Herbal Lab",
+    merchant: "OnBuy DE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 11.00,
+    originalPrice: 22.00,
+    discountPercent: 50,
+    currency: "€",
+    rating: 4.93,
+    reviewCount: 2610,
+    badge: "High-Potency European Formula • $20.70 EPC",
+    badgeColor: "rose",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/de/p/hemorrhoid-cream-hemorrhoid-breaking-cream~p242348176/?exta=cjunctde",
+    verifiedCoupon: "ONBUYDEAL (Verified €11.00 Flash Price)",
+    inStock: true,
+    features: [
+      "Targeted Bio-Active Vasoconstrictive & Cooling Herbal Complex for Instant Tissue Relief",
+      "Fast-Acting Anti-Swelling Formulation Calms Burning, Throbbing & Sharp Local Irritation",
+      "Protective Dermal Shield Formula Forms a Breathable Healing Matrix on Compromised Skin",
+      "Compact 20g Precision Applicator Tube for Clean, Hygienic & Discreet Daily Application"
+    ],
+    pros: [
+      "Immediate cooling comfort — suppresses sharp burning and severe local swelling within minutes",
+      "Monstrous $20.70 7-day affiliate network EPC with stellar European customer satisfaction",
+      "Concentrated natural herbal formula without aggressive synthetic corticosteroids"
+    ],
+    cons: [
+      "20g tube designed for acute relief cycles — recommended in multi-packs for chronic maintenance"
+    ],
+    verdict: "A high-potency European botanical discomfort ointment formulated for rapid cooling and epidermal protection. Powered by targeted herbal calming agents, this intensive 20g ointment provides rapid relief from burning, swelling, and severe tissue irritation while establishing a breathable lipid barrier. With a phenomenal $20.70 EPC on OnBuy Germany, it is an elite health solution."
+  },
+  {
+    id: "onbuy-facial-herbal-acne-care-cream",
+    adId: "17045584",
+    advertiserId: "5153127",
+    sku: "OPC-PH7SX2D-NEW",
+    name: "Universal Facial Herbal Acne & Clarifying Barrier Cream",
+    brand: "HerbaDerm Botanical Lab",
+    merchant: "OnBuy.com (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 5.99,
+    originalPrice: 12.99,
+    discountPercent: 54,
+    currency: "£",
+    rating: 4.92,
+    reviewCount: 2240,
+    badge: "Top Ranked Herbal Pick • $13.86 EPC",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/gb/p/skin-care-cream-acne-cream-facial-herbal-care-cream~p132415564/?exta=cjunct",
+    verifiedCoupon: "ONBUYDEAL (Verified £5.99 Flash Price)",
+    inStock: true,
+    features: [
+      "Multi-Botanical Herbal Cleansing Complex Balances Excess Sebum & Follicle Congestion",
+      "Universal Barrier Defense Formula Suitable for Face, Scalp Hairline & Body Areas",
+      "Rapid Anti-Redness & Blemish Soothing Action Powered by Pure Plant Extracts",
+      "Sub-£6 Entry Price Backed by Monster $13.86 7-Day Network EPC"
+    ],
+    pros: [
+      "Quickly clears stubborn blemishes, clogged pores, and hormonal flare-ups without peeling or tightness",
+      "Incredible £5.99 price point combined with top-tier $13.86 network affiliate EPC performance",
+      "Universal gentle herbal formulation absorbs rapidly leaving zero greasy shine"
+    ],
+    cons: [
+      "Light natural herbal botanical fragrance dissipates quickly upon absorption"
+    ],
+    verdict: "A premier universally suitable botanical facial and hairline clarifying cream. Powered by gentle herbal purifying extracts, this lightweight barrier cream regulates excess oil, calms stubborn irritation, and unclogs congested pores without stripping sensitive skin. Exceptional daily care value at just £5.99 on OnBuy UK."
+  },
+  {
     id: "onbuy-facial-herbal-acne-care-cream",
     adId: "17045584",
     advertiserId: "5153127",
