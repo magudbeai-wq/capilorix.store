@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-chronus-anti-aging-skincare-kit",
+    adId: "17045584",
+    advertiserId: "5153127",
+    sku: "OPC-PFBGRG7-NEW",
+    name: "Chronus Complete Anti-Aging & Cellular Dermal Repair Treatment Kit",
+    brand: "Chronus Clinical Lab",
+    merchant: "OnBuy.com (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 45.55,
+    originalPrice: 82.82,
+    discountPercent: 45,
+    currency: "£",
+    rating: 4.94,
+    reviewCount: 1670,
+    badge: "Complete Anti-Aging Kit • 45% OFF",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/gb/p/chronus-health-and-beauty-personal-care-cosmetics-skin-care-anti-aging-skin-care-kitshealth-and-beauty-personal-care-cosmetics-skin-care~p109862431/?exta=cjunct",
+    verifiedCoupon: "ONBUYDEAL (Sale Price £45.55)",
+    inStock: true,
+    features: [
+      "Multi-Step Cellular Anti-Aging Regimen Targets Fine Lines, Wrinkles & Lax Facial Contours",
+      "Bio-Active Peptide & Hyaluronic Acid Complex Restores Deep Dermal Elasticity & Firmness",
+      "Nutrient-Dense Antioxidant Serum & Day/Night Barrier Creams Combat Photo-Aging",
+      "Comprehensive Luxury Skincare Kit — Massive 45% Savings vs Standard Retail"
+    ],
+    pros: [
+      "Complete multi-step anti-aging system delivers visible firmness without buying separate products",
+      "Substantial £37+ price drop (£45.55 vs £82.82) backed by a $10.17 3-month network EPC",
+      "Noticeably firms skin texture and plumps fine expression lines around eyes, forehead, and jawline"
+    ],
+    cons: [
+      "High-potency multi-active set — introduce gradually if managing hyper-reactive skin"
+    ],
+    verdict: "A complete clinical-grade anti-aging protocol by Chronus. Formulated with concentrated multi-peptides, pure hyaluronic acid, and botanical antioxidants, this comprehensive kit firms sagging contours, plumps deep expression lines, and recharges cellular renewal. Exceptional luxury value at £45.55 (45% off) on OnBuy UK."
+  },
+  {
     id: "onbuy-body-cleansing-smoothing-rejuvenation-cream",
     adId: "17045584",
     advertiserId: "5153127",
@@ -149,43 +186,6 @@ export const products = [
       "High-potency active urea concentration may produce mild temporary tingling on broken skin"
     ],
     verdict: "A clinical dermatological powerhouse. Formulated with concentrated medical-grade Urea and soothing botanical lipids, this intensive barrier cream dissolves dry keratin buildup, relieves chronic itching, and locks in deep dermal moisture across cracked heels, elbows, eczema-prone patches, and flaky hairline borders. At just €8.91 with an extraordinary $20.70 EPC on OnBuy Germany, it is an essential therapeutic recommendation."
-  },
-  {
-    id: "onbuy-chronus-anti-aging-skincare-kit",
-    adId: "17045584",
-    advertiserId: "5153127",
-    sku: "OPC-PFBGRG7-NEW",
-    name: "Chronus Complete Anti-Aging & Cellular Dermal Repair Treatment Kit",
-    brand: "Chronus Clinical Lab",
-    merchant: "OnBuy.com (CJ Affiliate)",
-    category: "Scalp & Skin Barrier",
-    price: 45.55,
-    originalPrice: 82.82,
-    discountPercent: 45,
-    currency: "£",
-    rating: 4.94,
-    reviewCount: 1670,
-    badge: "Complete Anti-Aging Kit • 45% OFF",
-    badgeColor: "gold",
-    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80",
-    affiliateUrl: "https://www.onbuy.com/gb/p/chronus-health-and-beauty-personal-care-cosmetics-skin-care-anti-aging-skin-care-kitshealth-and-beauty-personal-care-cosmetics-skin-care~p109862431/?exta=cjunct",
-    verifiedCoupon: "ONBUYDEAL (Sale Price £45.55)",
-    inStock: true,
-    features: [
-      "Multi-Step Cellular Anti-Aging Regimen Targets Fine Lines, Wrinkles & Lax Facial Contours",
-      "Bio-Active Peptide & Hyaluronic Acid Complex Restores Deep Dermal Elasticity & Firmness",
-      "Nutrient-Dense Antioxidant Serum & Day/Night Barrier Creams Combat Photo-Aging",
-      "Comprehensive Luxury Skincare Kit — Massive 45% Savings vs Standard Retail"
-    ],
-    pros: [
-      "Complete multi-step anti-aging system delivers visible firmness without buying separate products",
-      "Substantial £37+ price drop (£45.55 vs £82.82) backed by a $10.17 3-month network EPC",
-      "Noticeably firms skin texture and plumps fine expression lines around eyes, forehead, and jawline"
-    ],
-    cons: [
-      "High-potency multi-active set — introduce gradually if managing hyper-reactive skin"
-    ],
-    verdict: "A complete clinical-grade anti-aging protocol by Chronus. Formulated with concentrated multi-peptides, pure hyaluronic acid, and botanical antioxidants, this comprehensive kit firms sagging contours, plumps deep expression lines, and recharges cellular renewal. Exceptional luxury value at £45.55 (45% off) on OnBuy UK."
   },
   {
     id: "onbuy-external-soothing-barrier-rescue-cream",
