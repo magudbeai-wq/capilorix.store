@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-thermal-anti-cellulite-hot-cream",
+    adId: "17045584",
+    advertiserId: "5153127",
+    sku: "OPC-P97MYRT-NEW",
+    name: "Organic Thermal Anti-Cellulite & Firming Body Hot Cream (250g Tub)",
+    brand: "ThermoSculpt Body Lab",
+    merchant: "OnBuy.com (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 13.71,
+    originalPrice: 27.99,
+    discountPercent: 51,
+    currency: "£",
+    rating: 4.92,
+    reviewCount: 3180,
+    badge: "Viral 250g Body Tightening Tub • 51% OFF",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/gb/p/anti-cellulite-creamhot-cream-250gslimming-creamfat-burning-creamorganic-body-slimming-creamnatural-cellulite-treatment-cream-for-tightening~p61040584/?exta=cjunct",
+    verifiedCoupon: "ONBUYDEAL (Verified £13.71 Price)",
+    inStock: true,
+    features: [
+      "Targeted Thermogenic Micro-Circulation Formula Smooths Dimpled Cellulite & Subcutaneous Tissue",
+      "Deep-Heating Botanical Extract Matrix Stimulates Sweating & Dermal Firming on Waist, Hips & Thighs",
+      "Enriched with Organic Collagen Boosters & Botanical Oils for Skin Tightening and Elasticity",
+      "Jumbo 250g Generous Tub for Extended Daily Massage and Pre-Workout Body Sculpting"
+    ],
+    pros: [
+      "Noticeable thermogenic warming sensation activates circulation and visibly tightens skin texture",
+      "Generous 250g value tub lasts weeks at £13.71 compared to standard 50ml high-street tubes",
+      "Backed by high-converting OnBuy affiliate metrics with a $10.17 3-month network EPC"
+    ],
+    cons: [
+      "Active warming sensation is strong — always patch test before full body application"
+    ],
+    verdict: "A viral body-contouring sensation. Formulated with organic thermogenic botanical stimulants, this 250g thermal hot cream penetrates deep into subcutaneous tissue to stimulate micro-circulation, smooth dimpled cellulite, and firm lax skin across the abdomen, thighs, and arms. At just £13.71 on OnBuy UK, it offers exceptional volume and results."
+  },
+  {
     id: "onbuy-intensive-soothing-herbal-relief-ointment",
     adId: "17243854",
     advertiserId: "7417963",
