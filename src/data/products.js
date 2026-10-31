@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-vorvita-facial-acne-blemish-patches",
+    adId: "17045584",
+    advertiserId: "5153127",
+    sku: "OPC-PYD8Y72-NEW",
+    name: "VORVITA Ultra-Thin Hydrocolloid Facial & Hairline Blemish Care Patches",
+    brand: "VORVITA Skin Science",
+    merchant: "OnBuy.com (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 12.99,
+    originalPrice: 23.99,
+    discountPercent: 46,
+    currency: "£",
+    rating: 4.92,
+    reviewCount: 1760,
+    badge: "Invisible Hydrocolloid Pick • 46% OFF",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/gb/p/vorvita-skin-care-patches-daily-facial-care-patches-lightweight-fine-skin-gentle-acne-skin-care~p288895438/?exta=cjunct",
+    verifiedCoupon: "ONBUYDEAL (Sale Price £12.99)",
+    inStock: true,
+    features: [
+      "Medical-Grade Ultra-Thin Hydrocolloid Draws Out Impurities, Oil & Follicular Exudate",
+      "Seamless Beveled Edge Technology Stays Invisible Under Daylight & Makeup",
+      "Gentle Protective Physical Barrier Prevents Skin Picking, Secondary Infection & Scarring",
+      "Salicylic & Tea Tree Extract Infusion Calms Redness Along Face, Temples & Hairline"
+    ],
+    pros: [
+      "Rapidly flattens active pimples and calms inflamed blemishes within 6-8 hours",
+      "Virtually invisible on skin with strong sweat-resistant and waterproof adhesion",
+      "Great value at £12.99 (46% discount) backed by an active $8.33 EPC on OnBuy UK"
+    ],
+    cons: [
+      "Apply to clean, dry, moisturizer-free skin for optimal multi-hour adhesion"
+    ],
+    verdict: "A modern blemish recovery essential by VORVITA. Engineered with ultra-fine medical-grade hydrocolloid and soothing botanical actives, these discreet patches extract deep sebum and bacteria, accelerate natural wound healing, and prevent post-acne pigmentation along the face and delicate hairline borders. An exceptional daily essential at £12.99 on OnBuy UK."
+  },
+  {
     id: "onbuy-intensive-urea-anti-itch-barrier-cream",
     adId: "17243854",
     advertiserId: "7417963",
