@@ -3,6 +3,42 @@
 
 export const products = [
   {
+    id: "longtake-blacktea-fig-shampoo",
+    adId: "17067613",
+    advertiserId: "7468134",
+    sku: "shopify_US_8020796440714_44717950763146",
+    name: "Longtake Blacktea & Fig Softening Shampoo (300ml)",
+    brand: "Longtake",
+    merchant: "Amore Mall (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 24.00,
+    originalPrice: 30.00,
+    discountPercent: 20,
+    rating: 4.90,
+    reviewCount: 1120,
+    badge: "Luxury Eco-Fragrance Hair Softening Pick",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://global.amoremall.com/products/longtake-blacktea-fig-softening-shampoo-300ml?variant=44717950763146&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+    verifiedCoupon: "AMOREGO10 (10% OFF at Checkout)",
+    inStock: true,
+    features: [
+      "Infused with Upcycled Oakwood, Black Tea & Fig Extracts for 72H Luxury Scent",
+      "Micro-Exfoliating Scalp Turnover Formula Clears Dead Cells & Sebum Buildup",
+      "Plant-Derived Amino Acids & Ceramides Repair Split Ends & Rough Cuticles",
+      "100% Vegan Certified, Cruelty-Free & Dermatologist Tested for Sensitive Scalp"
+    ],
+    pros: [
+      "Leaves hair exceptionally soft, silky, and touchably smooth from the first wash",
+      "Sophisticated niche woody-tea fragrance developed with master French perfumers",
+      "Unclogs follicular scalp pores to promote healthier, denser hair growth"
+    ],
+    cons: [
+      "In high demand — frequently restocked on Amore Mall"
+    ],
+    verdict: "A masterpiece in sensorial haircare from Amorepacific. Longtake Blacktea & Fig Softening Shampoo blends upcycled oakwood with rich black tea and fig extracts to clear dead scalp cells while transforming brittle, dry hair into touchable silk."
+  },
+  {
     id: "hera-black-cushion-foundation-duo",
     advertiserId: "7468134",
     sku: "shopify_US_7602483232906_42589462298762",
