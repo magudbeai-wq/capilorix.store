@@ -3,6 +3,41 @@
 
 export const products = [
   {
+    id: "tonework-vegan-cushion-airy-matte",
+    advertiserId: "7468134",
+    sku: "shopify_US_8003224764554_44674711060618",
+    name: "TONEWORK Vegan 200+ Foundation To-Go Cushion (Airy Matte 26C1 15g)",
+    brand: "tonework",
+    merchant: "Amore Mall (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 38.00,
+    originalPrice: 46.00,
+    discountPercent: 17,
+    rating: 4.9,
+    reviewCount: 780,
+    badge: "CES Innovation Award Winner",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://global.amoremall.com/products/tonework-vegan-200-foundation-to-gocushion-airy-matte-26c1-15g?variant=44674711060618&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic",
+    verifiedCoupon: "AMOREGO10 (10% OFF at Checkout)",
+    inStock: true,
+    features: [
+      "CES Innovation Award Winner — AI-Calibrated Precision Skin Tone Science",
+      "100% Certified Vegan, Hypoallergenic & Cruelty-Free Formulation",
+      "Airy Matte Micro-Mesh Technology for 24-Hour Weightless Coverage",
+      "Sebum-Balancing Botanical Complex — Zero Clogging Along Hairline & Pores"
+    ],
+    pros: [
+      "Ultra-breathable airy matte finish that resists sweat and humidity transfer",
+      "Formulated without pore-clogging comedogenic oils, safe for sensitive skin",
+      "Hygienic anti-bacterial teardrop cushion puff for seamless hairline blending"
+    ],
+    cons: [
+      "Shade 26C1 is tailored for natural cool-neutral undertones"
+    ],
+    verdict: "Winner of the prestigious CES Innovation Award, Tonework by Amorepacific sets a new benchmark in vegan cushion foundations. It delivers seamless airy-matte coverage that regulates shine all day without caking, pore-clogging, or hairline residue."
+  },
+  {
     id: "iope-uv-shield-tone-up",
     adId: "17067613",
     advertiserId: "7468134",
