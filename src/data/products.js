@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-herbal-antifungal-ringworm-barrier-cream",
+    adId: "17243854",
+    advertiserId: "7417963",
+    sku: "OPC-PTGDNHX-NEW-DE",
+    name: "Targeted Herbal Anti-Fungal & Ringworm Dermal Barrier Cream (30g Jar)",
+    brand: "DermaCure Herbal Lab",
+    merchant: "OnBuy DE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 9.00,
+    originalPrice: 19.99,
+    discountPercent: 55,
+    currency: "€",
+    rating: 4.94,
+    reviewCount: 2840,
+    badge: "Top German Seller • $20.70 EPC",
+    badgeColor: "rose",
+    image: "https://images.unsplash.com/photo-1608248597359-009f7a7ebcf8?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/de/p/ringworm-cream-skin-care-cream~p242348337/?exta=cjunctde",
+    verifiedCoupon: "ONBUYDEAL (Verified €9.00 Flash Price)",
+    inStock: true,
+    features: [
+      "Targeted Broad-Spectrum Herbal Anti-Fungal Complex for Stubborn Skin Ringworm & Itch",
+      "Fast-Acting Dermal Penetration Relieves Redness, Scaling, Flaking & Scalp Edge Irritation",
+      "Natural Botanical Bio-Barrier Protection Halts Fungal Colony Proliferation",
+      "Generous 30g Canned Jar with Protective Safety Seal — Gentle for Daily Use"
+    ],
+    pros: [
+      "Exceptional €9.00 entry price backed by monstrous $20.70 7-day affiliate network EPC",
+      "Fast symptom relief — stops intense itching and irritation within minutes of application",
+      "Gentle plant-derived formula suitable for body folds, hairline borders, and sensitive zones"
+    ],
+    cons: [
+      "Consistent application for 7-14 days advised to ensure complete eradication of fungal spores"
+    ],
+    verdict: "One of the highest-converting dermatological treatments in Europe with an extraordinary $20.70 EPC. This intensive 30g herbal ringworm and anti-fungal cream penetrates deep into affected epidermal layers to neutralize fungal colonies, eliminate scaling, and instantly calm stubborn itching and redness without stinging."
+  },
+  {
     id: "macys-floral-textured-cotton-maternity-dress",
     adId: "15586047",
     advertiserId: "6511865",
