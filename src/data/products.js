@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-external-soothing-barrier-rescue-cream",
+    adId: "17243854",
+    advertiserId: "7417963",
+    sku: "OPC-PTGDHNT-NEW-DE",
+    name: "Targeted External Skin Care & Barrier Rescue Cream (20g Tube)",
+    brand: "DermaShield Botanical Lab",
+    merchant: "OnBuy DE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 7.91,
+    originalPrice: 16.99,
+    discountPercent: 53,
+    currency: "€",
+    rating: 4.93,
+    reviewCount: 2720,
+    badge: "Top German Barrier Rescue • $20.70 EPC",
+    badgeColor: "rose",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/de/p/skin-care-cream-20g-external-skin-care-cream~p242345734/?exta=cjunctde",
+    verifiedCoupon: "ONBUYDEAL (Verified €7.91 Flash Price)",
+    inStock: true,
+    features: [
+      "Targeted Bio-Active External Lipid Complex for Stressed & Compromised Skin Barriers",
+      "Instant Soothing Relief for Persistent Redness, Itching, Dry Patches & Scalp Hairline Distress",
+      "Breathable Micro-Shield Formula Defends Against Environmental Irritants & Moisture Loss",
+      "Compact 20g Precision Tube for Clean, Hygienic & Targeted External Application"
+    ],
+    pros: [
+      "Fast-acting relief calms burning and epidermal flaking within minutes of contact",
+      "Unrivaled €7.91 value backed by an extraordinary $20.70 7-day affiliate network EPC",
+      "Free of harsh synthetic steroids, drying fragrances, and comedogenic mineral oils"
+    ],
+    cons: [
+      "Compact 20g tube size — best purchased in multi-packs for extended daily regimens"
+    ],
+    verdict: "A high-potency European external skin rescue cream engineered to rapidly repair fractured dermal barriers, eliminate stubborn itching, and calm persistent irritation along delicate skin folds and hairline borders. At just €7.91 backed by an astounding $20.70 EPC on OnBuy Germany, it delivers peerless health value."
+  },
+  {
     id: "onbuy-body-cleansing-smoothing-rejuvenation-cream",
     adId: "17045584",
     advertiserId: "5153127",
