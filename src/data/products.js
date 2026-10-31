@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-solid-tallow-honey-cream",
+    adId: "17244261",
+    advertiserId: "7417963",
+    sku: "OPC-PXMB79B-NEW-IE",
+    name: "Pure Beef Tallow & Honey Solid Moisturizing Butter Cream",
+    brand: "Ancestral Tallow Lab",
+    merchant: "OnBuy EU (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 27.00,
+    originalPrice: 36.00,
+    discountPercent: 25,
+    currency: "€",
+    rating: 4.91,
+    reviewCount: 1340,
+    badge: "Viral Ancestral Bio-Barrier Pick",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1608248597359-009f7a7ebcf8?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/ie/p/butter-cream-solid-tallow-cream-moisturizing-cream-moisturizing-honey-face-cream~p279776932/?exta=cjunctie",
+    verifiedCoupon: "ONBUYDEAL (Verified OnBuy EU Price)",
+    inStock: true,
+    features: [
+      "Pure Grass-Fed Beef Tallow Rich in Vitamins A, D, E & K",
+      "Raw Manuka & Wild Honey Complex for Deep Dermal Cellular Healing",
+      "Biocompatible Lipid Matrix Matching Human Sebum for Instant Absorption",
+      "100% Chemical-Free, Zero Seed Oils, Preservatives or Artificial Fragrance"
+    ],
+    pros: [
+      "Repairs severely cracked, dry skin and restores dry scalp barriers within 48 hours",
+      "Zero chemical emulsifiers — 100% natural ancestral biocompatible lipids",
+      "Deeply moisturizes without stinging sensitive or eczema-prone skin"
+    ],
+    cons: [
+      "Solid balm texture melts on skin contact — store in a cool place"
+    ],
+    verdict: "The viral ancestral skincare sensation. Formulated with 100% pure grass-fed beef tallow and nutrient-dense raw honey, this solid butter cream mirrors the natural lipid profile of human skin to repair cracked, dry barriers and soothe irritated scalp tissue without artificial chemicals."
+  },
+  {
     id: "wayfair-gracie-oaks-beauty-art",
     adId: "17201904",
     advertiserId: "5206455",
