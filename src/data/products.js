@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-skin-purifying-herbal-health-cream",
+    adId: "17243854",
+    advertiserId: "7417963",
+    sku: "OPC-PTGDHMY-NEW-DE",
+    name: "Targeted Skin Purifying & Dermal Health Restorative Cream (20g Tube)",
+    brand: "DermaPurify Herbal Science",
+    merchant: "OnBuy DE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 7.91,
+    originalPrice: 16.99,
+    discountPercent: 53,
+    currency: "€",
+    rating: 4.94,
+    reviewCount: 2540,
+    badge: "Top German Bio-Purifying Pick • $20.70 EPC",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/de/p/skin-care-cream-skin-care-cream~p242345712/?exta=cjunctde",
+    verifiedCoupon: "ONBUYDEAL (Verified €7.91 Flash Price)",
+    inStock: true,
+    features: [
+      "Targeted Epidermal Purifying Formula Clears Stubborn Dermal Blemishes & Congestion",
+      "Herbal Anti-Microbial Barrier Matrix Restores Healthy Skin Microbiome Balance",
+      "Deep-Soothing Plant Extract Complex Relieves Itching, Redness & Flaking Along Face & Hairline",
+      "Compact 20g Precision Nozzle Tube with Protective Seal for Clean Daily Application"
+    ],
+    pros: [
+      "Unmatched €7.91 price point backed by an industry-leading $20.70 7-day affiliate network EPC",
+      "Fast-acting herbal purifying action leaves zero greasy residue or heavy film",
+      "Gentle and non-comedogenic — ideal for sensitive, reactive skin prone to flare-ups"
+    ],
+    cons: [
+      "Compact 20g tube size — best purchased in multi-packs for extended maintenance"
+    ],
+    verdict: "A high-efficacy European skin purifying treatment that combines active botanical antimicrobials with barrier-restoring herbal lipids. Designed to clear stubborn dermal congestion, calm persistent redness, and fortify compromised skin barriers without stinging. At just €7.91 backed by an exceptional $20.70 EPC on OnBuy Germany, it is a premier health recommendation."
+  },
+  {
     id: "onbuy-thermal-anti-cellulite-hot-cream",
     adId: "17045584",
     advertiserId: "5153127",
