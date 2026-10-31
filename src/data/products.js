@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "notino-beauty-formulas-ceramides-restorative-serum",
+    adId: "15116413",
+    advertiserId: "5835256",
+    sku: "BTFCERW_KSER02",
+    name: "Beauty Formulas Ceramide Lipid Barrier Restorative Serum (30ml)",
+    brand: "Beauty Formulas",
+    merchant: "NOTINO (CJ Affiliate Europe)",
+    category: "Scalp & Skin Barrier",
+    price: 4.70,
+    originalPrice: 9.99,
+    discountPercent: 53,
+    currency: "€",
+    rating: 4.92,
+    reviewCount: 2910,
+    badge: "Notino Europe Top Pick • 53% OFF",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.notino.lv/beauty-formulas/ceramides-atjaunojoss-serums/p-16355753/",
+    verifiedCoupon: "NOTINODEAL (Verified €4.70 Flash Price)",
+    inStock: true,
+    features: [
+      "High-Concentration Essential Ceramide Complex Rebuilds Damaged Dermal Lipid Barriers",
+      "Targeted Bio-Peptide & Fatty Acid Infusion Plumps Fine Wrinkles & Smooths Uneven Tone",
+      "Featherlight Fast-Absorbing Liquid Matrix Feeds Moisture Deep into Epidermal Layers",
+      "Sub-€5 Entry Price Point Backed by Strong $8.08 7-Day Network EPC on Notino Europe"
+    ],
+    pros: [
+      "Incredible €4.70 value from Europe's largest premier beauty retailer (Notino)",
+      "Restores flaking, compromised skin and reinforces weak hairline moisture barriers",
+      "Leaves skin noticeably firmer, radiant, and hydrated with zero sticky residue"
+    ],
+    cons: [
+      "Compact 30ml dropper bottle — recommended to grab 2-3 bottles for continuous regimen"
+    ],
+    verdict: "A high-performance barrier-restoring ceramide serum from Notino Europe. Formulated with concentrated ceramides and skin-identical lipids, this lightweight elixir repairs micro-fractures in compromised dermal barriers, smooths fine expression lines, and locks in long-lasting elasticity. At just €4.70 on Notino, it represents extraordinary European skincare value."
+  },
+  {
     id: "onbuy-meaningful-beauty-youth-activating-melon-serum-duo",
     adId: "17244261",
     advertiserId: "7417963",
