@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-jiekang-herbal-soothing-cream",
+    adId: "17045584",
+    advertiserId: "5153127",
+    sku: "OPC-PG2GDZK-NEW",
+    name: "Jiekang Fast-Acting Herbal Soothing Care Cream (20g Tube)",
+    brand: "Jiekang Herbal Lab",
+    merchant: "OnBuy.com (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 6.99,
+    originalPrice: 12.99,
+    discountPercent: 46,
+    currency: "£",
+    rating: 4.9,
+    reviewCount: 1420,
+    badge: "Fast Soothing Relief • £6.99 Deal",
+    badgeColor: "rose",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/gb/p/jiekang-cream-hemorrhoid-cream-cut-hemorrhoid-cream-care-cream-20g~p118995591/?exta=cjunct",
+    verifiedCoupon: "ONBUYDEAL (Verified £6.99 OnBuy Price)",
+    inStock: true,
+    features: [
+      "Targeted Bio-Active Botanical Extract Complex for Fast-Acting Tissue Calming",
+      "Immediate Cooling & Anti-Discomfort Relief for Swollen, Irritated & Sensitive Areas",
+      "Gentle Non-Greasy Dermal Barrier Shield with Natural Herbal Repair Elements",
+      "Compact 20g Precision Nozzle Tube for Easy, Hygienic & Discreet Everyday Application"
+    ],
+    pros: [
+      "Fast-absorbing herbal formula delivers rapid, refreshing cooling to inflamed tissues",
+      "Remarkable £6.99 value with a stellar $10.17 3-month network EPC performance",
+      "Zero stinging or harsh synthetic fragrances, safe for sensitive daily relief"
+    ],
+    cons: [
+      "Compact 20g tube — recommended to grab multiple units for continuous relief"
+    ],
+    verdict: "A premier natural botanical soothing ointment engineered for rapid local relief and epidermal protection. Powered by concentrated herbal essences, Jiekang calms swelling, burning, and irritation while reinforcing delicate tissue barriers. At only £6.99 on OnBuy UK, it delivers exceptional healing value."
+  },
+  {
     id: "onbuy-back-cream-massage-applicator",
     adId: "17244229",
     advertiserId: "7417963",
