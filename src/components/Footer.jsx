@@ -27,10 +27,10 @@ export default function Footer({ setActivePage, openQuiz }) {
             <div className="flex items-center gap-3 text-xs text-slate-500">
               <span className="flex items-center gap-1">
                 <Shield className="w-3.5 h-3.5 text-amber-400" />
-                FTC Compliant Publisher
+                Verified Independent Reviews
               </span>
               <span>•</span>
-              <span>Independent Laboratory Analysis</span>
+              <span>100% Lab Tested Standards</span>
             </div>
           </div>
 

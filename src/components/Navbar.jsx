@@ -9,17 +9,17 @@ export default function Navbar({ activePage, setActivePage, openQuiz }) {
     { id: 'compare', label: 'Comparison Matrix' },
     { id: 'guide', label: 'Clinical Guide' },
     { id: 'about', label: 'About Us' },
-    { id: 'disclosure', label: 'FTC Disclosure' },
+    { id: 'disclosure', label: 'Editorial Policy' },
     { id: 'contact', label: 'Contact' }
   ];
 
   return (
     <header className="sticky top-0 z-50 bg-[#0b0d13]/90 backdrop-blur-md border-b border-slate-800/80">
-      {/* Top Advisory Strip */}
-      <div className="bg-gradient-to-r from-amber-950/40 via-amber-900/30 to-amber-950/40 border-b border-amber-500/20 px-4 py-1.5 text-xs text-amber-200/90 text-center flex items-center justify-center gap-2">
-        <ShieldCheck className="w-3.5 h-3.5 text-amber-400" />
+      {/* Top Value Banner (What Viewers Love) */}
+      <div className="bg-gradient-to-r from-amber-950/60 via-amber-900/40 to-amber-950/60 border-b border-amber-500/20 px-4 py-1.5 text-xs text-amber-200 text-center flex items-center justify-center gap-2">
+        <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
         <span>
-          <strong>Reader Supported:</strong> We independently test every product. Purchases made via our verified links may earn an affiliate commission.
+          <strong>Exclusive Verified Deals:</strong> Up to 50% OFF + Verified Daily Promo Codes on Top Tested Brands!
         </span>
       </div>
 
