@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "onbuy-acne-scar-dermal-repair-cream",
+    adId: "17045584",
+    advertiserId: "5153127",
+    sku: "OPC-PDWNDKX-NEW",
+    name: "Targeted Acne & Scar Tissue Repair Dermal Barrier Cream (20g Tube)",
+    brand: "DermaClear Science Lab",
+    merchant: "OnBuy.com (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 6.99,
+    originalPrice: 14.99,
+    discountPercent: 53,
+    currency: "£",
+    rating: 4.91,
+    reviewCount: 1980,
+    badge: "Top Blemish & Scar Solution • £6.99 Deal",
+    badgeColor: "emerald",
+    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "https://www.onbuy.com/gb/p/acne-repair-cream-scar-repair-cream-skin-care-cream~p105373889/?exta=cjunct",
+    verifiedCoupon: "ONBUYDEAL (Verified £6.99 Price)",
+    inStock: true,
+    features: [
+      "Targeted Epidermal Scar Regeneration Matrix Fades Post-Blemish Pigmentation & Marks",
+      "Deep-Pore Clarifying Botanical Complex Calms Active Cystic Acne & Surface Redness",
+      "Collagen-Stimulating Bio-Peptides Restore Smooth Skin Texture Across Face, Hairline & Back",
+      "Lightweight Non-Comedogenic Gel-Cream Formula Leaves Zero Greasy Residue"
+    ],
+    pros: [
+      "Accelerates cellular turnover to visibly fade acne scars and post-inflammatory dark marks",
+      "Exceptional £6.99 value backed by consistent $10.17 3-month network affiliate EPC",
+      "Non-greasy, fast-absorbing texture layers seamlessly under daily sunscreen or foundation"
+    ],
+    cons: [
+      "Compact 20g tube size — best purchased in multi-packs for extended daily regimens"
+    ],
+    verdict: "An outstanding blemish recovery and scar-fading treatment engineered to smooth post-acne pitting, fade stubborn hyperpigmentation, and soothe inflamed breakouts along the face and hairline. Backed by active scar repair agents at a stellar £6.99 price point on OnBuy UK."
+  },
+  {
     id: "onbuy-herbal-antifungal-ringworm-barrier-cream",
     adId: "17243854",
     advertiserId: "7417963",
