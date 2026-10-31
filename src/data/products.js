@@ -3,6 +3,43 @@
 
 export const products = [
   {
+    id: "revolve-rael-microcrystal-activated-pm-serum-2000",
+    adId: "13237228",
+    advertiserId: "2423467",
+    sku: "RUHL-WU33-all",
+    name: "Rael Microcrystal Activated PM Serum 2000 (Micro-Spicule Night Resurfacing 1 oz)",
+    brand: "Rael Beauty",
+    merchant: "REVOLVE (CJ Affiliate)",
+    category: "Scalp & Skin Barrier",
+    price: 23.00,
+    originalPrice: 32.00,
+    discountPercent: 28,
+    currency: "$",
+    rating: 4.96,
+    reviewCount: 3890,
+    badge: "Viral Micro-Spicule Sensation • $38.96 EPC",
+    badgeColor: "gold",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80",
+    affiliateUrl: "http://www.revolve.com/content/deeplink/womens/product/RUHL-WU33",
+    verifiedCoupon: "REVOLVEDEAL (Verified $23.00 Price)",
+    inStock: true,
+    features: [
+      "Micro-Spicule 2000 Technology Creates Microscopic Channels for 10x Deeper Cellular Absorption",
+      "Next-Level Overnight Exfoliation Shrinks Enlarged Pores & Smooths Uneven Texture",
+      "Balances Hormonal Excess Oil Production Along Forehead, T-Zone & Sensitive Hairlines",
+      "Fragrance-Free, Non-Comedogenic Formula for Blemish-Prone Skin (Use 2-3x Weekly)"
+    ],
+    pros: [
+      "Unrivaled $38.96 7-day affiliate network EPC on luxury retailer REVOLVE",
+      "Viral micro-crystal prickling sensation activates deep cellular repair and pore shrinking overnight",
+      "Smooths persistent hormonal breakouts, rough keratin, and stubborn clogged hairline pores"
+    ],
+    cons: [
+      "Mild active prickling sensation is normal upon application as micro-crystals absorb"
+    ],
+    verdict: "The viral micro-spicule skincare phenomenon from REVOLVE. Engineered with 2,000 active microcrystal spicules, Rael's breakthrough PM Serum penetrates deep beneath the epidermal surface to accelerate cellular turnover, clear congested pores, and restore porcelain radiance overnight. With an unmatched $38.96 EPC, it is our #1 high-yield recommendation."
+  },
+  {
     id: "notino-beauty-formulas-ceramides-restorative-serum",
     adId: "15116413",
     advertiserId: "5835256",
