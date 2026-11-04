@@ -13,17 +13,35 @@ export const productService = {
       if (stored) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          // Auto-merge any missing products from defaultProducts
-          const existingIds = new Set(parsed.map((p) => p.id));
+          // Sync updated categories, prune old non-beauty items, and auto-merge new products
+          const defaultMap = new Map(defaultProducts.map((p) => [p.id, p]));
+          const validIds = new Set(defaultProducts.map((p) => p.id));
+          let updated = parsed
+            .filter((p) => validIds.has(p.id))
+            .map((p) => {
+              const fresh = defaultMap.get(p.id);
+              return fresh
+                ? {
+                    ...p,
+                    mainCategory: fresh.mainCategory,
+                    subCategory: fresh.subCategory,
+                    imageAlt: fresh.imageAlt || p.imageAlt,
+                    frontImage: fresh.frontImage || p.frontImage,
+                    image: fresh.image || p.image
+                  }
+                : p;
+            });
+
+          const existingIds = new Set(updated.map((p) => p.id));
           const missing = defaultProducts.filter((p) => !existingIds.has(p.id));
-          if (missing.length > 0) {
-            const merged = [...parsed, ...missing];
+          if (missing.length > 0 || updated.length !== parsed.length) {
+            const merged = [...updated, ...missing];
             try {
               localStorage.setItem(PRODUCTS_STORAGE_KEY, JSON.stringify(merged));
             } catch (_) {}
             return merged;
           }
-          return parsed;
+          return updated;
         }
       }
     } catch (e) {

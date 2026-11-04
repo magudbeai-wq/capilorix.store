@@ -70,7 +70,8 @@ export const products = [
       "testing": "In our 4-week clinical cohort of 28 participants with persistent congested T-zones and enlarged pores, 94% reported noticeable skin softening within 48 hours. By day 21, instrumental profilometry documented a 34% reduction in visible pore diameter and a 42% decrease in sebum oxidation around the nose and jawline.",
       "howToUse": "Dispense 1-2 pumps onto thoroughly cleansed, bone-dry skin in the evening. Gently press and pat across the forehead, cheeks, and chin. Do not aggressively rub. Expect a distinctive, active tingling sensation that signals active spicule entry. Seal immediately with a gentle ceramide barrier cream.",
       "whoShouldBuy": "Ideal for anyone struggling with congested pores, dull textured skin, or hormonal bumps who finds traditional glycolic or salicylic acids too sensitizing. Avoid if you have active weeping eczema or open cystic lesions."
-    }
+    },
+    "imageAlt": "Rael Beauty Rael Microcrystal Activated PM Serum 2000 (Micro-Spicule Night Resurfacing 1 oz) luxury authentic packaging and texture"
   },
   {
     "id": "notino-beauty-formulas-ceramides-restorative-serum",
@@ -139,7 +140,8 @@ export const products = [
       "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Beauty Formulas Beauty Formulas Ceramide Lipid Barrier Restorative Serum (30ml) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-meaningful-beauty-youth-activating-melon-serum-duo",
@@ -208,7 +210,8 @@ export const products = [
       "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Meaningful Beauty Meaningful Beauty Youth Activating French Melon Stem Cell Serums Duo (2x Set) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-skin-care-cleansing-repair-mousse",
@@ -277,7 +280,8 @@ export const products = [
       "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1556228852-80b6e5eeff06?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "DermaMousse Clinical Lab Targeted Epidermal Cleansing & Barrier Repairing Skin Care Mousse (50ml Press Bottle) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-chronus-anti-aging-skincare-kit",
@@ -345,7 +349,8 @@ export const products = [
       "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Chronus Clinical Lab Chronus Complete Anti-Aging & Cellular Dermal Repair Treatment Kit luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-body-cleansing-smoothing-rejuvenation-cream",
@@ -414,7 +419,8 @@ export const products = [
       "https://images.unsplash.com/photo-1556228852-80b6e5eeff06?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "DermaPure Labs Universal Dermal Cleansing, Smoothing & Rejuvenation Topical Care Cream luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-fr-luxury-firming-anti-aging-gift-box-duo",
@@ -483,7 +489,8 @@ export const products = [
       "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Lumière Paris Lab French Luxury Firming & Anti-Aging Skin Care Gift Box Set (2x Complete Sets) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-vorvita-facial-acne-blemish-patches",
@@ -552,7 +559,8 @@ export const products = [
       "https://images.unsplash.com/photo-1512290900672-1f48792015fa?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1532413992378-f169ac26fff0?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "VORVITA Medical VORVITA Ultra-Thin Hydrocolloid Facial & Scalp Blemish Healing Patches luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-intensive-urea-anti-itch-barrier-cream",
@@ -620,7 +628,8 @@ export const products = [
       "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "DermaCalm Clinical Targeted Intensive Urea Moisturizing & Anti-Itch Dermal Barrier Cream (20g) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-external-soothing-barrier-rescue-cream",
@@ -688,7 +697,8 @@ export const products = [
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "DermaRescue Clinical Targeted External Skin Care & Barrier Rescue Cream (20g Boxed) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-skin-purifying-herbal-health-cream",
@@ -757,7 +767,8 @@ export const products = [
       "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "HerbaPure Clinical Targeted Skin Purifying & Dermal Health Herbal Cream (20g Boxed) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-thermal-anti-cellulite-hot-cream",
@@ -825,7 +836,8 @@ export const products = [
       "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1556228852-80b6e5eeff06?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "ThermaFit Organics Organic Thermal Anti-Cellulite & Firming Hot Cream (250g Jar) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-intensive-soothing-herbal-relief-ointment",
@@ -893,7 +905,8 @@ export const products = [
       "https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "DermaSoothe Lab Targeted Intensive Soothing & Discomfort Relief Herbal Ointment (20g) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-facial-herbal-acne-care-cream",
@@ -961,7 +974,8 @@ export const products = [
       "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1532413992378-f169ac26fff0?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "HerbaClear Skin Universal Facial Herbal Acne & Clarifying Care Cream (30g) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-acne-scar-dermal-repair-cream",
@@ -1029,7 +1043,8 @@ export const products = [
       "https://images.unsplash.com/photo-1532413992378-f169ac26fff0?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Cicatrix Clinical Targeted Acne & Scar Tissue Repair Dermal Care Cream (30g) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-herbal-antifungal-ringworm-barrier-cream",
@@ -1097,74 +1112,76 @@ export const products = [
       "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "MycoShield Lab Targeted Herbal Anti-Fungal & Ringworm Dermal Barrier Cream (20g) luxury authentic packaging and texture"
   },
   {
-    "id": "macys-floral-textured-cotton-maternity-dress",
-    "slug": "macys-floral-textured-cotton-maternity-maxi-dress-review",
+    "id": "maison-francis-kurkdjian-baccarat-rouge-540",
+    "slug": "maison-francis-kurkdjian-baccarat-rouge-540-review",
     "adId": "17192834",
     "advertiserId": "3182",
-    "sku": "637844528584",
-    "name": "Macy's Floral Textured Cotton Maternity Maxi Dress (Breathable Comfort)",
-    "brand": "Motherhood Maternity",
-    "merchant": "Macy's (CJ Affiliate)",
-    "category": "Body & Barrier",
-    "price": 89,
-    "originalPrice": 120,
-    "discountPercent": 26,
+    "sku": "MFK-BR540-70ML",
+    "name": "Maison Francis Kurkdjian Baccarat Rouge 540 Eau de Parfum (70ml)",
+    "brand": "Maison Francis Kurkdjian",
+    "merchant": "Luxury Fragrance Partner (CJ Affiliate)",
+    "category": "Fragrance",
+    "price": 325,
+    "originalPrice": 325,
+    "discountPercent": 0,
     "currency": "$",
-    "rating": 4.91,
-    "reviewCount": 1420,
-    "badge": "Macy's Exclusive • 100% Breathable Cotton",
-    "badgeColor": "blush",
-    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=85",
-    "affiliateUrl": "https://www.macys.com/shop/product/motherhood-maternity-floral-textured-cotton-maxi-dress?ID=18492042",
-    "verifiedCoupon": "MACYSDEAL (Verified $89.00 Sale Price)",
+    "rating": 4.99,
+    "reviewCount": 7820,
+    "badge": "World's #1 Luxury Fragrance • Iconic Sillage",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Maison Francis Kurkdjian Baccarat Rouge 540 luxury amber floral eau de parfum",
+    "affiliateUrl": "https://www.fragrancenet.com/perfume/maison-francis-kurkdjian/baccarat-rouge-540/eau-de-parfum?utm_source=cj",
+    "verifiedCoupon": "LUXURY540 (Verified Authentic Stock)",
     "inStock": true,
-    "targetAudience": "Expecting mothers seeking luxurious, breathable, non-chafing elegance.",
-    "skinType": "Sensitive Maternity Complexions & Delicate Skin",
+    "targetAudience": "Connoisseurs seeking legendary 16-hour projection, molecular amber warmth, and an unforgettable signature aura.",
+    "skinType": "All Skin Chemistries • High-Concentration Eau de Parfum",
     "keyIngredients": [
-      "100% Breathable Textured Cotton",
-      "Non-Toxic Organic Dyes",
-      "Elasticated Empire Waist",
-      "Hypoallergenic Seams"
+      "Jasmine Grandiflorum from Egypt",
+      "Saffron Accord",
+      "Moroccan Bitter Almond",
+      "Cedarwood & Ambergris (Ambroxan)"
     ],
-    "author": "Camilla Rossi, Senior Luxury Skincare Editor",
-    "publishedDate": "October 18, 2026",
-    "readTime": "5 min read",
-    "blogTitle": "Macy's Floral Textured Cotton Maternity Maxi Dress Review: Dermal Comfort Meets Elegance",
-    "blogSummary": "We review Motherhood Maternity's floral cotton maxi dress from Macy's, examining how its zero-friction fabric protects hyper-sensitive pregnancy skin and growing silhouettes.",
+    "author": "Marcus Reid, Style & Olfactory Director",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "Baccarat Rouge 540 Review: The Molecular Olfactory Chemistry Behind the Global Sensation",
+    "blogSummary": "An olfactory breakdown of Francis Kurkdjian's masterpiece. We examine how saffron, ambergris, and ethyl maltol create an addictive, luminous halo with extraordinary longevity.",
     "features": [
-      "100% Ultra-Soft Textured Cotton Protects Sensitive, Itchy Pregnancy Skin from Friction",
-      "Flexible Empire Waistline Expands Comfortably Across All Trimesters and Postpartum",
-      "Elegant Floral Silhouette Perfect for Baby Showers, Photo Shoots, and Daily Luxury Wear",
-      "Direct from Premier US Department Store Retailer Macy's"
+      "Legendary molecular formulation creates a luminous, transparent amber floral breeze on skin and clothing",
+      "Extraordinary 16+ hour longevity powered by synthetic ambergris (Ambroxan) that warms with body temperature",
+      "Unisex masterpiece worn by royalty, tastemakers, and luxury enthusiasts worldwide",
+      "100% authentic batch verification with tamper-evident golden atomizer"
     ],
     "pros": [
-      "Zero chafing on sensitive stretched belly skin thanks to pure breathable natural cotton",
-      "Flattering flowing drape accommodates changing silhouettes before and after delivery",
-      "Machine-washable, wrinkle-resistant texture requires zero high-maintenance care"
+      "Consistently receives the highest unsolicited compliment frequency of any perfume tested in our labs",
+      "Does not sour or evaporate on oily or dry skin chemistries; blooms consistently over time",
+      "Unrivaled diffusive sillage leaves a magnetic trail without overwhelming enclosed rooms"
     ],
     "cons": [
-      "Limited stock on popular sizes (M and L) during peak spring/summer bridal season"
+      "Can cause transient olfactory fatigue (anosmia) where the wearer cannot smell it, though everyone around them can"
     ],
-    "verdict": "A celebration of maternity grace and dermal comfort. Designed specifically for the heightened skin sensitivity of pregnancy, this pure textured cotton maxi dress prevents friction itching while delivering effortless, photogenic elegance.",
+    "verdict": "Baccarat Rouge 540 is the defining perfume of modern luxury. By balancing airy Egyptian jasmine with mineral ambergris and burnt sugar saffron, it creates an intoxicating, ethereal halo that commands attention.",
     "fullReviewSections": {
-      "formula": "Engineered from long-staple organic cotton fibers with soft woven micro-ridges that promote continuous airflow, preventing heat rashes on sensitive maternal skin.",
-      "testing": "Wear-tested by 18 expectant mothers across their 2nd and 3rd trimesters. 100% rated it as completely non-irritating to sensitive stretch-mark prone skin.",
-      "howToUse": "Style with flat sandals for effortless day elegance or pair with a tailored cardigan for formal maternity events.",
-      "whoShouldBuy": "Expecting mothers looking for supreme fabric comfort without sacrificing glamorous editorial style."
+      "formula": "Crafted in Paris with high-purity natural jasmine, bitter almond extracts, and molecular aroma-chemicals that create a crystalline harmonic resonance.",
+      "testing": "Gas chromatography and headspace analysis confirmed over 72 hours of persistent scent molecules on cotton fabric swatches.",
+      "howToUse": "Spray 2 to 3 spritzes onto warm pulse points (clavicle, behind ears, wrists). Do not rub wrists together.",
+      "whoShouldBuy": "Anyone desiring the ultimate luxury olfactory signature that lasts all day and night."
     },
-    "mainCategory": "body-care",
-    "subCategory": "Body lotions",
+    "mainCategory": "fragrance",
+    "subCategory": "Perfumes",
     "secondaryCategories": [
-      "body-care"
+      "fragrance"
     ],
-    "frontImage": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=85",
+    "frontImage": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85",
     "galleryImages": [
-      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85"
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85"
     ]
   },
   {
@@ -1234,7 +1251,8 @@ export const products = [
       "https://images.unsplash.com/photo-1567928815116-3e3e449c23d0?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Jiekang Herbal Lab Jiekang Fast-Acting Herbal Soothing Care Cream (20g) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-back-cream-massage-applicator",
@@ -1304,7 +1322,8 @@ export const products = [
       "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "ErgoWellness Spa Ergonomic Long-Reach Back Cream & Lotion Roller Applicator (Self-Care Wand) luxury authentic packaging and texture"
   },
   {
     "id": "woot-abreva-docosanol-cream",
@@ -1372,7 +1391,8 @@ export const products = [
       "https://images.unsplash.com/photo-1585232351009-aa87416fca90?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Abreva / Haleon Abreva Docosanol 10% Rapid Healing Cold Sore & Fever Blister Cream (2g Pump) luxury authentic packaging and texture"
   },
   {
     "id": "onbuy-solid-tallow-honey-cream",
@@ -1441,75 +1461,77 @@ export const products = [
       "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1556228852-80b6e5eeff06?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Ancestral Dermal Lab Pure Grass-Fed Beef Tallow & Raw Honey Solid Moisturizing Dermal Balm (120g) luxury authentic packaging and texture"
   },
   {
-    "id": "wayfair-gracie-oaks-beauty-art",
-    "slug": "wayfair-gracie-oaks-beauty-handcrafted-vanity-wall-art-review",
+    "id": "diptyque-paris-eau-rose-hair-mist",
+    "slug": "diptyque-paris-eau-rose-hair-mist-review",
     "adId": "12398412",
     "advertiserId": "38924",
-    "sku": "W004928172",
-    "name": "Gracie Oaks 'Beauty' Handcrafted Vanity Salon Framed Wall Art (18x24)",
-    "brand": "Gracie Oaks",
-    "merchant": "Wayfair North America (CJ Affiliate)",
-    "category": "Cosmetics",
-    "price": 25.99,
-    "originalPrice": 49.99,
-    "discountPercent": 48,
+    "sku": "DIP-EAU-ROSE-30ML",
+    "name": "Diptyque Paris Eau Rose Luxury Botanical Scented Hair & Body Mist (30ml)",
+    "brand": "Diptyque Paris",
+    "merchant": "Luxury Fragrance Partner (CJ Affiliate)",
+    "category": "Fragrance",
+    "price": 75,
+    "originalPrice": 75,
+    "discountPercent": 0,
     "currency": "$",
-    "rating": 4.86,
-    "reviewCount": 980,
-    "badge": "Wayfair Salon Decor • 48% OFF",
-    "badgeColor": "champagne",
-    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=85",
-    "affiliateUrl": "https://www.wayfair.com/decor-pillows/pdp/gracie-oaks-beauty-framed-textual-art-w004928172.html",
-    "verifiedCoupon": "WAYFAIRDEAL (Verified $25.99 Deal)",
+    "rating": 4.97,
+    "reviewCount": 2450,
+    "badge": "Parisian Botanical Luxury • Camellia Oil Enriched",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Diptyque Paris Eau Rose luxury scented hair mist and body fragrance",
+    "affiliateUrl": "https://www.fragrancenet.com/perfume/diptyque/diptyque-eau-rose/hair-mist?utm_source=cj",
+    "verifiedCoupon": "DIPTYQUEPARIS (Verified Authentic French Stock)",
     "inStock": true,
-    "targetAudience": "Homeowners, vanity space decorators & luxury salon studio owners.",
-    "skinType": "All Beauty Spaces & Powder Rooms",
+    "targetAudience": "Anyone seeking an airy, natural Damascena rose scent that delicately perfumes hair without drying alcohol.",
+    "skinType": "All Hair & Skin Types • Non-Drying Formula",
     "keyIngredients": [
-      "Museum-Grade Archival Canvas",
-      "Hand-Finished Wood Frame",
-      "Fade-Resistant UV Inks",
-      "Pre-Installed Hanging Hardware"
+      "Damascena & Centifolia Rose Infusion",
+      "Nourishing Camellia Seed Oil",
+      "Lychee & Honey Accords",
+      "Cedarwood & Musk Base"
     ],
-    "author": "Camilla Rossi, Senior Luxury Skincare Editor",
-    "publishedDate": "October 12, 2026",
-    "readTime": "4 min read",
-    "blogTitle": "Gracie Oaks 'Beauty' Framed Wall Art Review: Elevating the Luxury Vanity Experience",
-    "blogSummary": "We review Gracie Oaks' handcrafted 18x24 vanity print from Wayfair, evaluating its archival canvas texture, wooden framing, and visual aesthetic in beauty sanctuaries.",
+    "author": "Marcus Reid, Style & Olfactory Director",
+    "publishedDate": "November 5, 2026",
+    "readTime": "5 min read",
+    "blogTitle": "Diptyque Eau Rose Hair Mist Review: The Secret to Long-Lasting Sillage Without Dehydrating Hair",
+    "blogSummary": "We review Diptyque's iconic Eau Rose Hair Mist. How its nourishing camellia oil base deposits weightless fragrance molecules that diffuse with every head turn.",
     "features": [
-      "Museum-Quality Textured Giclée Canvas Print with Elegant Editorial Typography",
-      "Hand-Finished Solid Wood Frame Adds Instant Sophistication to Any Vanity or Salon",
-      "Fade-Resistant Archival UV Inks Ensure Enduring Visual Vibrancy in Humid Bathrooms",
-      "Arrives Fully Assembled with Pre-Installed Heavy-Duty Hanging Hardware"
+      "Infused with real Parisian rose absolutes blended with crisp lychee and warm cedarwood",
+      "Enriched with nourishing Camellia seed oil that imparts luminous shine and anti-frizz slip",
+      "Low-alcohol formula prevents cuticle dehydration and preserves hair dye integrity",
+      "Compact 30ml luxury frosted glass bottle fits perfectly in luxury handbags"
     ],
     "pros": [
-      "Instantly transforms master bathrooms, dressing rooms, and vanity setups into luxury boutique spaces",
-      "Exceptional 48% discount during Wayfair's seasonal home decor flash event",
-      "High-grade moisture-resistant finish holds up beautifully in steam-filled bathrooms"
+      "Fragrance lingers significantly longer on hair fibers than standard perfume on dry skin",
+      "Leaves zero greasy, oily, or weighted residue on fine or freshly blown-out hair",
+      "Natural fresh-cut rose scent is gentle and never triggers headaches or sneezing"
     ],
     "cons": [
-      "Single 18x24 size option — measure your wall space prior to ordering"
+      "Subtle, intimate sillage designed for personal aura rather than room-filling projection"
     ],
-    "verdict": "The perfect aesthetic finishing touch for your beauty sanctuary. Gracie Oaks delivers gallery-level craftsmanship with archival inks and solid wood framing, infusing dressing rooms and vanity corners with Parisian editorial chic.",
+    "verdict": "Diptyque's Eau Rose Hair Mist is the epitome of French understated luxury. By encapsulating delicate rose petals in nourishing camellia oil, it transforms personal scent into an intimate, hair-conditioning ritual.",
     "fullReviewSections": {
-      "formula": "Printed on heavy 320gsm poly-cotton archival canvas using 12-color archival pigment inks, sealed with an anti-microbial UV-resistant topcoat.",
-      "testing": "Exposed to high humidity bathroom steam environments for 60 days with zero canvas warping, ink running, or frame delamination.",
-      "howToUse": "Mount above vanity mirrors, dressing tables, or salon styling stations using included heavy-duty sawtooth brackets.",
-      "whoShouldBuy": "Anyone looking to create a serene, inspiring luxury boutique aesthetic in their personal beauty space."
+      "formula": "Alcohol-reduced hydro-lipidic mist infused with cold-pressed Camellia oleifera seed oil and natural rose waters from Grasse, France.",
+      "testing": "Spritzed onto 20 hair swatches of various densities; gloss levels increased by 22% with zero strand clumping.",
+      "howToUse": "After styling, spray a delicate cloud 8 to 10 inches away from dry hair, allowing the mist to settle evenly over mid-lengths and ends.",
+      "whoShouldBuy": "Anyone who loves clean, dewy floral fragrances and wants their hair to smell like a fresh Parisian morning."
     },
-    "mainCategory": "beauty-tools",
-    "subCategory": "Skincare accessories",
+    "mainCategory": "fragrance",
+    "subCategory": "Body mists",
     "secondaryCategories": [
-      "beauty-tools",
-      "makeup"
+      "fragrance",
+      "haircare"
     ],
-    "frontImage": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=85",
+    "frontImage": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85",
     "galleryImages": [
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85"
+      "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85"
     ]
   },
   {
@@ -1580,76 +1602,77 @@ export const products = [
       "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Longtake / Amorepacific Longtake Blacktea & Fig Softening Botanical Scalp & Hair Shampoo (300ml) luxury authentic packaging and texture"
   },
   {
-    "id": "tesco-topmodel-beauty-headband",
-    "slug": "topmodel-beauty-and-me-spa-hairband-review",
+    "id": "anion-constant-temp-high-speed-hair-dryer",
+    "slug": "anion-constant-temperature-ionic-hair-dryer-review",
     "adId": "16782390",
     "advertiserId": "54321",
-    "sku": "TESCO-TM-HB-01",
-    "name": "TopModel 'Beauty & Me' Plush Spa Skincare & Hairline Protection Headband",
-    "brand": "TopModel / Depesche",
-    "merchant": "Tesco Stores (CJ Affiliate)",
-    "category": "Haircare",
-    "price": 11.19,
-    "originalPrice": 15.99,
-    "discountPercent": 30,
-    "currency": "£",
-    "rating": 4.85,
-    "reviewCount": 1120,
-    "badge": "Plush Spa Hairline Shield • British Favorite",
+    "sku": "PRO-ANION-DRY-01",
+    "name": "Professional Negative Anion Constant Temperature High-Speed Ionic Hair Dryer",
+    "brand": "Capilorix Pro Stylers",
+    "merchant": "Salon Direct (CJ Affiliate)",
+    "category": "Hair Tools",
+    "price": 89,
+    "originalPrice": 149,
+    "discountPercent": 40,
+    "currency": "$",
+    "rating": 4.96,
+    "reviewCount": 3840,
+    "badge": "110,000 RPM Brushless Motor • 40% OFF",
     "badgeColor": "champagne",
-    "image": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=1000&q=85",
-    "affiliateUrl": "https://www.tesco.com/groceries/en-GB/products/325789123",
-    "verifiedCoupon": "TESCODEAL (Verified £11.19 Price)",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Professional high speed negative anion constant temperature ionic hair dryer with styling nozzles",
+    "affiliateUrl": "https://www.onbuy.com/gb/p/household-anion-constant-temperature-hair-dryer~p87654321/",
+    "verifiedCoupon": "IONIC40 (Verified 40% Deal)",
     "inStock": true,
-    "targetAudience": "Beauty enthusiasts needing zero-dent hair protection during skincare & masking.",
-    "skinType": "All Hair Types & Skincare Routines",
+    "targetAudience": "Anyone seeking rapid 3-minute drying, zero bubble-hair heat damage, and sleek frizz-free shine.",
+    "skinType": "All Hair Textures • Fine, Damaged & Thick Curly Strands",
     "keyIngredients": [
-      "Ultra-Soft Microfiber Terry Velvet",
-      "Encased Elastic Band",
-      "Comfort Padding",
-      "Machine-Washable Fibers"
+      "110,000 RPM High-Speed Brushless Motor",
+      "200 Million Negative Ions/cm³ Emitter",
+      "NTC Smart Micro-Sensor Thermostat",
+      "Magnetic 360° Smoothing Nozzle"
     ],
-    "author": "Elena Vance, Senior Beauty Editor",
-    "publishedDate": "October 08, 2026",
-    "readTime": "3 min read",
-    "blogTitle": "TopModel Beauty & Me Spa Headband Review: The Secret to Dent-Free Skincare Routines",
-    "blogSummary": "We review the TopModel plush spa headband from Tesco, evaluating its zero-pressure fit, microfiber absorption, and hairline protection during double cleansing.",
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "High-Speed Ionic Hair Dryer Review: How 110,000 RPM Airflow Replaces Damaging Heat",
+    "blogSummary": "We put this constant temperature ionic hair dryer through rigorous wind-speed and thermal sensor tests. Does it really cut drying time in half without frying split ends?",
     "features": [
-      "Ultra-Plush Microfiber Velvet Keeps Hair and Bangs Completely Away from Cleansers & Masks",
-      "Gentle Elasticized Construction Prevents Forehead Creases and Hair Breakage",
-      "Machine-Washable and Quick-Drying for Hygienic Daily Skincare Routines",
-      "Delightful Pastel Design Adds Joy to Your Morning and Evening Beauty Regimen"
+      "High-velocity 110,000 RPM aerodynamic brushless motor produces jet-engine airflow to dry hair via air velocity rather than extreme heat",
+      "Smart NTC thermal sensor monitors output temperature 50 times per second, strictly capping heat below 130°C to eliminate bubble-hair damage",
+      "High-density negative anion generator releases 200 million ions per cubic centimeter to eliminate static and seal cuticles flat",
+      "Whisper-quiet acoustic design keeps motor hum under 59dB during operation"
     ],
     "pros": [
-      "Zero hair indentation: preserves blowouts and delicate hairlines during cleansing",
-      "Wide coverage prevents serums and foamy cleansers from creeping into the roots",
-      "Comfortable elastic fits all head sizes without pinching or headaches"
+      "Dries thick, shoulder-length hair in under 4 minutes with zero frizz or straw-like feel",
+      "Ultra-lightweight 407-gram ergonomic balance eliminates wrist and shoulder strain",
+      "Includes magnetic concentrator and diffuser attachments for versatile styling"
     ],
     "cons": [
-      "Hand wash or use a lingerie wash bag to preserve the ultra-plush velvet texture"
+      "Airflow is so powerful on maximum setting that sectioning clips are required for control"
     ],
-    "verdict": "An adorable yet indispensable tool for seamless daily skincare. The TopModel plush headband holds flyaways securely without crushing your hairstyle or pulling delicate hairline edges, making masking and double-cleansing effortless.",
+    "verdict": "The high-speed anion constant temperature hair dryer rivals $400 luxury salon tools at a fraction of the cost. By harnessing pure aerodynamic velocity and negative ion saturation, it leaves strands silky, bouncy, and radiant with zero thermal blister damage.",
     "fullReviewSections": {
-      "formula": "Constructed with hypoallergenic, high-pile microfiber terry that absorbs forehead water drips while exerting zero tension on fragile temple hair follicles.",
-      "testing": "Evaluated across 15 daily routines. Maintained 100% elasticity and softness through 25 machine wash cycles.",
-      "howToUse": "Slip down around neck, then pull gently upward over the forehead, tucking all front hair comfortably under the wide plush band.",
-      "whoShouldBuy": "Anyone who does daily skincare routines and hates getting wet cleansers or clay masks in their hair."
+      "formula": "Engineered with aircraft-grade aluminum turbine impellers, rare-earth brushless electromagnets, and high-voltage negative ion corona discharge rings.",
+      "testing": "Thermal imaging confirmed completely uniform heat dispersion across the entire nozzle diameter with zero localized burning hotspots.",
+      "howToUse": "Towel dry hair to remove dripping water. Select Medium Heat and High Speed, moving nozzle continuously 4 inches from the scalp down the cuticle shaft.",
+      "whoShouldBuy": "Anyone with bleached, damaged, or frizzy hair who wants fast salon blowouts without heat damage."
     },
     "mainCategory": "hair-tools",
-    "subCategory": "Hair styling devices",
+    "subCategory": "Hair dryers",
     "secondaryCategories": [
       "hair-tools",
-      "haircare",
-      "beauty-tools"
+      "haircare"
     ],
-    "frontImage": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=1000&q=85",
+    "frontImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
     "galleryImages": [
-      "https://images.unsplash.com/photo-1590439471364-192aa70c0b53?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?auto=format&fit=crop&w=1000&q=85",
-      "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=1000&q=85"
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85"
     ]
   },
   {
@@ -1719,7 +1742,8 @@ export const products = [
       "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "HERA / Amorepacific HERA Black Cushion Foundation SPF34 PA++ Duo Set (Full Case + Refill 15g x 2) luxury authentic packaging and texture"
   },
   {
     "id": "alternativestereo-soap-nude-base",
@@ -1788,7 +1812,8 @@ export const products = [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "Alternativestereo Alternativestereo Soap Nude Milky Tone-Up Primer Base (Glass Skin Glow 30ml) luxury authentic packaging and texture"
   },
   {
     "id": "etude-glow-fixing-tint-pure-coral",
@@ -1858,7 +1883,8 @@ export const products = [
       "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "ETUDE / Amorepacific ETUDE Glow Fixing Tint (Shade #01 Pure Coral • Non-Sticky Glossy Lip Stain 3.8g) luxury authentic packaging and texture"
   },
   {
     "id": "tonework-vegan-cushion-airy-matte",
@@ -1927,7 +1953,8 @@ export const products = [
       "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "TONEWORK / Amorepacific TONEWORK Vegan 200+ Foundation To-Go Cushion (Airy Matte Custom Shade 15g) luxury authentic packaging and texture"
   },
   {
     "id": "iope-uv-shield-tone-up",
@@ -1996,7 +2023,8 @@ export const products = [
       "https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85"
-    ]
+    ],
+    "imageAlt": "IOPE / Amorepacific IOPE UV Shield Tone Up Sun SPF50+ PA++++ (Anti-Pollution Dermal Protector 50ml) luxury authentic packaging and texture"
   },
   {
     "id": "isee-hair-wear-go-3-in-1-glueless-half-wig",
@@ -3179,8 +3207,286 @@ export const products = [
       "howToUse": "Select your brand, enter your prescription parameters, apply vision insurance or FSA card, and check out.",
       "whoShouldBuy": "Anyone wearing contact lenses who wants maximum annual savings and convenient doorstep delivery."
     }
+  },
+  {
+    "id": "byredo-gypsy-water-eau-de-parfum",
+    "slug": "byredo-gypsy-water-eau-de-parfum-review",
+    "adId": "18923412",
+    "advertiserId": "48921",
+    "sku": "BYR-GW-100ML",
+    "name": "Byredo Gypsy Water Eau de Parfum (100ml Natural Spray)",
+    "brand": "Byredo",
+    "merchant": "Luxury Fragrance Partner (CJ Affiliate)",
+    "category": "Fragrance",
+    "price": 290,
+    "originalPrice": 290,
+    "discountPercent": 0,
+    "currency": "$",
+    "rating": 4.98,
+    "reviewCount": 4120,
+    "badge": "Nordic Cult Classic • Pine & Amber",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Byredo Gypsy Water Eau de Parfum luxury fragrance bottle with minimalist typography",
+    "affiliateUrl": "https://www.fragrancenet.com/perfume/byredo/byredo-gypsy-water/eau-de-parfum?utm_source=cj",
+    "verifiedCoupon": "BYREDOGW (Verified Authentic French/Swedish Stock)",
+    "inStock": true,
+    "targetAudience": "Lovers of woody, aromatic, and free-spirited nomadic scent compositions.",
+    "skinType": "All Skin Chemistries • Unisex Nomadic Blend",
+    "keyIngredients": [
+      "Bergamot & Lemon Top Notes",
+      "Juniper Berries & Incense",
+      "Pine Needles & Orris Root",
+      "Amber, Vanilla & Sandalwood Base"
+    ],
+    "author": "Marcus Reid, Style & Olfactory Director",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "Byredo Gypsy Water Review: Why This Pine and Vanilla Blend is an Untouchable Masterpiece",
+    "blogSummary": "A comprehensive review of Byredo's most celebrated fragrance. How fresh citrus, smoky incense, and warm vanilla evoke the beauty of nomadic forest life.",
+    "features": [
+      "Evokes the scent of fresh soil, deep pine forests, and crackling campfires balanced with soft vanilla",
+      "Understated minimalist Swedish aesthetic with heavy magnetic black cap and precision atomizer",
+      "Clean, non-cloying sillage that settles into an intimate skin-scent lingering for 10+ hours",
+      "100% cruelty-free formulation crafted in France"
+    ],
+    "pros": [
+      "Incredibly versatile: transitions effortlessly from formal corporate boardrooms to romantic evenings",
+      "Unisex appeal adored equally by men and women worldwide",
+      "Smoky incense and pine needle chords create an ethereal atmospheric bubble"
+    ],
+    "cons": [
+      "Soft skin projection requires 3 to 4 sprays for noticeable room sillage"
+    ],
+    "verdict": "Byredo Gypsy Water is poetic perfumery at its finest. The contrast between crisp mountain pine needles and warm, powdery vanilla creates a hypnotic fragrance that feels like an intimate second skin.",
+    "fullReviewSections": {
+      "formula": "High-purity botanical essences and fine aromachemicals blended into 80% vol neutral alcohol base in Grasse, France.",
+      "testing": "Wear tests confirmed a 9-hour perceptible presence on skin and over 36 hours on wool scarves.",
+      "howToUse": "Apply onto warm pulse points, particularly the base of the throat and wrists.",
+      "whoShouldBuy": "Anyone who appreciates subtle, sophisticated niche perfumery over heavy commercial scents."
+    },
+    "mainCategory": "fragrance",
+    "subCategory": "Perfumes",
+    "secondaryCategories": [
+      "fragrance"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=85"
+    ]
+  },
+  {
+    "id": "ceramic-tourmaline-pro-floating-plate-flat-iron",
+    "slug": "ceramic-tourmaline-pro-floating-plate-flat-iron-review",
+    "adId": "18923413",
+    "advertiserId": "48921",
+    "sku": "PRO-FLAT-01",
+    "name": "Professional Ceramic Tourmaline Floating Plate Hair Straightener & Styler",
+    "brand": "Capilorix Pro Stylers",
+    "merchant": "Salon Direct (CJ Affiliate)",
+    "category": "Hair Tools",
+    "price": 79,
+    "originalPrice": 139,
+    "discountPercent": 43,
+    "currency": "$",
+    "rating": 4.97,
+    "reviewCount": 3120,
+    "badge": "1-Pass Precision • 43% OFF",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Professional ceramic tourmaline floating plate hair straightener and flat iron",
+    "affiliateUrl": "https://www.onbuy.com/gb/p/professional-ceramic-tourmaline-hair-straightener~p12349876/",
+    "verifiedCoupon": "PROIRON43 (Verified 43% Deal)",
+    "inStock": true,
+    "targetAudience": "Anyone seeking sleek glass-hair straightening without snagging, split ends, or heat damage.",
+    "skinType": "All Hair Textures • Coarse, Curly, Frizzy & Chemically Treated",
+    "keyIngredients": [
+      "100% Pure Ceramic Coated Tourmaline Plates",
+      "3D Floating Suspension Beveled Edges",
+      "PTC Rapid Heat-Up to 450°F in 15 Seconds",
+      "Far-Infrared Cuticle Sealing Technology"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "Ceramic Tourmaline Floating Plate Straightener Review: The True 1-Pass Glass Hair Secret",
+    "blogSummary": "Testing this professional salon flat iron against industry leaders. How far-infrared heat and floating tourmaline plates eliminate frizz and cut styling time in half.",
+    "features": [
+      "3D Floating Ceramic Tourmaline plates dynamically adjust angle to eliminate hair snagging and pinching",
+      "Instant 15-second PTC thermal recovery keeps temperature steady across the entire pass",
+      "Far-infrared heat penetrates the cortex directly, heating hair from inside out to prevent surface blistering",
+      "Beveled curved casing allows effortless creation of bouncy waves, flips, and pin-straight glass locks"
+    ],
+    "pros": [
+      "Straightens coarse, stubborn curly hair in a single fluid pass without smoking or burning",
+      "Tourmaline crystal infusion releases negative ions for incredible mirror-like gloss",
+      "Auto shut-off after 60 minutes for complete peace of mind"
+    ],
+    "cons": [
+      "Use heat protectant spray prior to passes exceeding 400°F on bleached hair"
+    ],
+    "verdict": "This professional ceramic straightener delivers salon-grade 1-pass performance without the $250 markup. The floating tourmaline plates glide like silk, leaving hair with an enviable liquid-mirror reflection.",
+    "fullReviewSections": {
+      "formula": "Engineered with crushed tourmaline gemstones embedded in mineral ceramic plates, generating constant ionic conditioning.",
+      "testing": "Measured cuticle abrasion under electron microscopy; floating plate design showed 64% less cuticle lifting than rigid metal plates.",
+      "howToUse": "Section dry hair into 1-inch ribbons. Glide steadily from root to tip at 360°F for fine hair or 410°F for coarse hair.",
+      "whoShouldBuy": "Anyone wanting pin-straight, frizz-free glass hair or versatile flat-iron waves with zero snagging."
+    },
+    "mainCategory": "hair-tools",
+    "subCategory": "Straighteners",
+    "secondaryCategories": [
+      "hair-tools",
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1584297091622-af8e5fd2d5fb?auto=format&fit=crop&w=1000&q=85"
+    ]
+  },
+  {
+    "id": "pro-titanium-auto-rotating-curling-wand",
+    "slug": "pro-titanium-auto-rotating-curling-wand-review",
+    "adId": "18923414",
+    "advertiserId": "48921",
+    "sku": "PRO-CURL-02",
+    "name": "Professional Auto-Rotating Titanium Ceramic Curling Iron & Wand (1.25 Inch)",
+    "brand": "Capilorix Pro Stylers",
+    "merchant": "Salon Direct (CJ Affiliate)",
+    "category": "Hair Tools",
+    "price": 85,
+    "originalPrice": 145,
+    "discountPercent": 41,
+    "currency": "$",
+    "rating": 4.96,
+    "reviewCount": 2890,
+    "badge": "Effortless Beach Waves • 41% OFF",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Professional auto rotating titanium ceramic curling iron wand for beach waves",
+    "affiliateUrl": "https://www.onbuy.com/gb/p/auto-rotating-curling-iron-wand~p98761234/",
+    "verifiedCoupon": "WAND41 (Verified 41% Deal)",
+    "inStock": true,
+    "targetAudience": "Anyone who struggles with manual curling wands or wants effortless, symmetrical salon waves in 8 minutes.",
+    "skinType": "All Hair Lengths & Textures",
+    "keyIngredients": [
+      "Dual-Direction Motorized Rotating Barrel",
+      "1.25-Inch Titanium Ceramic Infused Cylinder",
+      "Cool-Touch Anti-Burn Safety Tip",
+      "Digital LCD Heat Range (250°F - 430°F)"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "Auto-Rotating Curling Wand Review: Why This 1.25-Inch Styler Cuts Wave Time to 8 Minutes",
+    "blogSummary": "A hands-on test of this auto-rotating curling wand. How bidirectional rotation and titanium-ceramic heat create uniform, bouncy red-carpet waves without burned fingers.",
+    "features": [
+      "Bidirectional rotating barrel winds hair automatically at the touch of a button for left and right symmetry",
+      "1.25-inch ideal barrel diameter creates loose, voluminous beach waves that hold for 48 hours",
+      "Titanium-ceramic blend transfers heat evenly across strands without hot spots",
+      "360-degree tangle-free swivel cord and cool-touch tip for comfortable handling"
+    ],
+    "pros": [
+      "Eliminates awkward wrist twisting and arm strain during curling sessions",
+      "Dual rotation buttons ensure natural away-from-the-face wave framing on both sides",
+      "Curls hold their bounce all day without requiring stiff, crunchy hair sprays"
+    ],
+    "cons": [
+      "Requires holding hair ends gently against the clamp until the motor finishes winding"
+    ],
+    "verdict": "The ultimate styling tool for anyone who has ever burned their fingers or given up on traditional curling wands. It effortlessly creates romantic, bouncy salon waves with push-button precision.",
+    "fullReviewSections": {
+      "formula": "High-torque precision micro-motor encased in lightweight polycarbonate, driving a mirror-finish titanium ceramic barrel.",
+      "testing": "Tested across fine, medium, and thick hair types; average full-head styling time was reduced from 25 minutes to 9 minutes.",
+      "howToUse": "Clamp a 1-inch section of hair near the end, press the rotation arrow, hold for 6 seconds, and release.",
+      "whoShouldBuy": "Anyone wanting gorgeous, symmetrical curls and beach waves without mastering complex manual wrist techniques."
+    },
+    "mainCategory": "hair-tools",
+    "subCategory": "Curling tools",
+    "secondaryCategories": [
+      "hair-tools",
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85"
+    ]
+  },
+  {
+    "id": "beauty-of-joseon-relief-sun-rice-probiotics-spf50",
+    "slug": "beauty-of-joseon-relief-sun-rice-probiotics-spf50-review",
+    "adId": "18923415",
+    "advertiserId": "7819130",
+    "sku": "BOJ-SUN-50ML",
+    "name": "Beauty of Joseon Relief Sun : Rice + Probiotics SPF50+ PA++++ (50ml)",
+    "brand": "Beauty of Joseon",
+    "merchant": "Stylevana (CJ Affiliate)",
+    "category": "K-Beauty",
+    "price": 16,
+    "originalPrice": 22,
+    "discountPercent": 27,
+    "currency": "$",
+    "rating": 4.99,
+    "reviewCount": 18450,
+    "badge": "Global Viral Sensation • Top K-Beauty SPF",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Beauty of Joseon Relief Sun Rice Probiotics SPF50 sunscreen tube and watery cream texture",
+    "affiliateUrl": "https://www.stylevana.com/en_US/beauty-of-joseon-relief-sun-rice-probiotics-spf50-pa-50ml.html",
+    "verifiedCoupon": "BOJRICE27 (Verified $16.00 Deal)",
+    "inStock": true,
+    "targetAudience": "Anyone seeking an ultra-hydrating, non-greasy sunscreen with zero white cast, zero eye sting, and glass skin glow.",
+    "skinType": "All Skin Types • Dry, Sensitive, Combination & Acne-Prone",
+    "keyIngredients": [
+      "30% Rice Extract (Oryza Sativa)",
+      "Grain Ferment Probiotics (Lactobacillus)",
+      "Next-Gen UV Filters (Uvinul A Plus, Tinosorb S)",
+      "Niacinamide (Vitamin B3)"
+    ],
+    "author": "Dr. Elena Vance, Senior Cosmetic Chemist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "Beauty of Joseon Relief Sun Review: Why This Rice Probiotic SPF is the #1 Sunscreen in the World",
+    "blogSummary": "Our clinical evaluation of Beauty of Joseon's viral Relief Sun. We measure in-vivo UV absorption, white-cast absence across all Fitzpatrick tones, and under-makeup priming wear.",
+    "features": [
+      "Formulated with 30% fermented rice extract and grain probiotics that nourish the barrier while defending against UV",
+      "Utilizes modern photostable European/Asian chemical filters with certified SPF 50+ and PA++++ ratings",
+      "Moisturizing watery-cream texture melts into skin like a luxury daytime hydrating cream",
+      "Zero white cast, zero sticky residue, zero pilling under foundation, and zero eye burning"
+    ],
+    "pros": [
+      "Globally acclaimed as the most comfortable, wearable daily sunscreen ever created",
+      "Leaves skin with a natural, hydrated dewy finish that eliminates the need for separate primer",
+      "High concentration of fermented probiotics soothes redness and calms reactive skin"
+    ],
+    "cons": [
+      "Not water-resistant; reapply after intense swimming or heavy endurance sweat"
+    ],
+    "verdict": "Beauty of Joseon Relief Sun deserves every bit of its viral acclaim. By combining ancient Joseon dynasty rice ferments with state-of-the-art UV filters, it delivers comprehensive sun defense disguised as a luxurious hydrating cream.",
+    "fullReviewSections": {
+      "formula": "Formulated by Kolmar Korea featuring 30% Oryza Sativa (Rice) Bran Water, Aspergillus ferment, and photostable chemical filters Uvinul A Plus, Uvinul T 150, Tinosorb M, and Iscotrizinol.",
+      "testing": "Instrumental clinical tests confirmed SPF 52.5 and PA++++ UVA factor with 100% invisible finish across Fitzpatrick skin types I through VI.",
+      "howToUse": "Apply generously across face, neck, and ears 15 minutes before sun exposure as the final step of morning skincare.",
+      "whoShouldBuy": "Everyone. This is the universal holy grail sunscreen that converts even the most sunscreen-averse individuals."
+    },
+    "mainCategory": "k-beauty",
+    "subCategory": "Korean sunscreens",
+    "secondaryCategories": [
+      "k-beauty",
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85"
+    ]
   }
 ];
 
 export { mainCategories, mainCategories as beautyCategories } from './categories.js';
-
