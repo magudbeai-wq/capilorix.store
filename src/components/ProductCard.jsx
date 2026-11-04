@@ -55,7 +55,7 @@ export default function ProductCard({ product, rank, navigateTo }) {
             <div className="relative rounded-xl overflow-hidden bg-[#FAF8F5] aspect-square w-full border border-[#EFE8DA] group">
               <img
                 src={currentImg}
-                alt={product.name}
+                alt={product.imageAlt || product.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />

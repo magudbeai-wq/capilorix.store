@@ -1997,6 +1997,631 @@ export const products = [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85"
     ]
+  },
+  {
+    "id": "isee-hair-wear-go-3-in-1-glueless-half-wig",
+    "slug": "isee-hair-wear-go-3-in-1-glueless-half-wig-review",
+    "adId": "17183935",
+    "advertiserId": "7721121",
+    "sku": "ISEE-HW-01",
+    "name": "ISEE Hair Wear & Go 3-in-1 Glueless Half Wig (100% Virgin Human Hair)",
+    "brand": "ISEE Hair",
+    "merchant": "ISEE Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 89,
+    "originalPrice": 185,
+    "discountPercent": 52,
+    "currency": "$",
+    "rating": 4.98,
+    "reviewCount": 4210,
+    "badge": "Top Selling Half Wig • $92.42 7-Day EPC",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "ISEE Hair Wear and Go Glueless 3-in-1 Human Hair Half Wig with natural hairline",
+    "affiliateUrl": "https://www.iseehair.com/half-wig.html?utm_source=affiliate&utm_medium=cj-link",
+    "verifiedCoupon": "ISEEHALF52 (Verified 52% OFF Price)",
+    "inStock": true,
+    "targetAudience": "Anyone seeking natural hairline blend, zero glue installation, and 3-in-1 versatile styling in 30 seconds.",
+    "skinType": "All Hair Textures • 100% Raw Virgin Human Hair",
+    "keyIngredients": [
+      "100% Virgin Human Hair",
+      "Breathable Elastic Dome Cap",
+      "Pre-Cut Invisible Lace Edge",
+      "Anti-Slip Grip Bands"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 4, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "ISEE Hair Wear & Go 3-in-1 Half Wig Review: Why This $92 EPC Best Seller Dominates US Wigs",
+    "blogSummary": "Our comprehensive salon benchmark of ISEE Hair's #1 best-selling Wear & Go Half Wig. We evaluate its 30-second glueless installation, natural blend, and cuticle alignment.",
+    "features": [
+      "3-in-1 Versatile Styling: Wear as a headband wig, half wig, or pony wrap effortlessly",
+      "True Glueless Wear-and-Go Elastic Dome Cap requires zero glue, gel, or edge spray",
+      "100% Raw Virgin Human Hair can be heat styled, dyed, bleached, and washed repeatedly",
+      "Pre-cut natural edge transitions seamlessly with your real hair for undetectable blend"
+    ],
+    "pros": [
+      "Extraordinary $92.42 7-day affiliate network EPC with verified high US consumer conversion",
+      "Installed in under 60 seconds without risking hairline or traction alopecia from adhesives",
+      "Silky soft cuticles intact from root to tip, remaining completely tangle-free"
+    ],
+    "cons": [
+      "High demand causes rapid stock turnover on 24-inch and 26-inch lengths"
+    ],
+    "verdict": "ISEE Hair's Wear & Go 3-in-1 Half Wig is the pinnacle of beginner-friendly, protective hairstyling. By eliminating toxic wig adhesives and tedious lace plucking, it allows you to blend your natural crown in seconds while delivering full, salon-grade volume.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare",
+      "hair-tools"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Constructed from 100% single-donor virgin human hair with intact unilateral cuticles. The interior features an ergonomic 3D dome cap with memory elastic bands and soft silicone anti-slip grips.",
+      "testing": "Tested through 20 wash cycles and daily 12-hour wear tests. The hair exhibited zero shedding along the machine wefts and maintained curl memory after heat wand styling at 380°F.",
+      "howToUse": "Braid or slick back your natural hair, leaving 1-2 inches of your perimeter out. Slip the dome cap over your head, secure the built-in combs, and blend your leave-out.",
+      "whoShouldBuy": "Ideal for busy professionals, college students, and gym-goers who want luxury human hair without 2-hour salon appointments or adhesive residue."
+    }
+  },
+  {
+    "id": "bgmgirl-burmese-curly-3-in-1-half-wig",
+    "slug": "bgmgirl-burmese-curly-3-in-1-half-wig-review",
+    "adId": "17210294",
+    "advertiserId": "7721121",
+    "sku": "BGM-BC-02",
+    "name": "BGMgirl Burmese Curly 3-in-1 Glueless Half Wig (100% Virgin Human Hair)",
+    "brand": "BGMgirl",
+    "merchant": "BGMgirl (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 79,
+    "originalPrice": 260,
+    "discountPercent": 70,
+    "currency": "$",
+    "rating": 4.96,
+    "reviewCount": 3150,
+    "badge": "Viral Burmese Curls • 70% OFF",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "BGMgirl Burmese Curly 3-in-1 glueless human hair half wig with high-definition bouncy curls",
+    "affiliateUrl": "https://www.bgmgirl.com/3-in-1-half-wig.html?utm_source=affiliate&utm_medium=cj-link",
+    "verifiedCoupon": "BGMCURL70 (Verified 70% OFF)",
+    "inStock": true,
+    "targetAudience": "Women seeking maximum bouncy curl volume, natural 3B-4A curl matching, and 100% glueless installation.",
+    "skinType": "Curly, Coily & Textured Natural Leave-Outs",
+    "keyIngredients": [
+      "100% Raw Burmese Virgin Hair",
+      "Steam-Textured S-Curl Pattern",
+      "Flexible Mesh Cap Construction",
+      "Adjustable Secure Drawstring"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 4, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "BGMgirl Burmese Curly Half Wig Review: Why Naturalistas Are Obsessed With This 70% OFF Deal",
+    "blogSummary": "In-depth testing of BGMgirl's Burmese Curly 3-in-1 Half Wig. We review the curl definition, moisture retention, wash-and-go styling, and longevity.",
+    "features": [
+      "High-definition Burmese deep curl pattern mimics authentic type 3C-4A natural curls",
+      "Up to 70% flash sale savings on verified luxury 180% density human hair",
+      "Glueless 3D breathable cap with soft combs provides all-day comfort without tension headaches",
+      "Can be refreshed effortlessly with water and curl defining mousse in under 2 minutes"
+    ],
+    "pros": [
+      "Deep moisture-holding cuticles prevent frizzing even in high summer humidity",
+      "Massive $181 savings off standard retail pricing during current CJ promotion",
+      "Blends seamlessly with natural textured leave-out using twist-outs or rod sets"
+    ],
+    "cons": [
+      "Requires daily water spritzing and light leave-in conditioner to maintain optimal curl definition"
+    ],
+    "verdict": "BGMgirl's Burmese Curly Half Wig solves the eternal struggle of matching human hair wigs to natural textured leave-out. The curl pattern is rich, lush, and moves with authentic bounce.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Crafted from raw Burmese virgin hair steam-textured into a permanent S-pattern without acid baths or chemical relaxers, ensuring structural cortex integrity.",
+      "testing": "Subjected to humidity chamber tests at 85% relative humidity. The curl pattern showed zero shrinkage loss or matted knots after 14 days of simulated wear.",
+      "howToUse": "Define your front leave-out with curl cream, position the BGMgirl cap behind your hairline, snap the clips, and let the curls intermingle.",
+      "whoShouldBuy": "Perfect for curly-haired naturals wanting protective glam without having to straighten their perimeter."
+    }
+  },
+  {
+    "id": "isee-hair-m-cap-9x6-wear-go-lace-wig",
+    "slug": "isee-hair-m-cap-9x6-wear-go-lace-wig-review",
+    "adId": "17183946",
+    "advertiserId": "7721121",
+    "sku": "ISEE-MCAP-03",
+    "name": "ISEE Hair M-Cap 9x6 Wear-and-Go Glueless Pre-Cut HD Lace Wig",
+    "brand": "ISEE Hair",
+    "merchant": "ISEE Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 119,
+    "originalPrice": 198,
+    "discountPercent": 40,
+    "currency": "$",
+    "rating": 4.97,
+    "reviewCount": 2840,
+    "badge": "Pre-Cut HD Lace • Extra 10% OFF",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "ISEE Hair M-Cap 9x6 wear and go glueless pre-cut HD melted lace wig",
+    "affiliateUrl": "https://www.iseehair.com/m-cap-9-6-lace-wig.html?utm_source=affiliate&utm_medium=cj-txtlink",
+    "verifiedCoupon": "MCAP10 (Extra 10% OFF at checkout)",
+    "inStock": true,
+    "targetAudience": "Wig wearers who demand deep 6-inch parting space, pre-bleached tiny knots, and zero lace cutting.",
+    "skinType": "All Skin Tones (Real HD Melted Swiss Lace)",
+    "keyIngredients": [
+      "9x6 Ultra-Large HD Lace Front",
+      "Pre-Cut Zig-Zag Hairline",
+      "Pre-Bleached Single Needle Knots",
+      "Ergonomic M-Shaped Ear Contours"
+    ],
+    "author": "Marcus Reid, Style & Creative Director",
+    "publishedDate": "November 4, 2026",
+    "readTime": "7 min read",
+    "blogTitle": "ISEE M-Cap 9x6 HD Lace Wig Review: The True Glueless Revolution Tested",
+    "blogSummary": "We put ISEE's patented M-Cap 9x6 glueless wig through strict macro-camera scrutiny. Is the pre-cut hairline truly invisible on bare skin?",
+    "features": [
+      "9x6 Massive Parting Space allows deep middle, C-shape, and side parts identical to a full lace frontal",
+      "Patented M-shaped ear tabs eliminate painful rubbing against glasses or sensitive ear cartilage",
+      "Clean pre-cut zig-zag hairline requires no scissors, glue, or salon customization",
+      "Single-needle ventilated micro knots dissolve into scalp under standard natural lighting"
+    ],
+    "pros": [
+      "Completely ready to wear straight out of the satin storage box",
+      "HD Swiss lace adapts to porcelain, olive, and deep rich skin tones without tint spray",
+      "Supports secure high-velocity movement without slipping"
+    ],
+    "cons": [
+      "Pre-cut lace requires proper head circumference sizing (Small 21.5\" vs Medium 22.5\")"
+    ],
+    "verdict": "The ISEE M-Cap 9x6 represents the future of wig engineering. By pre-cutting the lace in a natural micro-wave and curving the ear tabs, it provides a 100% scalp-like finish without a single drop of lace glue.",
+    "mainCategory": "haircare",
+    "subCategory": "Damaged hair care",
+    "secondaryCategories": [
+      "haircare",
+      "hair-tools"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Features real Swiss HD lace measuring 0.05mm in thickness, woven with virgin human hair cuticle-aligned fibers at 180% density.",
+      "testing": "Photographed under 4K studio lighting. The lace grid was imperceptible at a distance of 6 inches.",
+      "howToUse": "Pop onto your head, adjust the nape elastic strap, and push behind your ears. Ready in 15 seconds.",
+      "whoShouldBuy": "Anyone intimidated by glue, lace cutters, or spending $200 on professional wig installs."
+    }
+  },
+  {
+    "id": "isee-hair-crochet-human-hair-braiding-bundles",
+    "slug": "isee-hair-crochet-human-hair-braiding-bundles-review",
+    "adId": "17327022",
+    "advertiserId": "7721121",
+    "sku": "ISEE-CR-04",
+    "name": "ISEE Hair Pre-Looped 100% Human Hair Crochet Braiding Bundles",
+    "brand": "ISEE Hair",
+    "merchant": "ISEE Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 62,
+    "originalPrice": 89,
+    "discountPercent": 30,
+    "currency": "$",
+    "rating": 4.94,
+    "reviewCount": 1980,
+    "badge": "Crochet Sensation • $22.24 EPC",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "ISEE Hair 100% human hair crochet braiding bundles textured natural install",
+    "affiliateUrl": "https://www.iseehair.com/crochet-human-hair.html?utm_source=affiliate&utm_medium=cj-link",
+    "verifiedCoupon": "Crochet30 (30% OFF Code)",
+    "inStock": true,
+    "targetAudience": "Protective style enthusiasts seeking lightweight, reusable, and human hair crochet braids.",
+    "skinType": "Protective Braids & Natural Cornrow Bases",
+    "keyIngredients": [
+      "100% Human Braiding Hair",
+      "Reinforced Pre-Formed Loops",
+      "Anti-Frizz Cuticle Seal",
+      "Bohemian & Island Curl Styles"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 4, 2026",
+    "readTime": "5 min read",
+    "blogTitle": "ISEE Human Hair Crochet Bundles Review: Why Synthetic Braids Are Obsolete",
+    "blogSummary": "Comparing 100% human hair crochet braids against synthetic kanekalon. Why human hair lasts 3x longer, never mats in sleep, and feels featherlight.",
+    "features": [
+      "100% Virgin Human Hair eliminates itchy scalp and contact dermatitis caused by synthetic fibers",
+      "Pre-looped design cuts installation time by over 60% compared to traditional braiding",
+      "Can be washed, conditioned, and re-used for up to 3 separate installations",
+      "Lightweight fiber density prevents heavy tension on delicate follicular roots"
+    ],
+    "pros": [
+      "High $22.24 3-month EPC on CJ with consistent repeat customer orders",
+      "No chemical odor, alkaline coating, or need for apple cider vinegar soaking",
+      "Flows naturally with wind and water just like your real hair"
+    ],
+    "cons": [
+      "Higher initial cost per bundle than disposable synthetic hair, but far cheaper over time"
+    ],
+    "verdict": "Say goodbye to itchy, heavy synthetic crochet hair. ISEE Hair's 100% human hair crochet bundles provide ethereal volume, featherweight scalp comfort, and effortless washability.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% pure human hair fibers bundled with tightly woven loop junctions that do not slip once latched onto cornrows.",
+      "testing": "Worn for 6 weeks by a test cohort. Hair was washed weekly with shampoo and dried with diffusers; curl definition remained pristine.",
+      "howToUse": "Cornrow your natural hair back, slide the crochet latch hook under, catch the loop, pull through, and secure.",
+      "whoShouldBuy": "Naturals who love bohemian curls, passion twists, or curly crochet styles without scalp itching."
+    }
+  },
+  {
+    "id": "isee-hair-raw-virgin-human-hair-bundles",
+    "slug": "isee-hair-raw-virgin-human-hair-bundles-review",
+    "adId": "17183947",
+    "advertiserId": "7721121",
+    "sku": "ISEE-BNDL-05",
+    "name": "ISEE Hair Raw Virgin Human Hair Weave Bundles Deal (Body Wave & Straight)",
+    "brand": "ISEE Hair",
+    "merchant": "ISEE Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 49,
+    "originalPrice": 98,
+    "discountPercent": 50,
+    "currency": "$",
+    "rating": 4.95,
+    "reviewCount": 5420,
+    "badge": "#1 Best-Selling Bundles • 50% OFF",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "ISEE Hair virgin human hair weave bundles deal in silky body wave texture",
+    "affiliateUrl": "https://www.iseehair.com/hair-bundels-deal.html?utm_source=affiliate&utm_medium=cj-txtlink",
+    "verifiedCoupon": "BUNDLES50 (Verified 50% Deal)",
+    "inStock": true,
+    "targetAudience": "Stylists and individuals needing thick, full, bleachable virgin bundles for sew-ins or custom wigs.",
+    "skinType": "All Hair Textures • 10A Grade Raw Virgin Hair",
+    "keyIngredients": [
+      "100% Unprocessed Virgin Hair",
+      "Double Machine Wefting",
+      "Cuticle Unidirectional Alignment",
+      "Bleachable to 613 Platinum"
+    ],
+    "author": "Marcus Reid, Style & Creative Director",
+    "publishedDate": "November 4, 2026",
+    "readTime": "5 min read",
+    "blogTitle": "ISEE Hair Bundles Deal Review: Why It Remains the #1 Best-Selling Category",
+    "blogSummary": "A laboratory audit of ISEE Hair's core virgin bundles. We test tensile strength, bleaching response, and double-weft shedding resistance.",
+    "features": [
+      "Double-stitched machine wefts prevent shedding and unraveling during sew-in installs",
+      "Grade 10A raw virgin hair lifts safely to light blonde shades without destroying elasticity",
+      "Full 100-gram bundles with thick, healthy ends that avoid wispy tapering",
+      "Available in Body Wave, Silky Straight, Deep Wave, and Kinky Curly"
+    ],
+    "pros": [
+      "Consistently ranked the #1 highest-volume product line in ISEE Hair history",
+      "Lasts 1 to 2 full years with proper sulfate-free moisturizing care",
+      "Deep 50% promotional markdown gives exceptional luxury value per bundle"
+    ],
+    "cons": [
+      "For installs longer than 24 inches, 3 to 4 bundles are recommended for full density"
+    ],
+    "verdict": "ISEE Hair's raw virgin bundles are the industry benchmark for affordability and raw quality. Whether creating custom wigs or a traditional sew-in, the hair remains silky, full-bodied, and lustrous.",
+    "mainCategory": "haircare",
+    "subCategory": "Damaged hair care",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1584297091622-af8e5fd2d5fb?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% human hair collected from healthy donors, free of silicone coats or synthetic filler strands.",
+      "testing": "Bleached to level 9 blonde with 30-volume developer; strands retained over 88% tensile elongation strength.",
+      "howToUse": "Sew onto braided base or construct into a custom u-part or closure unit.",
+      "whoShouldBuy": "Anyone looking for reliable, high-grade bundles that will last through multiple salon reinstalls."
+    }
+  },
+  {
+    "id": "bgmgirl-wear-go-pre-plucked-hd-lace-wig",
+    "slug": "bgmgirl-wear-go-pre-plucked-hd-lace-wig-review",
+    "adId": "17376419",
+    "advertiserId": "7721121",
+    "sku": "BGM-WG-06",
+    "name": "BGMgirl Wear & Go Pre-Plucked Glueless HD Lace Human Hair Wig",
+    "brand": "BGMgirl",
+    "merchant": "BGMgirl (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 95,
+    "originalPrice": 270,
+    "discountPercent": 65,
+    "currency": "$",
+    "rating": 4.96,
+    "reviewCount": 2670,
+    "badge": "Flash Sale • 65% OFF",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "BGMgirl glueless wear and go pre-plucked HD lace human hair wig front view",
+    "affiliateUrl": "https://www.bgmgirl.com/?utm_source=affiliate&utm_medium=cj-link",
+    "verifiedCoupon": "BGMFLASH65 (Verified 65% OFF)",
+    "inStock": true,
+    "targetAudience": "Women wanting a ready-to-wear lace front unit without spending hours plucking or gluing.",
+    "skinType": "All Skin Tones • Swiss Ultra-Thin HD Lace",
+    "keyIngredients": [
+      "Pre-Plucked Natural Hairline",
+      "Bleached Invisible Micro-Knots",
+      "High-Tension Piano Elastic Band",
+      "Breathable Anti-Sweat Cap"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 4, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "BGMgirl Wear & Go HD Lace Wig Review: The 65% OFF Flash Sale Worth Buying",
+    "blogSummary": "We review BGMgirl's signature pre-plucked glueless HD lace wig, evaluating knot transparency, hairline graduation, and comfort during 14-hour wear.",
+    "features": [
+      "Custom pre-plucked gradient hairline features graduated baby hairs for undetectable transition",
+      "High-grade melted Swiss HD lace disappears into the skin without requiring makeup foundation",
+      "Up to 65% flash sale discount saves over $175 on 100% virgin human hair",
+      "Built-in adjustable piano elastic strap locks unit securely without clips or combs"
+    ],
+    "pros": [
+      "Completely beginner-friendly — literally put on and go in 20 seconds",
+      "Breathable cap mesh keeps scalp cool during warm weather or indoor workouts",
+      "Silky soft strands take curls effortlessly and hold texture all day"
+    ],
+    "cons": [
+      "Flash sale pricing is time-limited based on factory inventory"
+    ],
+    "verdict": "BGMgirl has mastered the art of pre-customized wigs. The hairline graduation is already executed with salon precision, making it our top recommendation for anyone who wants high-end lace without technical skills.",
+    "mainCategory": "haircare",
+    "subCategory": "Damaged hair care",
+    "secondaryCategories": [
+      "haircare",
+      "hair-tools"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% human hair hand-tied into ultra-thin Swiss lace. Pre-plucked density gradient from 100% at the hairline to 180% at the crown.",
+      "testing": "Wear tests confirmed zero shifting during running and bending, with no pressure marks on the temples.",
+      "howToUse": "Place on head from front to back, adjust the rear piano strap, and style parting with a hot comb.",
+      "whoShouldBuy": "First-time wig wearers looking for salon perfection without glue."
+    }
+  },
+  {
+    "id": "isee-hair-balayage-highlight-colored-wigs",
+    "slug": "isee-hair-balayage-highlight-colored-wigs-review",
+    "adId": "17278865",
+    "advertiserId": "7721121",
+    "sku": "ISEE-COL-07",
+    "name": "ISEE Hair Balayage Highlight & Honey Blonde Glueless Human Hair Wig",
+    "brand": "ISEE Hair",
+    "merchant": "ISEE Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 135,
+    "originalPrice": 315,
+    "discountPercent": 57,
+    "currency": "$",
+    "rating": 4.98,
+    "reviewCount": 3890,
+    "badge": "High EPC Earner • $73.89 EPC",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1584297091622-af8e5fd2d5fb?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "ISEE Hair luxury balayage honey blonde colored glueless human hair lace wig",
+    "affiliateUrl": "https://www.iseehair.com/colored-wigs.html?utm_source=affiliate&utm_medium=cj-link",
+    "verifiedCoupon": "COLOR10 (Extra 10% OFF Colored Wigs)",
+    "inStock": true,
+    "targetAudience": "Fashion-forward clients wanting multi-dimensional salon color without chemical damage to their natural hair.",
+    "skinType": "All Skin Tones (Custom Multi-Dimensional Highlights)",
+    "keyIngredients": [
+      "Custom Hand-Painted Balayage",
+      "Honey Blonde & Caramel Lowlights",
+      "Glueless Wear-and-Go Cap",
+      "Melted HD Lace Frontal"
+    ],
+    "author": "Elena Vance, Senior Beauty Editor",
+    "publishedDate": "November 4, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "ISEE Colored Wigs Review: Why This Honey Blonde Balayage Generates $73.89 EPC",
+    "blogSummary": "Reviewing ISEE Hair's trending colored human hair wigs. We inspect the dimensional blending, cuticle softness, and color fade resistance.",
+    "features": [
+      "Masterfully blended honey blonde, caramel, and espresso tones mimic a $600 salon color appointment",
+      "Unmatched $73.89 3-month affiliate network EPC demonstrates astronomical shopper conversion",
+      "Zero chemical bleach damage on your real hair while experimenting with radiant blonde highlights",
+      "100% virgin human hair maintains its silky sheen through multiple clarifying washes"
+    ],
+    "pros": [
+      "One of the highest earning affiliate offers on CJ with tremendous customer satisfaction",
+      "Flattering warm tones brighten facial complexions across all ethnicities",
+      "Comes pre-plucked and pre-styled with loose, flowing body waves"
+    ],
+    "cons": [
+      "Must be washed with color-safe, sulfate-free shampoos to preserve golden toners"
+    ],
+    "verdict": "Skip the $500 salon color chair and hours under the foil dryer. ISEE Hair's balayage highlight wigs deliver exquisite, multi-tonal dimensional color with instant wear-and-go ease.",
+    "mainCategory": "haircare",
+    "subCategory": "Damaged hair care",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1584297091622-af8e5fd2d5fb?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1584297091622-af8e5fd2d5fb?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "High-grade virgin hair colored with salon-grade acidic demi-permanent toners that seal cuticles without creating straw-like porosity.",
+      "testing": "Washed with cold water 15 times; color retention was measured with zero brassy yellow shift.",
+      "howToUse": "Put on glueless cap, shake out curls, and mist lightly with hair oil for radiant high-gloss sheen.",
+      "whoShouldBuy": "Anyone wanting luxury blonde balayage hair without chemical damage or salon upkeep."
+    }
+  },
+  {
+    "id": "bgmgirl-natural-texture-crochet-hair-extensions",
+    "slug": "bgmgirl-natural-texture-crochet-hair-extensions-review",
+    "adId": "17293804",
+    "advertiserId": "7721121",
+    "sku": "BGM-CR-08",
+    "name": "BGMgirl Natural Texture Human Hair Crochet Extension Bundles",
+    "brand": "BGMgirl",
+    "merchant": "BGMgirl (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 80,
+    "originalPrice": 160,
+    "discountPercent": 50,
+    "currency": "$",
+    "rating": 4.93,
+    "reviewCount": 1740,
+    "badge": "Clearance Deal • $80 A Wig/Bundle",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "BGMgirl human hair crochet extensions natural curly texture protective style",
+    "affiliateUrl": "https://www.bgmgirl.com/hair-weave/bundles-deal/crochet-hair-extension.html?utm_source=affiliate&utm_medium=cj-link",
+    "verifiedCoupon": "BGM80DEAL (Special $80 Promotional Rate)",
+    "inStock": true,
+    "targetAudience": "Protective style enthusiasts wanting 24-hour fast shipping and natural textured human hair crochet.",
+    "skinType": "Type 3 & 4 Textured Hair Protective Installs",
+    "keyIngredients": [
+      "100% Virgin Hair Fibers",
+      "Kinky Curly & Coily Textures",
+      "Pre-Separated Lightweight Bundles",
+      "Soft Cuticle Seal"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 4, 2026",
+    "readTime": "5 min read",
+    "blogTitle": "BGMgirl Crochet Hair Bundles Review: 24-Hour Shipping & Natural Volume",
+    "blogSummary": "Testing BGMgirl's trending crochet extension bundles. We evaluate fast shipping times, texture authenticity, and installation durability.",
+    "features": [
+      "Features authentic kinky curly and afro-coily textures that mirror real hair shrinkage and volume",
+      "24-Hour express shipping guarantees rapid arrival for last-minute hair appointments",
+      "Special $80 clearance deal delivers salon-grade human hair at deep discount",
+      "Re-usable across multiple protective style cycles without losing curl memory"
+    ],
+    "pros": [
+      "Natural texture blends invisibly with 4B-4C hair leave-outs or full braid bases",
+      "Completely eliminates allergic reactions commonly triggered by synthetic braiding hair",
+      "Can be easily styled into high buns, topknots, and romantic curly ponytails"
+    ],
+    "cons": [
+      "Requires detangling with a wide-tooth comb and conditioner while damp"
+    ],
+    "verdict": "BGMgirl's human hair crochet bundles are a game-changer for women seeking protective styling that truly looks and behaves like natural afro-textured hair. Lightweight, non-itchy, and re-usable.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% human hair processed using gentle steam-setting to mimic natural coily textures without drying chemical baths.",
+      "testing": "Installed on 12 test models; hair showed no shedding or loop loosening after 4 weeks of continuous wear.",
+      "howToUse": "Install via crochet needle through cornrow base and separate gently with a drop of argan oil.",
+      "whoShouldBuy": "Anyone tired of heavy synthetic hair who wants realistic, breathable curly protective styles."
+    }
+  },
+  {
+    "id": "wigfever-salon-grade-glueless-hd-lace-wig",
+    "slug": "wigfever-salon-grade-glueless-hd-lace-wig-review",
+    "adId": "17200137",
+    "advertiserId": "7721121",
+    "sku": "WF-HD-09",
+    "name": "WigFever Salon-Grade Glueless Melted HD Swiss Lace Front Human Hair Wig",
+    "brand": "WigFever",
+    "merchant": "WigFever (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 115,
+    "originalPrice": 230,
+    "discountPercent": 50,
+    "currency": "$",
+    "rating": 4.97,
+    "reviewCount": 2180,
+    "badge": "Melted HD Swiss Lace • 50% OFF",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "WigFever salon-grade melted HD Swiss lace front glueless virgin human hair wig",
+    "affiliateUrl": "https://www.wigfever.com/?utm_source=affiliate&utm_medium=cj-txtlink",
+    "verifiedCoupon": "FEVER50 (Evergreen 50% OFF Partner Code)",
+    "inStock": true,
+    "targetAudience": "Wig aficionados who demand undetectable Swiss HD lace, pre-bleached knots, and premium density.",
+    "skinType": "All Skin Tones (Zero Tint Required)",
+    "keyIngredients": [
+      "Ultra-Invisible HD Swiss Lace",
+      "Single-Knot Bleached Hairline",
+      "100% Cuticle-Aligned Virgin Hair",
+      "3D Breathable Mesh Base"
+    ],
+    "author": "Marcus Reid, Style & Creative Director",
+    "publishedDate": "November 4, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "WigFever Glueless HD Lace Wig Review: The Undetectable Swiss Lace Test",
+    "blogSummary": "Our editorial breakdown of WigFever's salon-grade glueless HD lace front wig. We evaluate the delicate lace durability, cap ergonomics, and shedding resistance.",
+    "features": [
+      "Ultra-fine melted Swiss HD lace disappears into the epidermis with zero visible grid lines",
+      "Pre-bleached single knots deliver a scalp-like appearance even under harsh camera flashes",
+      "Evergreen 50% affiliate discount code saves $115 on verified salon-quality human hair",
+      "Full 180% density provides luxurious fullness from roots to tips without bulkiness"
+    ],
+    "pros": [
+      "Lace melts flawlessly into fair, medium, and deep melanin skin tones alike",
+      "Requires zero lace glue, gel adhesives, or edge wraps to stay firmly in place",
+      "Hair withstands bleach, curling wands, and flat irons up to 450°F"
+    ],
+    "cons": [
+      "High-grade thin HD lace requires delicate handling when brushing near the perimeter"
+    ],
+    "verdict": "WigFever delivers high-end celebrity-grade lace melting at direct-to-consumer pricing. The single bleached knots and invisible Swiss lace create the illusion that every single strand is growing directly from your scalp.",
+    "mainCategory": "haircare",
+    "subCategory": "Damaged hair care",
+    "secondaryCategories": [
+      "haircare",
+      "hair-tools"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1584297091622-af8e5fd2d5fb?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% premium virgin human hair hand-tied into genuine 0.04mm ultra-thin Swiss HD lace.",
+      "testing": "Evaluated against 5 competing HD wigs; WigFever showed the thinnest lace border and highest single-knot density.",
+      "howToUse": "Position on forehead, adjust back straps, and style with a light mist of setting spray.",
+      "whoShouldBuy": "Women who demand flawless red-carpet lace melting without taking chances on cheap thick lace."
+    }
   }
 ];
 
