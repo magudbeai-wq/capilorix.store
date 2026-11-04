@@ -1,34 +1,37 @@
 # robots.txt for Capilorix (https://www.capilorix.store/)
-# Strict search engine indexing directives with affiliate privacy protection
+# Optimized for Google, Bing, and Next-Gen AI Search Engines (Perplexity, Copilot, ChatGPT)
 
 User-agent: *
 Allow: /
-Allow: /skincare
-Allow: /haircare
-Allow: /hair-tools
-Allow: /makeup
-Allow: /body-care
-Allow: /beauty-tools
-Allow: /fragrance
-Allow: /k-beauty
-Allow: /products
-Allow: /reviews
-Allow: /blog
-Allow: /comparisons
-Allow: /guides
-Allow: /about
-Allow: /editorial-policy
-Allow: /how-we-review
-Allow: /affiliate-disclosure
-Allow: /privacy-policy
-Allow: /terms
-Allow: /contact
-
-# Disallow administrative console and dynamic redirect hops from search indexing
-Disallow: /admin
 Disallow: /admin/
+Disallow: /admin
 Disallow: /go/
+
+# Explicitly welcome major Search Engine & AI Search Bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Direct verification and sitemap declarations
+Allow: /BingSiteAuth.xml
+Allow: /sitemap.xml
 
 # Sitemap location
 Sitemap: https://www.capilorix.store/sitemap.xml
-
