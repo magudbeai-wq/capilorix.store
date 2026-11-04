@@ -76,6 +76,35 @@ export const analyticsService = {
       const capped = clicks.slice(0, 1000);
       localStorage.setItem(CLICKS_STORAGE_KEY, JSON.stringify(capped));
 
+      // Google Analytics 4 / Google Tag Manager integration
+      if (typeof window !== 'undefined') {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'click_affiliate_link', {
+            product_id: clickEvent.productId,
+            product_name: clickEvent.productName,
+            merchant: clickEvent.merchant,
+            affiliate_network: clickEvent.network,
+            currency: product.currency || 'USD',
+            value: product.price || 0,
+            sub_id: clickEvent.subId,
+            outbound_url: clickEvent.targetUrl
+          });
+        }
+        if (window.dataLayer && Array.isArray(window.dataLayer)) {
+          window.dataLayer.push({
+            event: 'affiliate_click',
+            ecommerce: {
+              items: [{
+                item_id: clickEvent.productId,
+                item_name: clickEvent.productName,
+                affiliation: clickEvent.merchant,
+                price: product.price || 0
+              }]
+            }
+          });
+        }
+      }
+
       // Trigger custom window event for real-time dashboard listeners
       window.dispatchEvent(new CustomEvent('capilorix:affiliate_click', { detail: clickEvent }));
       return clickEvent;
@@ -122,6 +151,33 @@ export const analyticsService = {
   // Clear click log
   clearClicks() {
     localStorage.removeItem(CLICKS_STORAGE_KEY);
+  },
+
+  // Track product impressions
+  trackProductView(product) {
+    if (!product || typeof window === 'undefined') return;
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'view_item', {
+        items: [{
+          item_id: product.id,
+          item_name: product.name,
+          item_category: product.mainCategory,
+          price: product.price || 0,
+          currency: product.currency || 'USD'
+        }]
+      });
+    }
+  },
+
+  // Track newsletter signup
+  trackNewsletterSignup(email, source = 'homepage') {
+    if (typeof window === 'undefined') return;
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'sign_up', {
+        method: 'newsletter',
+        source
+      });
+    }
   }
 };
 
