@@ -6,21 +6,22 @@ export const mainCategories = [
     slug: 'skincare',
     name: 'Skincare',
     path: '/skincare',
-    headline: 'Clinical Dermal Formulations & Barrier Science',
-    description: 'Independent laboratory analyses, active ingredient forensics, and verified merchant pricing on cleansers, serums, barrier creams, and SPF.',
+    headline: 'Clinical Formulations, Skin Care Routine & Barrier Science',
+    description: 'Independent laboratory analyses, active ingredient forensics, and verified merchant pricing on cleansers, serums, daily skin care routine steps, and top skincare products.',
     image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1200&q=85',
     subcategories: [
       'Cleansers',
       'Serums',
       'Moisturizers',
       'Sunscreen',
+      'Skin care routine',
       'Acne-care products',
       'Anti-aging skincare',
       'Exfoliants',
       'Face masks'
     ],
-    seoTitle: 'Best Skincare Products 2026 | Clinical Reviews & Deals | Capilorix',
-    seoDescription: 'Explore expert laboratory reviews, ingredient analyses, and verified partner discounts on serums, cleansers, moisturizers, and barrier repair skincare.',
+    seoTitle: 'Best Skin Care Products & Routine 2026 | Clinical Reviews | Capilorix',
+    seoDescription: 'Explore expert laboratory reviews, ingredient analyses, and verified discounts on top skincare products, daily skin care routines, and clinical barrier treatments.',
     faqs: [
       {
         q: 'How does Capilorix test and benchmark skincare formulas?',
@@ -181,17 +182,18 @@ export const mainCategories = [
     slug: 'k-beauty',
     name: 'K-Beauty',
     path: '/k-beauty',
-    headline: 'Korean Innovation, Glass Skin & Sun Protection',
-    description: 'Direct from Seoul: high-protection SPF50+ sunscreens, fermented black tea essences, milky soap-nude primers, and transfer-resistant cushion bases.',
+    headline: 'Korean Skin Care, Glass Skin Routines & Next-Gen Sun Protection',
+    description: 'Direct from Seoul: high-protection Korean skin care routines, SPF50+ sunscreens, Medicube skin care devices, fermented essences, and cushion bases.',
     image: 'https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1200&q=85',
     subcategories: [
-      'Korean skincare',
+      'Korean skin care',
       'Korean sunscreens',
       'Korean serums',
-      'Korean moisturizers'
+      'Korean moisturizers',
+      'Glass skin routines'
     ],
-    seoTitle: 'Best Korean Skincare & K-Beauty 2026 | Amore Mall & Beyond | Capilorix',
-    seoDescription: 'The definitive guide to Korean sunscreens, cushion foundations, milky tone-up bases, and fermented black tea hair treatments.',
+    seoTitle: 'Best Korean Skin Care Products & Routine 2026 | Capilorix K-Beauty',
+    seoDescription: 'The definitive guide to Korean skin care products, glass skin routines, Medicube beauty devices, featherlight Korean sunscreens, and cushion compacts.',
     faqs: [
       {
         q: 'Why are Korean sunscreens widely considered superior to Western formulas?',
