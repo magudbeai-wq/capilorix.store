@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, ShieldCheck, Heart, Award, Globe, ExternalLink } from 'lucide-react';
+import { mainCategories } from '../data/categories';
 
 export default function Footer({ navigateTo, onOpenQuiz }) {
   const handleNav = (path) => {
@@ -44,40 +45,22 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
             </div>
           </div>
 
-          {/* Column 1: Curated Departments */}
+          {/* Column 1: The 8 Main Departments */}
           <div>
             <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 font-mono">
-              Departments
+              The 8 Departments
             </h3>
-            <ul className="space-y-2.5 text-xs text-[#A8A29E]">
-              <li>
-                <button onClick={() => handleNav('/products')} className="hover:text-white transition-colors">
-                  All 29 Products Catalog
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNav('/products')} className="hover:text-white transition-colors">
-                  Clinical Skincare
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNav('/products')} className="hover:text-white transition-colors">
-                  Scalp &amp; Haircare
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNav('/products')} className="hover:text-white transition-colors">
-                  Haute Cosmetics
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNav('/products')} className="hover:text-white transition-colors">
-                  Cellular Anti-Aging
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNav('/products')} className="hover:text-white transition-colors">
-                  Body &amp; Barrier Healing
+            <ul className="space-y-2 text-xs text-[#A8A29E]">
+              {mainCategories.map((c) => (
+                <li key={c.slug}>
+                  <button onClick={() => handleNav(`/${c.slug}`)} className="hover:text-white transition-colors">
+                    {c.name}
+                  </button>
+                </li>
+              ))}
+              <li className="pt-1">
+                <button onClick={() => handleNav('/products')} className="text-[#D4C3A3] hover:underline font-semibold">
+                  All 29 Products Directory &rarr;
                 </button>
               </li>
             </ul>
@@ -86,22 +69,32 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
           {/* Column 2: Editorial & Reviews */}
           <div>
             <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-4 font-mono">
-              Editorial &amp; Tools
+              Editorial &amp; Benchmarks
             </h3>
             <ul className="space-y-2.5 text-xs text-[#A8A29E]">
               <li>
-                <button onClick={() => handleNav('/blog')} className="hover:text-white transition-colors">
+                <button onClick={() => handleNav('/reviews')} className="hover:text-white transition-colors">
                   Editorial Review Archive (29 Posts)
                 </button>
               </li>
               <li>
-                <button onClick={() => handleNav('/#compare')} className="hover:text-white transition-colors">
-                  Head-to-Head Comparison Matrix
+                <button onClick={() => handleNav('/comparisons')} className="hover:text-white transition-colors">
+                  Side-by-Side Comparison Matrix
                 </button>
               </li>
               <li>
-                <button onClick={() => handleNav('/#guides')} className="hover:text-white transition-colors">
-                  Forensic Ingredient Guides
+                <button onClick={() => handleNav('/guides')} className="hover:text-white transition-colors">
+                  Forensic Ingredient Buying Guides
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleNav('/how-we-review')} className="hover:text-white transition-colors">
+                  How We Review &amp; Test
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleNav('/editorial-policy')} className="hover:text-white transition-colors">
+                  Editorial &amp; Corrections Policy
                 </button>
               </li>
               <li>
@@ -124,18 +117,18 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
                 </button>
               </li>
               <li>
-                <button onClick={() => handleNav('/disclosure')} className="hover:text-white transition-colors">
+                <button onClick={() => handleNav('/affiliate-disclosure')} className="hover:text-white transition-colors">
                   FTC Affiliate Disclosure
                 </button>
               </li>
               <li>
-                <button onClick={() => handleNav('/privacy')} className="hover:text-white transition-colors">
+                <button onClick={() => handleNav('/privacy-policy')} className="hover:text-white transition-colors">
                   Privacy Policy (GDPR/CCPA)
                 </button>
               </li>
               <li>
                 <button onClick={() => handleNav('/terms')} className="hover:text-white transition-colors">
-                  Terms of Service
+                  Terms of Service &amp; Disclaimer
                 </button>
               </li>
               <li>
@@ -151,7 +144,7 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
         {/* Transparent FTC Affiliate Disclosure & Compliance Banner */}
         <div className="py-6 border-b border-[#2D2D2A] text-xs text-[#78716C] leading-relaxed space-y-2">
           <p>
-            <strong className="text-[#A8A29E]">FTC Affiliate &amp; Advertising Disclosure:</strong> Capilorix participates in affiliate marketing networks including CJ Affiliate (Commission Junction) and direct merchant programs. When you click on links to products from retailers such as REVOLVE, NOTINO Europe, OnBuy UK/DE/FR/IE, Amore Mall, Macy's, Wayfair, and Woot! / Amazon and make a purchase, we may earn an affiliate commission at zero additional cost to you. Pricing, inventory status, and promotional coupon codes are verified at publication and subject to real-time merchant change.
+            <strong className="text-[#A8A29E]">FTC Affiliate &amp; Commercial Disclosure:</strong> Capilorix participates in affiliate marketing programs including CJ Affiliate (Commission Junction) and direct merchant programs. When you click links to products from retailers such as REVOLVE, NOTINO Europe, OnBuy UK/DE/FR/IE, Amore Mall, Macy's, Wayfair, and Woot! / Amazon and make a purchase, we may earn an affiliate commission at zero additional cost to you. Pricing, stock, and promo codes are verified at publication and subject to real-time merchant change.
           </p>
           <p>
             <strong className="text-[#A8A29E]">Medical &amp; FDA Disclaimer:</strong> The content published on Capilorix is intended exclusively for educational, journalistic, and informational purposes. Reviews, benchmarks, and ingredient analyses are not intended as medical advice, clinical diagnosis, or treatment for dermatological disease. Consult a board-certified dermatologist or healthcare provider before initiating new topical regimens.
@@ -164,9 +157,9 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
             © {new Date().getFullYear()} Capilorix Inc. All rights reserved. Discover Better Beauty. Make Smarter Choices.
           </div>
           <div className="flex items-center gap-6">
-            <button onClick={() => handleNav('/privacy')} className="hover:text-[#A8A29E] transition-colors">Privacy</button>
+            <button onClick={() => handleNav('/privacy-policy')} className="hover:text-[#A8A29E] transition-colors">Privacy</button>
             <button onClick={() => handleNav('/terms')} className="hover:text-[#A8A29E] transition-colors">Terms</button>
-            <button onClick={() => handleNav('/disclosure')} className="hover:text-[#A8A29E] transition-colors">Disclosures</button>
+            <button onClick={() => handleNav('/affiliate-disclosure')} className="hover:text-[#A8A29E] transition-colors">Disclosures</button>
             <button onClick={() => handleNav('/contact')} className="hover:text-[#A8A29E] transition-colors">Contact</button>
           </div>
         </div>

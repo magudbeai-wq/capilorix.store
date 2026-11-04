@@ -16,6 +16,11 @@ import QuizModal from './components/QuizModal';
 import ProductsPage from './pages/ProductsPage';
 import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
+import CategoryPage from './pages/CategoryPage';
+import ComparisonsPage from './pages/ComparisonsPage';
+import GuidesPage from './pages/GuidesPage';
+import EditorialPolicyPage from './pages/EditorialPolicyPage';
+import HowWeReviewPage from './pages/HowWeReviewPage';
 import AboutPage from './pages/AboutPage';
 import DisclosurePage from './pages/DisclosurePage';
 import PrivacyPage from './pages/PrivacyPage';
@@ -23,6 +28,7 @@ import TermsPage from './pages/TermsPage';
 import ContactPage from './pages/ContactPage';
 
 import { products } from './data/products';
+import { mainCategories } from './data/categories';
 import { Sparkles, ArrowRight, Award, PlusCircle, ShieldCheck } from 'lucide-react';
 
 export default function App() {
@@ -34,7 +40,7 @@ export default function App() {
 
   const categories = ['All', 'Skincare', 'Haircare', 'Cosmetics', 'Anti-Aging', 'Body & Barrier'];
 
-  // Handle URL synchronization for /products, /blog, /blog/:slug, etc.
+  // Handle URL synchronization for /products, /blog, /blog/:slug, /skincare, etc.
   useEffect(() => {
     const handlePopState = () => {
       setCurrentPath(window.location.pathname || '/');
@@ -59,7 +65,7 @@ export default function App() {
 
   // Filter products for homepage trending section
   const filteredProducts = products.filter((p) => {
-    const matchesCat = selectedCategory === 'All' || p.category === selectedCategory;
+    const matchesCat = selectedCategory === 'All' || p.category === selectedCategory || p.mainCategory === selectedCategory.toLowerCase();
     const matchesSearch = !searchTerm || 
       p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       p.brand.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -70,30 +76,64 @@ export default function App() {
 
   // Determine current active view based on pathname
   const renderCurrentView = () => {
-    // 1. Individual Blog Post Route: /blog/:slug
-    if (currentPath.startsWith('/blog/')) {
-      const slug = currentPath.replace('/blog/', '');
+    const normPath = currentPath.endsWith('/') && currentPath.length > 1 
+      ? currentPath.slice(0, -1) 
+      : currentPath;
+
+    // 1. Individual Review Posts: /reviews/:slug or /blog/:slug
+    if (normPath.startsWith('/reviews/')) {
+      const slug = normPath.replace('/reviews/', '');
+      return <BlogPostPage slug={slug} navigateTo={navigateTo} />;
+    }
+    if (normPath.startsWith('/blog/')) {
+      const slug = normPath.replace('/blog/', '');
       return <BlogPostPage slug={slug} navigateTo={navigateTo} />;
     }
 
-    // 2. Blog Archive Hub Route: /blog
-    if (currentPath === '/blog') {
+    // 2. Review Archive Hub: /reviews or /blog
+    if (normPath === '/reviews' || normPath === '/blog') {
       return <BlogPage navigateTo={navigateTo} initialCategory={selectedCategory} />;
     }
 
-    // 3. Products Catalog Route: /products
-    if (currentPath === '/products') {
+    // 3. Comparisons Page: /comparisons
+    if (normPath === '/comparisons') {
+      return <ComparisonsPage navigateTo={navigateTo} />;
+    }
+
+    // 4. Guides Page: /guides
+    if (normPath === '/guides') {
+      return <GuidesPage navigateTo={navigateTo} />;
+    }
+
+    // 5. Products Catalog Route: /products
+    if (normPath === '/products') {
       return <ProductsPage navigateTo={navigateTo} initialCategory={selectedCategory} />;
     }
 
-    // 4. Trust & Legal Pages
-    if (currentPath === '/about') return <AboutPage />;
-    if (currentPath === '/disclosure') return <DisclosurePage />;
-    if (currentPath === '/privacy') return <PrivacyPage />;
-    if (currentPath === '/terms') return <TermsPage />;
-    if (currentPath === '/contact') return <ContactPage />;
+    // 6. 8 Main Category Pages: /skincare, /haircare, /hair-tools, /makeup, /body-care, /beauty-tools, /fragrance, /k-beauty
+    const matchedCategory = mainCategories.find(c => '/' + c.slug === normPath);
+    if (matchedCategory) {
+      return <CategoryPage categorySlug={matchedCategory.slug} navigateTo={navigateTo} />;
+    }
 
-    // 5. Default: Redesigned Luxury Homepage
+    // Check if subcategory path: e.g. /skincare/serums
+    for (const c of mainCategories) {
+      if (normPath.startsWith(`/${c.slug}/`)) {
+        const subSlug = normPath.replace(`/${c.slug}/`, '');
+        return <CategoryPage categorySlug={c.slug} subCategoryParam={subSlug} navigateTo={navigateTo} />;
+      }
+    }
+
+    // 7. Trust & Legal Pages
+    if (normPath === '/editorial-policy') return <EditorialPolicyPage navigateTo={navigateTo} />;
+    if (normPath === '/how-we-review') return <HowWeReviewPage navigateTo={navigateTo} />;
+    if (normPath === '/about') return <AboutPage />;
+    if (normPath === '/disclosure' || normPath === '/affiliate-disclosure') return <DisclosurePage />;
+    if (normPath === '/privacy' || normPath === '/privacy-policy') return <PrivacyPage />;
+    if (normPath === '/terms') return <TermsPage />;
+    if (normPath === '/contact') return <ContactPage />;
+
+    // 8. Default: Redesigned Luxury Homepage
     return (
       <>
         {/* Section 2: Large Editorial Hero Section */}
@@ -112,7 +152,7 @@ export default function App() {
           categories={categories}
         />
 
-        {/* Section 4: Featured Beauty Categories */}
+        {/* Section 4: Featured Beauty Categories (All 8 Core Departments) */}
         <CategoryShowcase
           onSelectCategory={setSelectedCategory}
           navigateTo={navigateTo}

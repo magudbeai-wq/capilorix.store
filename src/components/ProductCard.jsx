@@ -17,6 +17,7 @@ import {
 export default function ProductCard({ product, rank, navigateTo }) {
   const [copied, setCopied] = useState(false);
   const [expanded, setExpanded] = useState(false);
+  const [currentImg, setCurrentImg] = useState(product.frontImage || product.image);
 
   const handleCopyCode = (code) => {
     navigator.clipboard.writeText(code);
@@ -53,7 +54,7 @@ export default function ProductCard({ product, rank, navigateTo }) {
           <div className="lg:col-span-4 flex flex-col gap-3">
             <div className="relative rounded-xl overflow-hidden bg-[#FAF8F5] aspect-square w-full border border-[#EFE8DA] group">
               <img
-                src={product.image}
+                src={currentImg}
                 alt={product.name}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
@@ -71,6 +72,24 @@ export default function ProductCard({ product, rank, navigateTo }) {
                 Verified In Stock
               </div>
             </div>
+
+            {/* Gallery Thumbnails (Front Image, Texture, Angle) */}
+            {product.galleryImages && product.galleryImages.length > 1 && (
+              <div className="flex items-center gap-2">
+                {product.galleryImages.map((imgUrl, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setCurrentImg(imgUrl)}
+                    className={`relative w-11 h-11 rounded-lg overflow-hidden border transition-all ${
+                      currentImg === imgUrl ? 'border-[#A4895C] ring-2 ring-[#D4C3A3]' : 'border-[#EFE8DA] opacity-70 hover:opacity-100'
+                    }`}
+                    title={`View product angle ${i + 1}`}
+                  >
+                    <img src={imgUrl} alt={`Thumbnail ${i + 1}`} className="w-full h-full object-cover" />
+                  </button>
+                ))}
+              </div>
+            )}
 
             {/* Price Row */}
             <div className="flex items-baseline justify-between p-3 rounded-xl bg-[#FAF8F5] border border-[#EFE8DA]">

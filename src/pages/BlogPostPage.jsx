@@ -22,6 +22,7 @@ export default function BlogPostPage({ slug, navigateTo }) {
   const product = products.find((p) => p.slug === slug) || products[0];
   const [copiedCoupon, setCopiedCoupon] = useState(false);
   const [shared, setShared] = useState(false);
+  const [heroImg, setHeroImg] = useState(product.frontImage || product.image);
 
   const handleCopyCode = (code) => {
     navigator.clipboard.writeText(code);
@@ -139,7 +140,7 @@ export default function BlogPostPage({ slug, navigateTo }) {
           
           <div className="relative h-80 sm:h-96 w-full overflow-hidden bg-[#FAF8F5]">
             <img
-              src={product.image}
+              src={heroImg}
               alt={product.name}
               className="w-full h-full object-cover object-center"
             />
@@ -154,6 +155,29 @@ export default function BlogPostPage({ slug, navigateTo }) {
               </span>
             </div>
           </div>
+
+          {/* Interactive Packshot & Angle Gallery */}
+          {product.galleryImages && product.galleryImages.length > 1 && (
+            <div className="px-6 py-3 bg-[#FFFFFF] border-b border-[#EFE8DA] flex items-center gap-3">
+              <span className="text-[11px] font-semibold text-[#8A847F] uppercase tracking-wider font-mono">
+                Angles &amp; Texture:
+              </span>
+              <div className="flex items-center gap-2">
+                {product.galleryImages.map((imgUrl, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setHeroImg(imgUrl)}
+                    className={`relative w-12 h-12 rounded-xl overflow-hidden border transition-all ${
+                      heroImg === imgUrl ? 'border-[#A4895C] ring-2 ring-[#D4C3A3]' : 'border-[#EFE8DA] opacity-70 hover:opacity-100'
+                    }`}
+                    title={`View angle ${i + 1}`}
+                  >
+                    <img src={imgUrl} alt={`${product.name} angle ${i + 1}`} className="w-full h-full object-cover" />
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Quick Score & Buy Banner */}
           <div className="p-6 sm:p-8 bg-[#FDFBF7] border-t border-[#EFE8DA] space-y-4">
@@ -419,3 +443,4 @@ export default function BlogPostPage({ slug, navigateTo }) {
     </article>
   );
 }
+

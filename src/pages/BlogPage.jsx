@@ -212,3 +212,4 @@ export default function BlogPage({ navigateTo, initialCategory = 'All' }) {
     </div>
   );
 }
+

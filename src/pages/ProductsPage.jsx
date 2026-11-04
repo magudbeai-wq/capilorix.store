@@ -8,11 +8,16 @@ export default function ProductsPage({ navigateTo, initialCategory = 'All' }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('featured'); // 'featured', 'rating', 'price-low', 'price-high'
 
-  const categories = ['All', 'Skincare', 'Haircare', 'Cosmetics', 'Anti-Aging', 'Body & Barrier'];
+  const categories = ['All', ...beautyCategories.map(c => c.name)];
 
   // Filter & Search
   const filtered = products.filter((p) => {
-    const matchesCat = selectedCategory === 'All' || p.category === selectedCategory;
+    const targetSlug = selectedCategory.toLowerCase().replace(/\s+/g, '-');
+    const matchesCat = selectedCategory === 'All' || 
+      p.category === selectedCategory ||
+      p.mainCategory === targetSlug ||
+      (p.secondaryCategories && p.secondaryCategories.includes(targetSlug));
+      
     const matchesSearch = !searchTerm || 
       p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       p.brand.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -155,3 +160,4 @@ export default function ProductsPage({ navigateTo, initialCategory = 'All' }) {
     </div>
   );
 }
+
