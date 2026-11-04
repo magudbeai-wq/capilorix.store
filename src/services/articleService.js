@@ -14,6 +14,16 @@ export const articleService = {
       if (stored) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed) && parsed.length > 0) {
+          // Auto-merge any newly introduced seed articles by ID
+          const existingIds = new Set(parsed.map((a) => a.id));
+          const missing = seedArticles.filter((a) => !existingIds.has(a.id));
+          if (missing.length > 0) {
+            const merged = [...parsed, ...missing];
+            try {
+              localStorage.setItem(ARTICLES_STORAGE_KEY, JSON.stringify(merged));
+            } catch (_) {}
+            return merged;
+          }
           return parsed;
         }
       }

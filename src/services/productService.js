@@ -13,6 +13,16 @@ export const productService = {
       if (stored) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed) && parsed.length > 0) {
+          // Auto-merge any missing products from defaultProducts
+          const existingIds = new Set(parsed.map((p) => p.id));
+          const missing = defaultProducts.filter((p) => !existingIds.has(p.id));
+          if (missing.length > 0) {
+            const merged = [...parsed, ...missing];
+            try {
+              localStorage.setItem(PRODUCTS_STORAGE_KEY, JSON.stringify(merged));
+            } catch (_) {}
+            return merged;
+          }
           return parsed;
         }
       }
