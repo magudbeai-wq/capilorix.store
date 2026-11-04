@@ -185,15 +185,6 @@ export default function Navbar({
             >
               <ShoppingBag className="w-4 h-4" />
             </button>
-
-            {/* Admin Console Shortcut */}
-            <button
-              onClick={() => handleNav('/admin')}
-              className="p-2 rounded-full text-[#8A7147] hover:text-[#1A1A1A] hover:bg-[#F2ECE4] transition-colors"
-              title="Editorial Admin Console"
-            >
-              <ShieldCheck className="w-4 h-4 text-[#A4895C]" />
-            </button>
           </div>
         </div>
 
@@ -343,7 +334,6 @@ export default function Navbar({
             <button onClick={() => handleNav('/privacy')} className="hover:underline">Privacy</button>
             <button onClick={() => handleNav('/terms')} className="hover:underline">Terms</button>
             <button onClick={() => handleNav('/contact')} className="hover:underline">Contact</button>
-            <button onClick={() => handleNav('/admin')} className="font-bold text-[#A4895C] hover:underline">Admin Console</button>
           </div>
         </div>
       )}

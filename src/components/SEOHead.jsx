@@ -8,3 +8,4 @@ export default function SEOHead({ currentPath }) {
 
   return null;
 }
+

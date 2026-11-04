@@ -3,8 +3,8 @@ import { authService } from '../../services/authService';
 import { ShieldCheck, Lock, Mail, ArrowRight, Sparkles, AlertCircle } from 'lucide-react';
 
 export default function AdminLoginPage({ onLoginSuccess, navigateTo }) {
-  const [email, setEmail] = useState('admin@capilorix.store');
-  const [password, setPassword] = useState('Capilorix2026!');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
@@ -67,7 +67,7 @@ export default function AdminLoginPage({ onLoginSuccess, navigateTo }) {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@capilorix.store"
+                placeholder="Enter administrator email"
                 className="w-full pl-10 pr-4 py-3 rounded-xl bg-[#FAF8F5] border border-[#EFE8DA] text-sm text-[#1A1A1A] focus:outline-none focus:border-[#A4895C] transition-colors"
               />
               <Mail className="w-4 h-4 text-[#8A847F] absolute left-3.5 top-1/2 -translate-y-1/2" />
@@ -109,23 +109,13 @@ export default function AdminLoginPage({ onLoginSuccess, navigateTo }) {
           </div>
         </form>
 
-        {/* Demo Credentials Helper */}
         <div className="mt-8 pt-6 border-t border-[#EFE8DA] text-center">
-          <p className="text-[11px] text-[#8A847F] mb-2 font-mono">
-            Default Admin Credentials:
-          </p>
-          <div className="inline-block p-2.5 rounded-xl bg-[#FAF8F5] border border-[#EFE8DA] text-xs text-[#5A5552] font-mono text-left space-y-0.5">
-            <div>Email: <span className="font-bold text-[#1A1A1A]">admin@capilorix.store</span></div>
-            <div>Password: <span className="font-bold text-[#1A1A1A]">Capilorix2026!</span></div>
-          </div>
-          <div className="mt-4">
-            <button
-              onClick={() => navigateTo('/')}
-              className="text-xs text-[#8A847F] hover:text-[#1A1A1A] underline transition-colors"
-            >
-              &larr; Return to Public Website
-            </button>
-          </div>
+          <button
+            onClick={() => navigateTo('/')}
+            className="text-xs text-[#8A847F] hover:text-[#1A1A1A] underline transition-colors"
+          >
+            &larr; Return to Public Website
+          </button>
         </div>
 
       </div>

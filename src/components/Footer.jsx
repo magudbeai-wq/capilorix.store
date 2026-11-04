@@ -136,11 +136,6 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
                   Contact Editorial Board
                 </button>
               </li>
-              <li>
-                <button onClick={() => handleNav('/admin')} className="hover:text-white transition-colors text-[#D4C3A3] font-mono flex items-center gap-1.5 pt-1">
-                  <span>Editorial Portal (Admin)</span>
-                </button>
-              </li>
             </ul>
           </div>
 

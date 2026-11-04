@@ -6,8 +6,8 @@ const AUTH_STORAGE_KEY = 'capilorix_admin_session';
 // Production configurable admin credentials
 // In production, these can be augmented with backend auth / environmental secrets
 const DEFAULT_ADMIN = {
-  email: 'admin@capilorix.store',
-  name: 'Editorial Director',
+  email: 'magudbeai@gmail.com',
+  name: 'Store Administrator',
   role: 'Administrator',
   avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80'
 };
@@ -42,9 +42,9 @@ export const authService = {
     const cleanEmail = (email || '').trim().toLowerCase();
     const cleanPass = (password || '').trim();
 
-    // Standard credential check (supports admin@capilorix.store / Capilorix2026! or custom)
-    const isValidEmail = cleanEmail === 'admin@capilorix.store' || cleanEmail === 'editor@capilorix.store';
-    const isValidPass = cleanPass === 'Capilorix2026!' || cleanPass === 'admin123' || cleanPass === 'beauty2026';
+    // Secure authentication check
+    const isValidEmail = cleanEmail === 'magudbeai@gmail.com';
+    const isValidPass = cleanPass === 'Bookh.112233';
 
     if (isValidEmail && isValidPass) {
       const sessionData = {

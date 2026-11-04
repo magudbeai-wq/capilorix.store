@@ -116,7 +116,7 @@ export default function AdminLayout({ navigateTo, onLogout }) {
               <div className="hidden md:flex items-center gap-2.5 text-xs text-right">
                 <div>
                   <div className="font-bold text-white">{currentUser?.name || 'Administrator'}</div>
-                  <div className="text-[10px] text-[#D4C3A3] font-mono">{currentUser?.email || 'admin@capilorix.store'}</div>
+                  <div className="text-[10px] text-[#D4C3A3] font-mono">{currentUser?.email || 'magudbeai@gmail.com'}</div>
                 </div>
                 <img
                   src={currentUser?.avatar}
