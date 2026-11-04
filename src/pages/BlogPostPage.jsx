@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import { articleService } from '../services/articleService';
 import { productService } from '../services/productService';
 import { authors, getAuthorById } from '../data/authors';
-import { 
-  Star, 
-  Check, 
-  X, 
-  ExternalLink, 
-  Clock, 
-  Calendar, 
-  ShieldCheck, 
-  Award, 
-  Tag, 
-  ArrowLeft, 
-  ArrowRight, 
-  Share2, 
+import ProductReviewTemplate from '../components/ProductReviewTemplate';
+import {
+  Star,
+  Check,
+  X,
+  ExternalLink,
+  Clock,
+  Calendar,
+  ShieldCheck,
+  Award,
+  Tag,
+  ArrowLeft,
+  ArrowRight,
+  Share2,
   CheckCircle2,
   Sparkles,
   ShoppingBag,
@@ -43,7 +44,7 @@ export default function BlogPostPage({ slug, navigateTo }) {
       navigator.share({
         title: article ? article.title : (product.blogTitle || product.name),
         url: window.location.href
-      }).catch(() => {});
+      }).catch(() => { });
     } else {
       navigator.clipboard.writeText(window.location.href);
       setShared(true);
@@ -391,178 +392,12 @@ export default function BlogPostPage({ slug, navigateTo }) {
     );
   }
 
-  // Fallback: Individual Product Review Page (for any of the 29 products)
-  const relatedProducts = products
-    .filter((p) => p.id !== product.id)
-    .slice(0, 3);
-
+  // Fallback: Individual Product Review Page (for any of the 29 products) with complete 13-Section Specification
   return (
-    <article className="bg-[#FAF8F5] min-h-screen text-[#1A1A1A] py-10">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Top Breadcrumb Navigation */}
-        <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-[#8A847F] mb-6">
-          <div className="flex items-center gap-2">
-            <button onClick={() => navigateTo('/')} className="hover:text-[#1A1A1A]">Home</button>
-            <span>/</span>
-            <button onClick={() => navigateTo('/blog')} className="hover:text-[#1A1A1A]">Reviews</button>
-            <span>/</span>
-            <span className="text-[#1A1A1A] font-semibold truncate max-w-xs">{product.brand}</span>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <button
-              onClick={handleShare}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FFFFFF] border border-[#EFE8DA] text-xs text-[#5A5552] hover:text-[#1A1A1A] transition-colors"
-            >
-              <Share2 className="w-3.5 h-3.5" />
-              <span>{shared ? 'Link Copied!' : 'Share'}</span>
-            </button>
-          </div>
-        </div>
-
-        {/* Article Masthead */}
-        <header className="mb-8 space-y-4">
-          <div className="flex flex-wrap items-center gap-2 text-xs">
-            <span className="px-3 py-1 rounded-full bg-[#1A1A1A] text-white font-mono font-bold uppercase tracking-wider text-[11px]">
-              Forensic Lab Review
-            </span>
-            <span className="px-3 py-1 rounded-full bg-[#FFFFFF] border border-[#D4C3A3] text-[#8A7147] font-semibold uppercase tracking-wider text-[11px]">
-              {product.category}
-            </span>
-            <span className="text-[#8A847F] flex items-center gap-1 font-mono">
-              <Clock className="w-3.5 h-3.5" />
-              {product.readTime || '6 min read'}
-            </span>
-          </div>
-
-          <h1 className="text-3xl sm:text-5xl font-serif font-black text-[#1A1A1A] leading-tight">
-            {product.blogTitle || `${product.name}: Comprehensive Clinical Review`}
-          </h1>
-
-          <div className="flex items-center justify-between pt-3 border-t border-[#EFE8DA] text-xs text-[#8A847F]">
-            <div className="flex items-center gap-2">
-              <span>By <strong className="text-[#1A1A1A]">{product.author || 'Dr. Elena Vance, PhD'}</strong></span>
-              <span>•</span>
-              <span>Verified Laboratory Audit</span>
-            </div>
-            <div className="flex items-center gap-1 text-[#A4895C]">
-              <Star className="w-4 h-4 fill-[#D4C3A3] text-[#A4895C]" />
-              <span className="font-bold text-sm text-[#1A1A1A]">{product.rating}</span>
-              <span className="text-[#8A847F]">({product.reviewCount} peer reviews)</span>
-            </div>
-          </div>
-        </header>
-
-        {/* Hero Gallery */}
-        <div className="mb-10 bg-[#FFFFFF] rounded-3xl border border-[#EFE8DA] p-4 sm:p-6 shadow-sm space-y-4">
-          <div className="relative h-80 sm:h-[420px] rounded-2xl overflow-hidden bg-[#FAF8F5]">
-            <img
-              src={heroImg}
-              alt={product.name}
-              className="w-full h-full object-cover transition-all duration-300"
-            />
-            <div className="absolute top-4 left-4">
-              <span className="px-3 py-1 rounded-full bg-[#1A1A1A]/90 text-white text-xs font-mono font-bold">
-                {product.brand}
-              </span>
-            </div>
-          </div>
-
-          {/* Gallery Thumbnails */}
-          {product.galleryImages && product.galleryImages.length > 1 && (
-            <div className="flex items-center gap-3 overflow-x-auto pb-1">
-              {product.galleryImages.map((imgUrl, i) => (
-                <button
-                  key={i}
-                  onClick={() => setHeroImg(imgUrl)}
-                  className={`w-16 h-16 rounded-xl overflow-hidden border-2 shrink-0 transition-all ${
-                    heroImg === imgUrl ? 'border-[#A4895C] scale-105 shadow-xs' : 'border-[#EFE8DA] opacity-70 hover:opacity-100'
-                  }`}
-                >
-                  <img src={imgUrl} alt={`Thumbnail ${i + 1}`} className="w-full h-full object-cover" />
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-
-        {/* Commercial Buy Card */}
-        <div className="mb-10 bg-[#FFFFFF] rounded-2xl border border-[#D4C3A3] p-6 shadow-md flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div>
-            <div className="text-xs text-[#8A7147] font-bold uppercase tracking-wider font-mono">
-              Verified Partner Pricing
-            </div>
-            <div className="text-2xl sm:text-3xl font-serif font-black text-[#1A1A1A] mt-1">
-              {product.currency}{product.price}
-              {product.originalPrice && (
-                <span className="text-sm font-normal text-[#8A847F] line-through ml-2">
-                  {product.currency}{product.originalPrice}
-                </span>
-              )}
-            </div>
-            <div className="text-xs text-[#5A5552] mt-1">
-              Available at <strong className="text-[#1A1A1A]">{product.merchant}</strong> ({product.affiliateNetwork || 'CJ Affiliate'})
-            </div>
-          </div>
-
-          <a
-            href={product.affiliateUrl || product.buyUrl}
-            target="_blank"
-            rel="sponsored nofollow noopener"
-            className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-[#1A1A1A] text-white text-xs font-semibold tracking-wider uppercase hover:bg-[#2C2926] transition-all flex items-center justify-center gap-2 shadow-md shrink-0"
-          >
-            <span>Check Best Verified Price</span>
-            <ExternalLink className="w-4 h-4 text-[#D4C3A3]" />
-          </a>
-        </div>
-
-        {/* Full Review Content */}
-        <div className="space-y-8 text-sm text-[#5A5552] leading-relaxed">
-          <div className="space-y-3">
-            <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">Formula Science &amp; Active Ingredients</h2>
-            <p className="whitespace-pre-line text-xs sm:text-sm font-light leading-relaxed">
-              {product.fullReviewSections?.formula || product.description}
-            </p>
-          </div>
-
-          {product.pros && product.pros.length > 0 && (
-            <div className="p-6 rounded-2xl bg-white border border-[#EFE8DA] space-y-3">
-              <h3 className="font-bold text-[#2A6E3B] uppercase text-xs">Tested Advantages</h3>
-              <ul className="space-y-2 text-xs text-[#1A1A1A]">
-                {product.pros.map((p, i) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-[#2A6E3B] shrink-0 mt-0.5" />
-                    <span>{p}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-
-        {/* Related Products */}
-        <div className="mt-16 pt-10 border-t border-[#EFE8DA]">
-          <h3 className="text-xl font-serif font-bold text-[#1A1A1A] mb-6">Related Formulations</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {relatedProducts.map((rel) => (
-              <div
-                key={rel.id}
-                onClick={() => {
-                  navigateTo(`/blog/${rel.slug}`);
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="cursor-pointer bg-white rounded-2xl border border-[#EFE8DA] p-4 space-y-3 hover:border-[#A4895C] transition-all"
-              >
-                <img src={rel.frontImage || rel.image} alt={rel.name} className="w-full h-36 object-cover rounded-xl" />
-                <h4 className="text-xs font-serif font-bold text-[#1A1A1A] truncate">{rel.name}</h4>
-                <div className="text-xs text-[#A4895C] font-semibold">{rel.currency}{rel.price}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-      </div>
-    </article>
+    <ProductReviewTemplate
+      product={product}
+      products={products}
+      navigateTo={navigateTo}
+    />
   );
 }

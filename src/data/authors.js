@@ -54,3 +54,4 @@ export const authors = [
 export function getAuthorById(id) {
   return authors.find(a => a.id === id) || authors[0];
 }
+

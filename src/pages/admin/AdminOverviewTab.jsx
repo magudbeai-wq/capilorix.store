@@ -186,3 +186,4 @@ export default function AdminOverviewTab({ products, articles, metrics, setActiv
     </div>
   );
 }
+

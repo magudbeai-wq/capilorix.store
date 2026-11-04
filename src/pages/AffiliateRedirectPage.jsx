@@ -102,3 +102,4 @@ export default function AffiliateRedirectPage({ productId, navigateTo }) {
     </div>
   );
 }
+

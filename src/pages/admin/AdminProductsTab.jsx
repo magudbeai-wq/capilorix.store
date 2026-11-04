@@ -644,3 +644,4 @@ export default function AdminProductsTab({ products, onSaveProduct, onDeleteProd
     </div>
   );
 }
+

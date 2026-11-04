@@ -753,3 +753,4 @@ export default function AdminArticlesTab({ articles, products, onSaveArticle, on
     </div>
   );
 }
+

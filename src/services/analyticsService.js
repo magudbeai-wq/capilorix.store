@@ -124,3 +124,4 @@ export const analyticsService = {
     localStorage.removeItem(CLICKS_STORAGE_KEY);
   }
 };
+

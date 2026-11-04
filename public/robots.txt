@@ -1,0 +1,34 @@
+# robots.txt for Capilorix (https://www.capilorix.store/)
+# Strict search engine indexing directives with affiliate privacy protection
+
+User-agent: *
+Allow: /
+Allow: /skincare
+Allow: /haircare
+Allow: /hair-tools
+Allow: /makeup
+Allow: /body-care
+Allow: /beauty-tools
+Allow: /fragrance
+Allow: /k-beauty
+Allow: /products
+Allow: /reviews
+Allow: /blog
+Allow: /comparisons
+Allow: /guides
+Allow: /about
+Allow: /editorial-policy
+Allow: /how-we-review
+Allow: /affiliate-disclosure
+Allow: /privacy-policy
+Allow: /terms
+Allow: /contact
+
+# Disallow administrative console and dynamic redirect hops from search indexing
+Disallow: /admin
+Disallow: /admin/
+Disallow: /go/
+
+# Sitemap location
+Sitemap: https://www.capilorix.store/sitemap.xml
+

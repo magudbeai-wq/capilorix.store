@@ -32,6 +32,7 @@ import AdminLoginPage from './pages/admin/AdminLoginPage';
 import AdminLayout from './pages/admin/AdminLayout';
 import AffiliateRedirectPage from './pages/AffiliateRedirectPage';
 import { authService } from './services/authService';
+import SEOHead from './components/SEOHead';
 
 import { products } from './data/products';
 import { mainCategories } from './data/categories';
@@ -283,6 +284,7 @@ export default function App() {
   if (isDedicatedLayout) {
     return (
       <div className="min-h-screen bg-[#FAF8F5] text-[#1A1A1A]">
+        <SEOHead currentPath={currentPath} />
         {renderCurrentView()}
       </div>
     );
@@ -290,6 +292,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#1A1A1A] selection:bg-[#F6EAE8] selection:text-[#B85D6A]">
+      <SEOHead currentPath={currentPath} />
       {/* Section 1: Premium Navigation Bar */}
       <Navbar
         currentPath={currentPath}

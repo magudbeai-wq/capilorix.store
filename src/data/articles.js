@@ -217,3 +217,4 @@ export function getArticleBySlug(slug) {
   const clean = slug.toLowerCase().replace(/^\/+|\/+$/g, '');
   return seedArticles.find(a => a.slug === clean) || null;
 }
+
