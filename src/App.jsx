@@ -27,6 +27,12 @@ import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 import ContactPage from './pages/ContactPage';
 
+// Step 4 & 5: Admin & Outbound Tracking Pages
+import AdminLoginPage from './pages/admin/AdminLoginPage';
+import AdminLayout from './pages/admin/AdminLayout';
+import AffiliateRedirectPage from './pages/AffiliateRedirectPage';
+import { authService } from './services/authService';
+
 import { products } from './data/products';
 import { mainCategories } from './data/categories';
 import { Sparkles, ArrowRight, Award, PlusCircle, ShieldCheck } from 'lucide-react';
@@ -79,6 +85,19 @@ export default function App() {
     const normPath = currentPath.endsWith('/') && currentPath.length > 1 
       ? currentPath.slice(0, -1) 
       : currentPath;
+
+    // 0. Admin Console & Outbound Tracking Routes
+    if (normPath.startsWith('/admin')) {
+      if (authService.isAuthenticated()) {
+        return <AdminLayout navigateTo={navigateTo} onLogout={() => setCurrentPath('/admin')} />;
+      }
+      return <AdminLoginPage onLoginSuccess={() => setCurrentPath('/admin')} navigateTo={navigateTo} />;
+    }
+
+    if (normPath.startsWith('/go/')) {
+      const prodId = normPath.replace('/go/', '');
+      return <AffiliateRedirectPage productId={prodId} navigateTo={navigateTo} />;
+    }
 
     // 1. Individual Review Posts: /reviews/:slug or /blog/:slug
     if (normPath.startsWith('/reviews/')) {
@@ -255,6 +274,19 @@ export default function App() {
       </>
     );
   };
+
+  const normPath = currentPath.endsWith('/') && currentPath.length > 1 
+    ? currentPath.slice(0, -1) 
+    : currentPath;
+  const isDedicatedLayout = normPath.startsWith('/admin') || normPath.startsWith('/go/');
+
+  if (isDedicatedLayout) {
+    return (
+      <div className="min-h-screen bg-[#FAF8F5] text-[#1A1A1A]">
+        {renderCurrentView()}
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#1A1A1A] selection:bg-[#F6EAE8] selection:text-[#B85D6A]">

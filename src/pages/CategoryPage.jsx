@@ -272,3 +272,4 @@ export default function CategoryPage({ categorySlug, navigateTo, subCategoryPara
     </div>
   );
 }
+

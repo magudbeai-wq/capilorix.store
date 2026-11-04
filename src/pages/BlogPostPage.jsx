@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { products } from '../data/products';
+import { articleService } from '../services/articleService';
+import { productService } from '../services/productService';
+import { authors, getAuthorById } from '../data/authors';
 import { 
   Star, 
   Check, 
@@ -15,14 +17,20 @@ import {
   Share2, 
   CheckCircle2,
   Sparkles,
-  ShoppingBag
+  ShoppingBag,
+  HelpCircle,
+  FileCheck
 } from 'lucide-react';
 
 export default function BlogPostPage({ slug, navigateTo }) {
-  const product = products.find((p) => p.slug === slug) || products[0];
+  // Check if slug matches a CMS Article or a Product Review
+  const article = articleService.getArticleBySlug(slug);
+  const products = productService.getProducts();
+  const product = productService.getProductBySlug(slug) || products[0];
+
   const [copiedCoupon, setCopiedCoupon] = useState(false);
   const [shared, setShared] = useState(false);
-  const [heroImg, setHeroImg] = useState(product.frontImage || product.image);
+  const [heroImg, setHeroImg] = useState(product ? (product.frontImage || product.image) : '');
 
   const handleCopyCode = (code) => {
     navigator.clipboard.writeText(code);
@@ -33,7 +41,7 @@ export default function BlogPostPage({ slug, navigateTo }) {
   const handleShare = () => {
     if (navigator.share) {
       navigator.share({
-        title: product.blogTitle || product.name,
+        title: article ? article.title : (product.blogTitle || product.name),
         url: window.location.href
       }).catch(() => {});
     } else {
@@ -43,10 +51,349 @@ export default function BlogPostPage({ slug, navigateTo }) {
     }
   };
 
-  // Find 3 other related products from same or adjacent category
+  // If this is an editorial CMS article (Roundup, Comparison, Guide)
+  if (article) {
+    const author = getAuthorById(article.authorId);
+    const reviewer = getAuthorById(article.reviewerId || 'dr-sarah-jenkins');
+    
+    // Resolve assigned products
+    const assignedProducts = (article.assignedProductIds || [])
+      .map((id) => productService.getProductById(id) || productService.getProductBySlug(id))
+      .filter(Boolean);
+
+    const relatedArticles = articleService.getPublishedArticles()
+      .filter((a) => a.id !== article.id)
+      .slice(0, 3);
+
+    return (
+      <article className="bg-[#FAF8F5] min-h-screen text-[#1A1A1A] py-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          {/* Breadcrumb Navigation */}
+          <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-[#8A847F] mb-6">
+            <div className="flex items-center gap-2">
+              <button onClick={() => navigateTo('/')} className="hover:text-[#1A1A1A]">Home</button>
+              <span>/</span>
+              <button onClick={() => navigateTo('/blog')} className="hover:text-[#1A1A1A]">Editorial</button>
+              <span>/</span>
+              <span className="capitalize">{article.category}</span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <button
+                onClick={handleShare}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FFFFFF] border border-[#EFE8DA] text-xs text-[#5A5552] hover:text-[#1A1A1A] transition-colors"
+              >
+                <Share2 className="w-3.5 h-3.5" />
+                <span>{shared ? 'Link Copied!' : 'Share'}</span>
+              </button>
+            </div>
+          </div>
+
+          {/* Article Header & Masthead */}
+          <header className="mb-8 space-y-4">
+            <div className="flex flex-wrap items-center gap-2 text-xs">
+              <span className="px-3 py-1 rounded-full bg-[#1A1A1A] text-white font-mono font-bold uppercase tracking-wider text-[11px]">
+                {article.articleType}
+              </span>
+              <span className="px-3 py-1 rounded-full bg-[#FFFFFF] border border-[#D4C3A3] text-[#8A7147] font-semibold uppercase tracking-wider text-[11px] capitalize">
+                {article.category}
+              </span>
+              <span className="text-[#8A847F] flex items-center gap-1 font-mono">
+                <Clock className="w-3.5 h-3.5" />
+                {article.readTime}
+              </span>
+            </div>
+
+            <h1 className="text-3xl sm:text-5xl font-serif font-black text-[#1A1A1A] leading-tight">
+              {article.title}
+            </h1>
+
+            {article.subtitle && (
+              <p className="text-base sm:text-lg text-[#5A5552] font-light leading-relaxed">
+                {article.subtitle}
+              </p>
+            )}
+
+            {/* E-E-A-T Author & Reviewer Badge */}
+            <div className="pt-4 border-t border-[#EFE8DA] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <img
+                  src={author.avatar}
+                  alt={author.name}
+                  className="w-11 h-11 rounded-full object-cover border border-[#D4C3A3]"
+                />
+                <div>
+                  <div className="text-xs font-bold text-[#1A1A1A]">{author.name}</div>
+                  <div className="text-[11px] text-[#8A847F]">{author.title}</div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2 p-2.5 rounded-xl bg-[#FFFFFF] border border-[#EFE8DA] text-[11px] text-[#5A5552]">
+                <FileCheck className="w-4 h-4 text-[#2A6E3B] shrink-0" />
+                <div>
+                  <span className="font-semibold text-[#1A1A1A]">Medically Reviewed:</span> {reviewer.name}
+                </div>
+              </div>
+            </div>
+          </header>
+
+          {/* Hero Cover Image */}
+          <div className="mb-10 rounded-3xl overflow-hidden border border-[#EFE8DA] shadow-md bg-[#FAF8F5]">
+            <img
+              src={article.coverImage}
+              alt={article.title}
+              className="w-full h-80 sm:h-[450px] object-cover"
+            />
+          </div>
+
+          {/* FTC Editorial Transparency Notice */}
+          <div className="mb-10 p-4 rounded-2xl bg-[#FFFFFF] border border-[#D4C3A3] text-xs text-[#5A5552] flex items-start gap-3">
+            <ShieldCheck className="w-5 h-5 text-[#A4895C] shrink-0 mt-0.5" />
+            <div className="leading-relaxed">
+              <span className="font-bold text-[#1A1A1A]">Capilorix Reader-Supported Guarantee:</span> Our laboratory audits are 100% editorially independent. When you purchase formulas through our verified partner links, we may receive a standardized affiliate commission at zero additional cost to you.
+            </div>
+          </div>
+
+          {/* Assigned Products Showcase / Decision Matrix */}
+          {assignedProducts.length > 0 && (
+            <section className="mb-12 space-y-6">
+              <div className="border-b border-[#EFE8DA] pb-3">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#A4895C] font-mono">
+                  Laboratory Selections
+                </span>
+                <h2 className="text-2xl font-serif font-black text-[#1A1A1A]">
+                  Tested &amp; Benchmarked Formulas in this Report
+                </h2>
+              </div>
+
+              <div className="space-y-6">
+                {assignedProducts.map((p, idx) => (
+                  <div key={p.id} className="bg-[#FFFFFF] rounded-2xl border border-[#EFE8DA] p-6 shadow-xs space-y-4">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                      <div className="flex items-center gap-4">
+                        <span className="w-8 h-8 rounded-full bg-[#1A1A1A] text-white flex items-center justify-center font-serif font-bold text-sm shrink-0">
+                          #{idx + 1}
+                        </span>
+                        <div>
+                          <div className="text-[11px] font-mono text-[#A4895C] uppercase font-bold">{p.brand}</div>
+                          <h3 className="text-lg font-serif font-bold text-[#1A1A1A]">{p.name}</h3>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center gap-3 shrink-0">
+                        <div className="text-right">
+                          <div className="text-lg font-serif font-black text-[#1A1A1A]">
+                            {p.currency || '$'}{p.price}
+                          </div>
+                          <div className="text-[10px] text-[#8A847F] font-mono">
+                            Partner: {p.merchant}
+                          </div>
+                        </div>
+
+                        <a
+                          href={p.affiliateUrl || p.buyUrl}
+                          target="_blank"
+                          rel="sponsored nofollow noopener"
+                          className="px-4 py-2.5 rounded-xl bg-[#1A1A1A] text-white text-xs font-semibold hover:bg-[#2C2926] transition-all flex items-center gap-1.5 shadow-sm"
+                        >
+                          <span>Check Price</span>
+                          <ExternalLink className="w-3.5 h-3.5 text-[#D4C3A3]" />
+                        </a>
+                      </div>
+                    </div>
+
+                    <p className="text-xs text-[#5A5552] leading-relaxed">
+                      {p.description}
+                    </p>
+
+                    {/* Pros & Cons pills */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs">
+                      {p.pros && p.pros.length > 0 && (
+                        <div className="p-3 rounded-xl bg-green-50/50 border border-green-100 space-y-1">
+                          <div className="font-bold text-green-900 text-[11px] uppercase">Key Advantage</div>
+                          <div className="text-green-800 text-xs">{p.pros[0]}</div>
+                        </div>
+                      )}
+                      {p.cons && p.cons.length > 0 && (
+                        <div className="p-3 rounded-xl bg-amber-50/50 border border-amber-100 space-y-1">
+                          <div className="font-bold text-amber-900 text-[11px] uppercase">Consideration</div>
+                          <div className="text-amber-800 text-xs">{p.cons[0]}</div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Article Content Sections */}
+          <div className="space-y-8 text-sm text-[#2C2926] leading-relaxed">
+            {article.contentSections && article.contentSections.map((sec, idx) => (
+              <div key={idx} className="space-y-3">
+                <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">
+                  {sec.heading}
+                </h2>
+                <div className="whitespace-pre-line text-xs sm:text-sm text-[#5A5552] font-light leading-relaxed">
+                  {sec.body}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Pros & Cons Summary Matrix */}
+          {((article.pros && article.pros.length > 0) || (article.cons && article.cons.length > 0)) && (
+            <div className="my-10 p-6 rounded-3xl bg-[#FFFFFF] border border-[#EFE8DA] space-y-4">
+              <h3 className="text-xl font-serif font-bold text-[#1A1A1A]">
+                Capilorix Laboratory Pros &amp; Cons Matrix
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-xs">
+                <div>
+                  <h4 className="font-bold text-[#2A6E3B] uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                    <Check className="w-4 h-4 text-[#2A6E3B]" />
+                    <span>Tested Advantages</span>
+                  </h4>
+                  <ul className="space-y-2">
+                    {article.pros.map((pro, i) => (
+                      <li key={i} className="flex items-start gap-2 text-[#2C2926]">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#2A6E3B] mt-1.5 shrink-0" />
+                        <span>{pro}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-[#9C3A3A] uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                    <X className="w-4 h-4 text-[#9C3A3A]" />
+                    <span>Tested Considerations</span>
+                  </h4>
+                  <ul className="space-y-2">
+                    {article.cons.map((con, i) => (
+                      <li key={i} className="flex items-start gap-2 text-[#5A5552]">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#9C3A3A] mt-1.5 shrink-0" />
+                        <span>{con}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* FAQ Accordion (with FAQPage schema compatibility) */}
+          {article.faqs && article.faqs.length > 0 && (
+            <section className="my-10 space-y-4">
+              <div className="border-b border-[#EFE8DA] pb-3">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#A4895C] font-mono">
+                  Clinical Q&amp;A
+                </span>
+                <h3 className="text-2xl font-serif font-bold text-[#1A1A1A]">
+                  Frequently Asked Questions
+                </h3>
+              </div>
+
+              <div className="space-y-3">
+                {article.faqs.map((faq, i) => (
+                  <div key={i} className="p-5 rounded-2xl bg-[#FFFFFF] border border-[#EFE8DA] space-y-2">
+                    <h4 className="text-sm font-serif font-bold text-[#1A1A1A]">
+                      {faq.question}
+                    </h4>
+                    <p className="text-xs text-[#5A5552] leading-relaxed font-light">
+                      {faq.answer}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Comprehensive E-E-A-T Author Bio Card */}
+          <div className="my-12 p-6 sm:p-8 rounded-3xl bg-[#FFFFFF] border border-[#EFE8DA] shadow-xs flex flex-col sm:flex-row items-start gap-6">
+            <img
+              src={author.avatar}
+              alt={author.name}
+              className="w-20 h-20 rounded-2xl object-cover border border-[#D4C3A3] shrink-0"
+            />
+            <div className="space-y-3 text-xs">
+              <div>
+                <span className="text-[10px] font-bold text-[#A4895C] uppercase tracking-wider font-mono">
+                  Lead Clinical Author
+                </span>
+                <h4 className="text-lg font-serif font-bold text-[#1A1A1A]">{author.name}</h4>
+                <div className="text-xs text-[#5A5552] font-medium">{author.title}</div>
+              </div>
+              <p className="text-xs text-[#5A5552] leading-relaxed font-light">
+                {author.bio}
+              </p>
+              {author.qualifications && (
+                <div className="flex flex-wrap gap-2 pt-1">
+                  {author.qualifications.map((q, idx) => (
+                    <span key={idx} className="px-2.5 py-1 rounded-md bg-[#FAF8F5] border border-[#EFE8DA] text-[10px] font-mono text-[#8A7147]">
+                      {q}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Related Articles */}
+          {relatedArticles.length > 0 && (
+            <div className="mt-12 pt-8 border-t border-[#EFE8DA] space-y-6">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl font-serif font-bold text-[#1A1A1A]">
+                  Related Editorial Analyses
+                </h3>
+                <button
+                  onClick={() => navigateTo('/blog')}
+                  className="text-xs font-bold text-[#A4895C] hover:underline"
+                >
+                  View All &rarr;
+                </button>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {relatedArticles.map((rel) => (
+                  <div
+                    key={rel.id}
+                    onClick={() => {
+                      navigateTo(`/blog/${rel.slug}`);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="cursor-pointer bg-white rounded-2xl border border-[#EFE8DA] overflow-hidden p-4 space-y-3 hover:border-[#A4895C] transition-all flex flex-col justify-between"
+                  >
+                    <div className="space-y-2">
+                      <img
+                        src={rel.coverImage}
+                        alt={rel.title}
+                        className="w-full h-32 object-cover rounded-xl"
+                      />
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-[#A4895C] font-mono">
+                        {rel.category}
+                      </span>
+                      <h4 className="text-xs font-serif font-bold text-[#1A1A1A] line-clamp-2">
+                        {rel.title}
+                      </h4>
+                    </div>
+                    <div className="text-[10px] text-[#8A847F] pt-2 border-t border-[#F5EFE6]">
+                      {rel.readTime}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+        </div>
+      </article>
+    );
+  }
+
+  // Fallback: Individual Product Review Page (for any of the 29 products)
   const relatedProducts = products
     .filter((p) => p.id !== product.id)
-    .filter((p) => p.category === product.category || Math.random() > 0.5)
     .slice(0, 3);
 
   return (
@@ -58,351 +405,146 @@ export default function BlogPostPage({ slug, navigateTo }) {
           <div className="flex items-center gap-2">
             <button onClick={() => navigateTo('/')} className="hover:text-[#1A1A1A]">Home</button>
             <span>/</span>
-            <button onClick={() => navigateTo('/blog')} className="hover:text-[#1A1A1A]">Editorial Reviews</button>
+            <button onClick={() => navigateTo('/blog')} className="hover:text-[#1A1A1A]">Reviews</button>
             <span>/</span>
-            <button onClick={() => navigateTo('/products')} className="hover:text-[#1A1A1A]">{product.category}</button>
-            <span>/</span>
-            <span className="text-[#1A1A1A] font-semibold truncate max-w-[200px]">{product.brand}</span>
+            <span className="text-[#1A1A1A] font-semibold truncate max-w-xs">{product.brand}</span>
           </div>
 
-          <button
-            onClick={() => navigateTo('/blog')}
-            className="inline-flex items-center gap-1 font-bold text-[#8A7147] hover:text-[#1A1A1A]"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" />
-            <span>Back to All Reviews</span>
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleShare}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FFFFFF] border border-[#EFE8DA] text-xs text-[#5A5552] hover:text-[#1A1A1A] transition-colors"
+            >
+              <Share2 className="w-3.5 h-3.5" />
+              <span>{shared ? 'Link Copied!' : 'Share'}</span>
+            </button>
+          </div>
         </div>
 
         {/* Article Masthead */}
-        <header className="space-y-4 mb-8">
-          
-          <div className="flex flex-wrap items-center gap-2.5">
-            <span className="px-3 py-1 rounded-full bg-[#FAF8F5] border border-[#D4C3A3] text-xs font-semibold text-[#8A7147] uppercase tracking-wider">
+        <header className="mb-8 space-y-4">
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <span className="px-3 py-1 rounded-full bg-[#1A1A1A] text-white font-mono font-bold uppercase tracking-wider text-[11px]">
+              Forensic Lab Review
+            </span>
+            <span className="px-3 py-1 rounded-full bg-[#FFFFFF] border border-[#D4C3A3] text-[#8A7147] font-semibold uppercase tracking-wider text-[11px]">
               {product.category}
             </span>
-            <span className="px-3 py-1 rounded-full bg-[#F6EAE8] border border-[#E3B8B8] text-xs font-semibold text-[#8C3D49]">
-              {product.badge}
+            <span className="text-[#8A847F] flex items-center gap-1 font-mono">
+              <Clock className="w-3.5 h-3.5" />
+              {product.readTime || '6 min read'}
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-serif font-black text-[#1A1A1A] leading-[1.15]">
-            {product.blogTitle || `${product.name} In-Depth Clinical Review`}
+          <h1 className="text-3xl sm:text-5xl font-serif font-black text-[#1A1A1A] leading-tight">
+            {product.blogTitle || `${product.name}: Comprehensive Clinical Review`}
           </h1>
 
-          <p className="text-base sm:text-lg text-[#5A5552] font-light leading-relaxed">
-            {product.blogSummary || product.verdict}
-          </p>
-
-          {/* Author Byline & Fact Check Badge */}
-          <div className="pt-3 border-t border-[#EFE8DA] flex flex-wrap items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-[#EFE8DA] overflow-hidden border border-white shadow-xs">
-                <img
-                  src="https://images.unsplash.com/photo-1594824813589-4b68fd5bb49a?auto=format&fit=crop&w=150&q=80"
-                  alt={product.author}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="text-xs">
-                <div className="font-bold text-[#1A1A1A]">{product.author}</div>
-                <div className="text-[#8A847F] flex items-center gap-1.5">
-                  <span>{product.publishedDate}</span>
-                  <span>•</span>
-                  <span className="flex items-center gap-1">
-                    <Clock className="w-3 h-3" />
-                    {product.readTime}
-                  </span>
-                </div>
-              </div>
+          <div className="flex items-center justify-between pt-3 border-t border-[#EFE8DA] text-xs text-[#8A847F]">
+            <div className="flex items-center gap-2">
+              <span>By <strong className="text-[#1A1A1A]">{product.author || 'Dr. Elena Vance, PhD'}</strong></span>
+              <span>•</span>
+              <span>Verified Laboratory Audit</span>
             </div>
-
-            <div className="flex items-center gap-3">
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#FFFFFF] border border-[#EFE8DA] text-[11px] font-semibold text-[#3D7055]">
-                <ShieldCheck className="w-3.5 h-3.5 text-[#3D7055]" />
-                <span>Fact-Checked &amp; Lab-Verified</span>
-              </span>
-
-              <button
-                onClick={handleShare}
-                className="p-2 rounded-full bg-[#FFFFFF] border border-[#EFE8DA] text-[#5A5552] hover:text-[#1A1A1A] transition-colors"
-                title="Share this article"
-              >
-                <Share2 className="w-4 h-4" />
-              </button>
+            <div className="flex items-center gap-1 text-[#A4895C]">
+              <Star className="w-4 h-4 fill-[#D4C3A3] text-[#A4895C]" />
+              <span className="font-bold text-sm text-[#1A1A1A]">{product.rating}</span>
+              <span className="text-[#8A847F]">({product.reviewCount} peer reviews)</span>
             </div>
           </div>
-
         </header>
 
-        {/* Featured Product Hero Card */}
-        <div className="bg-[#FFFFFF] rounded-3xl border border-[#EFE8DA] shadow-lg overflow-hidden mb-12">
-          
-          <div className="relative h-80 sm:h-96 w-full overflow-hidden bg-[#FAF8F5]">
+        {/* Hero Gallery */}
+        <div className="mb-10 bg-[#FFFFFF] rounded-3xl border border-[#EFE8DA] p-4 sm:p-6 shadow-sm space-y-4">
+          <div className="relative h-80 sm:h-[420px] rounded-2xl overflow-hidden bg-[#FAF8F5]">
             <img
               src={heroImg}
               alt={product.name}
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover transition-all duration-300"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-            
-            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white text-xs">
-              <span className="bg-black/70 backdrop-blur-xs px-3 py-1 rounded-md font-mono">
-                Verified Sample: {product.sku}
-              </span>
-              <span className="bg-white/95 backdrop-blur-xs text-[#1A1A1A] px-3 py-1 rounded-md font-bold">
-                Sold by {product.merchant}
+            <div className="absolute top-4 left-4">
+              <span className="px-3 py-1 rounded-full bg-[#1A1A1A]/90 text-white text-xs font-mono font-bold">
+                {product.brand}
               </span>
             </div>
           </div>
 
-          {/* Interactive Packshot & Angle Gallery */}
+          {/* Gallery Thumbnails */}
           {product.galleryImages && product.galleryImages.length > 1 && (
-            <div className="px-6 py-3 bg-[#FFFFFF] border-b border-[#EFE8DA] flex items-center gap-3">
-              <span className="text-[11px] font-semibold text-[#8A847F] uppercase tracking-wider font-mono">
-                Angles &amp; Texture:
-              </span>
-              <div className="flex items-center gap-2">
-                {product.galleryImages.map((imgUrl, i) => (
-                  <button
-                    key={i}
-                    onClick={() => setHeroImg(imgUrl)}
-                    className={`relative w-12 h-12 rounded-xl overflow-hidden border transition-all ${
-                      heroImg === imgUrl ? 'border-[#A4895C] ring-2 ring-[#D4C3A3]' : 'border-[#EFE8DA] opacity-70 hover:opacity-100'
-                    }`}
-                    title={`View angle ${i + 1}`}
-                  >
-                    <img src={imgUrl} alt={`${product.name} angle ${i + 1}`} className="w-full h-full object-cover" />
-                  </button>
-                ))}
-              </div>
+            <div className="flex items-center gap-3 overflow-x-auto pb-1">
+              {product.galleryImages.map((imgUrl, i) => (
+                <button
+                  key={i}
+                  onClick={() => setHeroImg(imgUrl)}
+                  className={`w-16 h-16 rounded-xl overflow-hidden border-2 shrink-0 transition-all ${
+                    heroImg === imgUrl ? 'border-[#A4895C] scale-105 shadow-xs' : 'border-[#EFE8DA] opacity-70 hover:opacity-100'
+                  }`}
+                >
+                  <img src={imgUrl} alt={`Thumbnail ${i + 1}`} className="w-full h-full object-cover" />
+                </button>
+              ))}
             </div>
           )}
+        </div>
 
-          {/* Quick Score & Buy Banner */}
-          <div className="p-6 sm:p-8 bg-[#FDFBF7] border-t border-[#EFE8DA] space-y-4">
-            
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-              <div>
-                <span className="text-xs font-bold text-[#B85D6A] uppercase tracking-wider font-mono">
-                  {product.brand}
-                </span>
-                <h2 className="text-xl sm:text-2xl font-serif font-bold text-[#1A1A1A]">
-                  {product.name}
-                </h2>
-                
-                <div className="flex items-center gap-2 mt-1 text-xs">
-                  <div className="flex text-[#A4895C]">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-3.5 h-3.5 fill-[#D4C3A3] text-[#A4895C]" />
-                    ))}
-                  </div>
-                  <span className="font-bold text-[#1A1A1A]">{product.rating} / 5.00</span>
-                  <span className="text-[#8A847F]">({product.reviewCount} verified buyer evaluations)</span>
-                </div>
-              </div>
-
-              <div className="text-left sm:text-right shrink-0">
-                <div className="text-3xl font-serif font-black text-[#1A1A1A]">
-                  {product.currency}{product.price.toFixed(2)}
-                </div>
-                {product.originalPrice > product.price && (
-                  <span className="text-xs text-[#8A847F] line-through block">
-                    Retail: {product.currency}{product.originalPrice.toFixed(2)} ({product.discountPercent}% OFF)
-                  </span>
-                )}
-              </div>
+        {/* Commercial Buy Card */}
+        <div className="mb-10 bg-[#FFFFFF] rounded-2xl border border-[#D4C3A3] p-6 shadow-md flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <div className="text-xs text-[#8A7147] font-bold uppercase tracking-wider font-mono">
+              Verified Partner Pricing
             </div>
-
-            {/* Direct Shop Button */}
-            <div className="pt-2 flex flex-col sm:flex-row gap-3">
-              <a
-                href={product.affiliateUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener"
-                className="flex-1 py-4 px-6 rounded-2xl bg-[#1A1A1A] hover:bg-[#A4895C] text-white text-sm font-bold tracking-wide transition-all shadow-md flex items-center justify-center gap-2"
-              >
-                <span>Check Live Price on {product.merchant}</span>
-                <ExternalLink className="w-4 h-4" />
-              </a>
-
-              {product.verifiedCoupon && (
-                <button
-                  onClick={() => handleCopyCode(product.verifiedCoupon.split(' ')[0])}
-                  className="py-4 px-5 rounded-2xl border border-dashed border-[#D4C3A3] bg-[#FFFFFF] hover:bg-[#F6EAE8] text-xs font-mono text-[#8A7147] hover:text-[#8C3D49] flex items-center justify-center gap-2 transition-colors shrink-0"
-                >
-                  <Tag className="w-3.5 h-3.5" />
-                  <span>{copiedCoupon ? 'Coupon Copied!' : product.verifiedCoupon}</span>
-                </button>
+            <div className="text-2xl sm:text-3xl font-serif font-black text-[#1A1A1A] mt-1">
+              {product.currency}{product.price}
+              {product.originalPrice && (
+                <span className="text-sm font-normal text-[#8A847F] line-through ml-2">
+                  {product.currency}{product.originalPrice}
+                </span>
               )}
             </div>
-
+            <div className="text-xs text-[#5A5552] mt-1">
+              Available at <strong className="text-[#1A1A1A]">{product.merchant}</strong> ({product.affiliateNetwork || 'CJ Affiliate'})
+            </div>
           </div>
 
+          <a
+            href={product.affiliateUrl || product.buyUrl}
+            target="_blank"
+            rel="sponsored nofollow noopener"
+            className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-[#1A1A1A] text-white text-xs font-semibold tracking-wider uppercase hover:bg-[#2C2926] transition-all flex items-center justify-center gap-2 shadow-md shrink-0"
+          >
+            <span>Check Best Verified Price</span>
+            <ExternalLink className="w-4 h-4 text-[#D4C3A3]" />
+          </a>
         </div>
 
-        {/* In-Depth Article Content Sections */}
-        <div className="bg-[#FFFFFF] rounded-3xl border border-[#EFE8DA] p-6 sm:p-10 shadow-xs space-y-8 text-[#2D2D2A] leading-relaxed">
-          
-          {/* Section 1: Clinical Verdict Summary */}
-          <div className="p-5 rounded-2xl bg-[#FAF8F5] border-l-4 border-[#A4895C] space-y-2">
-            <h3 className="text-sm font-bold uppercase tracking-wider text-[#8A7147] font-mono">
-              The Capilorix Executive Verdict
-            </h3>
-            <p className="text-sm text-[#1A1A1A] italic leading-relaxed">
-              "{product.verdict}"
+        {/* Full Review Content */}
+        <div className="space-y-8 text-sm text-[#5A5552] leading-relaxed">
+          <div className="space-y-3">
+            <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">Formula Science &amp; Active Ingredients</h2>
+            <p className="whitespace-pre-line text-xs sm:text-sm font-light leading-relaxed">
+              {product.fullReviewSections?.formula || product.description}
             </p>
           </div>
 
-          {/* Section 2: Active Biochemical Formulation */}
-          <section className="space-y-3">
-            <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">
-              1. The Active Formulation &amp; Biochemical Architecture
-            </h2>
-            <p className="text-sm text-[#5A5552] leading-relaxed font-light">
-              {product.fullReviewSections?.formula || 
-                `Formulated with high-potency bio-compatible actives, ${product.name} operates on a cellular level to enhance cutaneous vitality. Unlike generic off-the-shelf cosmetics, its molecular delivery is engineered for sustained biological release without sensitizing delicate facial and body tissue.`}
-            </p>
-
-            {product.keyIngredients && (
-              <div className="pt-2">
-                <span className="text-xs font-bold text-[#8A7147] uppercase tracking-wider block mb-2 font-mono">
-                  Key Actives &amp; Concentrations:
-                </span>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  {product.keyIngredients.map((ing) => (
-                    <div key={ing} className="p-2.5 rounded-xl bg-[#FAF8F5] border border-[#EFE8DA] text-xs flex items-center gap-2">
-                      <Sparkles className="w-3.5 h-3.5 text-[#A4895C] shrink-0" />
-                      <span className="font-medium text-[#1A1A1A]">{ing}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-          </section>
-
-          {/* Section 3: Laboratory & 30-Day Testing */}
-          <section className="space-y-3">
-            <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">
-              2. Laboratory Efficacy &amp; 30-Day Cohort Testing
-            </h2>
-            <p className="text-sm text-[#5A5552] leading-relaxed font-light">
-              {product.fullReviewSections?.testing || 
-                `Our clinical panel subjected ${product.brand}'s formula to extensive 4-week instrumented analysis. Evaluated using dermal hydration corneometers, profilometry roughness scans, and patient self-assessment indices across diverse skin types.`}
-            </p>
-          </section>
-
-          {/* Section 4: Pros and Cons Matrix */}
-          <section className="space-y-4">
-            <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">
-              3. The Clinical Pros &amp; Practical Nuances
-            </h2>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-5 rounded-2xl bg-[#FAF8F5] border border-[#EFE8DA]">
-                <div className="flex items-center gap-2 text-xs font-bold text-[#3D7055] uppercase tracking-wider mb-3">
-                  <Check className="w-4 h-4" />
-                  <span>Validated Strengths</span>
-                </div>
-                <ul className="space-y-2 text-xs text-[#5A5552]">
-                  {product.pros.map((pro, i) => (
-                    <li key={i} className="flex items-start gap-2">
-                      <span className="text-[#3D7055] font-bold mt-0.5">•</span>
-                      <span>{pro}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="p-5 rounded-2xl bg-[#FAF8F5] border border-[#EFE8DA]">
-                <div className="flex items-center gap-2 text-xs font-bold text-[#B85D6A] uppercase tracking-wider mb-3">
-                  <X className="w-4 h-4" />
-                  <span>Important Nuances</span>
-                </div>
-                <ul className="space-y-2 text-xs text-[#5A5552]">
-                  {product.cons.map((con, i) => (
-                    <li key={i} className="flex items-start gap-2">
-                      <span className="text-[#B85D6A] font-bold mt-0.5">•</span>
-                      <span>{con}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          {product.pros && product.pros.length > 0 && (
+            <div className="p-6 rounded-2xl bg-white border border-[#EFE8DA] space-y-3">
+              <h3 className="font-bold text-[#2A6E3B] uppercase text-xs">Tested Advantages</h3>
+              <ul className="space-y-2 text-xs text-[#1A1A1A]">
+                {product.pros.map((p, i) => (
+                  <li key={i} className="flex items-start gap-2">
+                    <Check className="w-4 h-4 text-[#2A6E3B] shrink-0 mt-0.5" />
+                    <span>{p}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
-          </section>
-
-          {/* Section 5: Application Protocol & How to Use */}
-          <section className="space-y-3">
-            <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">
-              4. Recommended Clinical Application Protocol
-            </h2>
-            <p className="text-sm text-[#5A5552] leading-relaxed font-light">
-              {product.fullReviewSections?.howToUse || 
-                `For maximum bio-availability, apply after thorough cleansing and water-based toning. Warm a measured dose between fingertips and gently press into targeted skin, allowing 60 seconds of full absorption before layering subsequent moisturizers or sun protection.`}
-            </p>
-          </section>
-
-          {/* Section 6: Target Audience: Who Should Buy */}
-          <section className="space-y-3">
-            <h2 className="text-2xl font-serif font-bold text-[#1A1A1A]">
-              5. Candidate Profile: Who Benefits Most
-            </h2>
-            <p className="text-sm text-[#5A5552] leading-relaxed font-light">
-              {product.fullReviewSections?.whoShouldBuy || 
-                `Ideal for individuals experiencing targeted dermal challenges who seek reliable, active ingredient transparency without inflated boutique marketing markups.`}
-            </p>
-          </section>
-
-          {/* Final Callout Banner */}
-          <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-[#1A1A1A] to-[#2D2D2A] text-white text-center space-y-4">
-            <span className="inline-block px-3 py-1 rounded-full bg-[#A4895C] text-xs font-bold tracking-wider uppercase">
-              Exclusive Partner Verified Deal
-            </span>
-            <h3 className="text-2xl font-serif font-bold">
-              Ready to Experience {product.name}?
-            </h3>
-            <p className="text-xs sm:text-sm text-[#D4C3A3] max-w-lg mx-auto font-light">
-              Verified available directly through {product.merchant} for {product.currency}{product.price.toFixed(2)}. Includes fast tracked delivery across the USA, UK, Canada, Australia &amp; Europe.
-            </p>
-            <div className="pt-2">
-              <a
-                href={product.affiliateUrl}
-                target="_blank"
-                rel="sponsored nofollow noopener"
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-white hover:bg-[#FAF8F5] text-[#1A1A1A] text-sm font-bold tracking-wide transition-all shadow-lg"
-              >
-                <span>Shop Verified Deal on {product.merchant}</span>
-                <ExternalLink className="w-4 h-4 text-[#A4895C]" />
-              </a>
-            </div>
-            <div className="text-[11px] text-[#A8A29E]">
-              Price &amp; stock verified active. Backed by direct merchant buyer protections.
-            </div>
-          </div>
-
+          )}
         </div>
 
-        {/* Related Product Reviews Grid */}
-        <div className="mt-16 pt-12 border-t border-[#EFE8DA]">
-          <div className="flex items-center justify-between mb-8">
-            <div>
-              <span className="text-xs font-bold text-[#8A7147] uppercase tracking-wider block font-mono">
-                More Investigations
-              </span>
-              <h3 className="text-2xl font-serif font-bold text-[#1A1A1A]">
-                Related Editorial Reviews
-              </h3>
-            </div>
-            <button
-              onClick={() => navigateTo('/blog')}
-              className="text-xs font-bold text-[#8A7147] hover:text-[#1A1A1A] flex items-center gap-1"
-            >
-              <span>View All 29 Reviews</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </button>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Related Products */}
+        <div className="mt-16 pt-10 border-t border-[#EFE8DA]">
+          <h3 className="text-xl font-serif font-bold text-[#1A1A1A] mb-6">Related Formulations</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {relatedProducts.map((rel) => (
               <div
                 key={rel.id}
@@ -410,30 +552,11 @@ export default function BlogPostPage({ slug, navigateTo }) {
                   navigateTo(`/blog/${rel.slug}`);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="group cursor-pointer bg-[#FFFFFF] rounded-2xl border border-[#EFE8DA] overflow-hidden shadow-xs hover:shadow-xl hover:border-[#D4C3A3] transition-all p-4 space-y-3 flex flex-col justify-between"
+                className="cursor-pointer bg-white rounded-2xl border border-[#EFE8DA] p-4 space-y-3 hover:border-[#A4895C] transition-all"
               >
-                <div className="space-y-2">
-                  <div className="relative h-40 w-full overflow-hidden rounded-xl bg-[#FAF8F5]">
-                    <img
-                      src={rel.image}
-                      alt={rel.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                    />
-                  </div>
-                  <span className="text-[10px] font-bold text-[#B85D6A] uppercase font-mono block">
-                    {rel.category}
-                  </span>
-                  <h4 className="text-sm font-serif font-bold text-[#1A1A1A] line-clamp-2 group-hover:text-[#8A7147] transition-colors">
-                    {rel.name}
-                  </h4>
-                </div>
-
-                <div className="flex items-center justify-between text-xs pt-2 border-t border-[#F5EFE6]">
-                  <span className="font-bold text-[#1A1A1A]">{rel.currency}{rel.price.toFixed(2)}</span>
-                  <span className="text-[#8A7147] font-semibold flex items-center gap-1">
-                    Read Review <ArrowRight className="w-3 h-3" />
-                  </span>
-                </div>
+                <img src={rel.frontImage || rel.image} alt={rel.name} className="w-full h-36 object-cover rounded-xl" />
+                <h4 className="text-xs font-serif font-bold text-[#1A1A1A] truncate">{rel.name}</h4>
+                <div className="text-xs text-[#A4895C] font-semibold">{rel.currency}{rel.price}</div>
               </div>
             ))}
           </div>
@@ -443,4 +566,3 @@ export default function BlogPostPage({ slug, navigateTo }) {
     </article>
   );
 }
-
