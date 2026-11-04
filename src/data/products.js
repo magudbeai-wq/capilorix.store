@@ -2622,6 +2622,563 @@ export const products = [
       "howToUse": "Position on forehead, adjust back straps, and style with a light mist of setting spray.",
       "whoShouldBuy": "Women who demand flawless red-carpet lace melting without taking chances on cheap thick lace."
     }
+  },
+  {
+    "id": "biologique-recherche-lotion-p50-1970",
+    "slug": "biologique-recherche-lotion-p50-1970-review",
+    "adId": "14467337",
+    "advertiserId": "5701056",
+    "sku": "BR-P50-1970",
+    "name": "Biologique Recherche Lotion P50 1970 (Original Formula Exfoliating Toner)",
+    "brand": "Biologique Recherche",
+    "merchant": "AIDA BICAJ (CJ Affiliate)",
+    "category": "Skincare",
+    "price": 115,
+    "originalPrice": 115,
+    "discountPercent": 0,
+    "currency": "$",
+    "rating": 4.99,
+    "reviewCount": 6890,
+    "badge": "The Holy Grail Acid Toner • Cult Classic",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Biologique Recherche Lotion P50 1970 luxury exfoliating toner bottle",
+    "affiliateUrl": "https://www.aidabicaj.com/products/biologique-recherche-lotion-p50-1970-original-formula",
+    "verifiedCoupon": "AIDABICAJ (Authorized Biologique Recherche Retailer)",
+    "inStock": true,
+    "targetAudience": "Anyone seeking glass skin pore refinement, sebum regulation, and clinical acid exfoliation.",
+    "skinType": "Oily, Combination, Normal & Keratinized Epidermal Shields",
+    "keyIngredients": [
+      "Lactic Acid (AHA)",
+      "Salicylic Acid (BHA)",
+      "Gluconolactone (PHA)",
+      "Sulfur & Niacinamide",
+      "Phenol (1970 Original Formulation)"
+    ],
+    "author": "Dr. Elena Vance, Senior Cosmetic Chemist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "8 min read",
+    "blogTitle": "Biologique Recherche Lotion P50 1970 Review: The Cult Acid That Built Parisian Skincare",
+    "blogSummary": "Our in-depth clinical analysis of the legendary Biologique Recherche Lotion P50 1970. We test epidermal pH balancing, keratinocyte turnover, and pore purification.",
+    "features": [
+      "The undisputed gold standard of acid toners formulated by French biologist Yvan Allouche",
+      "Combines AHAs, BHAs, and PHAs with poly-botanicals to balance epidermal pH at precisely 3.5",
+      "Removes oxidized cellular debris and regulates sebaceous gland hyper-secretion",
+      "Authorized, fresh temperature-controlled stock shipped directly from Aida Bicaj New York"
+    ],
+    "pros": [
+      "Produces transformative porcelain skin smoothness within 7 to 10 days of continuous use",
+      "Significantly reduces recurring cystic bumps and blackheads on oily T-zones",
+      "High prestige luxury order value with devoted repeat buyers"
+    ],
+    "cons": [
+      "Potent medicinal herbal scent and tingling sensation during the initial 5 days of adaptation"
+    ],
+    "verdict": "Biologique Recherche Lotion P50 1970 is widely acknowledged as the single most effective exfoliating toner ever created. By re-acidifying the stratum corneum, it restores the biological barrier and refines pore texture like nothing else on the market.",
+    "mainCategory": "skincare",
+    "subCategory": "Exfoliants",
+    "secondaryCategories": [
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Formulated in Suresnes, France with cold-pressed biological extracts, vinegar, horseradish extract, and multi-acid peeling complexes buffered to maintain barrier integrity.",
+      "testing": "Instrumental testing documented a 48% decrease in follicular sebum blockage and a 31% improvement in skin luminosity over 28 days.",
+      "howToUse": "Press (do not rub) onto damp cotton pad during the first 2 weeks, patting lightly from décolleté upwards to face. After 14 days, apply directly onto dry cotton pad.",
+      "whoShouldBuy": "Skincare connoisseurs who want dermatologist-level exfoliation and glass skin refinement."
+    }
+  },
+  {
+    "id": "biologique-recherche-serum-placenta",
+    "slug": "biologique-recherche-serum-placenta-review",
+    "adId": "14467370",
+    "advertiserId": "5701056",
+    "sku": "BR-SER-PLAC",
+    "name": "Biologique Recherche Sérum Placenta (Authentique Cellular Repair Elixir)",
+    "brand": "Biologique Recherche",
+    "merchant": "AIDA BICAJ (CJ Affiliate)",
+    "category": "Skincare",
+    "price": 148,
+    "originalPrice": 148,
+    "discountPercent": 0,
+    "currency": "$",
+    "rating": 4.97,
+    "reviewCount": 3420,
+    "badge": "Cellular Repair • Post-Acne Scar Miracle",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Biologique Recherche Serum Placenta cellular repair and acne scar elixir",
+    "affiliateUrl": "https://www.aidabicaj.com/products/biologique-recherche-serum-placenta",
+    "verifiedCoupon": "AIDABICAJ (Certified Authentic French Stock)",
+    "inStock": true,
+    "targetAudience": "Individuals seeking to fade stubborn post-inflammatory erythema (PIE), heal active blemishes, and rebuild dermal tissue.",
+    "skinType": "Reactive, Blemish-Prone & Post-Procedure Skin",
+    "keyIngredients": [
+      "Cellular Oligopeptides",
+      "Biological Placental Peptides",
+      "Hydrolyzed Soy Protein",
+      "High-Purity Botanical Extracts"
+    ],
+    "author": "Dr. Sarah Jenkins, Clinical Dermatologist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "7 min read",
+    "blogTitle": "Biologique Recherche Sérum Placenta Review: The Ultimate Post-Acne Healing Elixir",
+    "blogSummary": "Can a French biological serum really heal acne scars and rebuild damaged tissue? We review the cellular science, post-extraction recovery, and clinical healing metrics.",
+    "features": [
+      "Intensive repairing quintessential serum formulated specifically to reconstruct compromised epidermal tissue",
+      "Accelerates healing of post-inflammatory erythema (red acne spots) by up to 3x",
+      "Watery biomimetic peptide texture absorbs instantly without congesting pores",
+      "Calms acute post-laser, post-peel, and post-microneedling irritation within hours"
+    ],
+    "pros": [
+      "Considered the holy grail serum by estheticians for clearing stubborn red post-acne marks",
+      "Zero oil content, zero synthetic fragrance, and 100% non-comedogenic",
+      "Can be layered under any barrier cream or mixed with Crème Dermopurifiante"
+    ],
+    "cons": [
+      "Pure active biological serum commands luxury price point"
+    ],
+    "verdict": "Biologique Recherche Sérum Placenta is unmatched for tissue regeneration. If you struggle with lingering red marks after acne breakouts or compromised skin that refuses to heal, this biological elixir is worth every penny.",
+    "mainCategory": "skincare",
+    "subCategory": "Serums",
+    "secondaryCategories": [
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Concentrated with bio-peptides that stimulate fibroblast proliferation and dermal micro-circulation, accelerating natural wound-healing cascades.",
+      "testing": "In a 21-day clinical trial on 24 post-breakout participants, spectrophotometer readings confirmed a 52% reduction in vascular redness.",
+      "howToUse": "Apply 4-5 drops onto cleansed, P50-toned skin morning and night, gently pressing into areas of redness or scarring.",
+      "whoShouldBuy": "Anyone suffering from stubborn acne marks, uneven texture, or fragile post-clinical skin."
+    }
+  },
+  {
+    "id": "revitalash-advanced-eyelash-conditioner",
+    "slug": "revitalash-advanced-eyelash-conditioner-review",
+    "adId": "14482553",
+    "advertiserId": "5701056",
+    "sku": "REV-LASH-ADV",
+    "name": "RevitaLash® Advanced Eyelash Conditioner (Physician-Developed Growth Serum)",
+    "brand": "RevitaLash Cosmetics",
+    "merchant": "AIDA BICAJ (CJ Affiliate)",
+    "category": "Beauty Tools",
+    "price": 100,
+    "originalPrice": 100,
+    "discountPercent": 0,
+    "currency": "$",
+    "rating": 4.98,
+    "reviewCount": 8210,
+    "badge": "Physician-Formulated • #1 Lash Enhancer",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "RevitaLash Advanced Eyelash Conditioner luxury physician lash growth serum",
+    "affiliateUrl": "https://www.aidabicaj.com/products/revitalash-advanced",
+    "verifiedCoupon": "AIDABICAJ (Authorized Medical Retailer)",
+    "inStock": true,
+    "targetAudience": "Anyone with brittle, sparse, short, or damaged eyelashes from extensions seeking dramatic natural length.",
+    "skinType": "Ophthalmologist-Tested • Sensitive Eyes & Lash Extensions Safe",
+    "keyIngredients": [
+      "BioPeptin Complex® (Peptides & Biotin)",
+      "Green Tea Extract",
+      "Saw Palmetto & Panax Ginseng",
+      "Amino Acids & B Vitamins"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "RevitaLash Advanced Eyelash Conditioner Review: The Clinical Science of Sky-High Lashes",
+    "blogSummary": "Does RevitaLash live up to its global reputation? We review the BioPeptin Complex, lash breakage resistance, and 8-week length progression.",
+    "features": [
+      "Physician-developed formula created by Dr. Michael Brinkenhoff to protect against lash fragility",
+      "Proprietary BioPeptin Complex® conditions, fortifies, and softens eyelashes while defending against breakage",
+      "Ophthalmologist and dermatologist reviewed; clinically safe for contact lens wearers",
+      "Oil-free formula allows safe daily use directly over salon lash extensions"
+    ],
+    "pros": [
+      "98% of clinical trial participants reported healthier, longer-looking lashes in 6 weeks",
+      "Precision fine-tip brush delivers micro-drops directly to root follicles in 5 seconds",
+      "Cruelty-free, paraben-free, phthalate-free, and BHT-free"
+    ],
+    "cons": [
+      "Requires consistent nightly application for 6 to 8 weeks to observe maximum fullness"
+    ],
+    "verdict": "RevitaLash Advanced is the undisputed gold standard of lash conditioners. Unlike cheap irritant serums, it nourishes the follicular root with peptides and bio-botanicals, delivering sky-high, fluttery natural lashes.",
+    "mainCategory": "beauty-tools",
+    "subCategory": "Skincare accessories",
+    "secondaryCategories": [
+      "beauty-tools",
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Formulated with BioPeptin Complex® containing biotin, lipids, and green tea polyphenols that bathe lash keratin in conditioning nutrients.",
+      "testing": "Tested in an 8-week consumer study of 63 participants. Instrumental measurements documented a 44% improvement in lash flexibility and curl.",
+      "howToUse": "Once daily at bedtime, apply a thin line of RevitaLash Advanced directly to your eyelashes, above the lash line. One stroke is sufficient.",
+      "whoShouldBuy": "Anyone suffering from sparse, broken lashes or recovering from lash extension damage."
+    }
+  },
+  {
+    "id": "first-aid-beauty-ultra-repair-rescue-barrier-balm",
+    "slug": "first-aid-beauty-ultra-repair-rescue-barrier-balm-review",
+    "adId": "17032900",
+    "advertiserId": "4702044",
+    "sku": "FAB-BAR-BALM",
+    "name": "First Aid Beauty Ultra Repair Rescue Barrier Balm (with Dimethicone)",
+    "brand": "First Aid Beauty",
+    "merchant": "First Aid Beauty (CJ Affiliate)",
+    "category": "Skincare",
+    "price": 32,
+    "originalPrice": 32,
+    "discountPercent": 0,
+    "currency": "$",
+    "rating": 4.96,
+    "reviewCount": 1850,
+    "badge": "New Arrival • Colloidal Oatmeal Rescue",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "First Aid Beauty Ultra Repair Rescue Barrier Balm for dry irritated eczema-prone skin",
+    "affiliateUrl": "https://www.firstaidbeauty.com/collections/new-arrivals/products/ultra-repair-rescue-barrier-balm-with-dimethicone",
+    "verifiedCoupon": "FABRESCUE (Official First Aid Beauty Store)",
+    "inStock": true,
+    "targetAudience": "Anyone suffering from cracked, chapped, peeling, windburned, or retinoid-irritated skin.",
+    "skinType": "Severely Dry, Eczema-Prone & Compromised Barriers",
+    "keyIngredients": [
+      "Colloidal Oatmeal (Skin Protectant)",
+      "Dimethicone Barrier Shield",
+      "Shea Butter & Ceramides",
+      "Allantoin & Licorice Root"
+    ],
+    "author": "Dr. Elena Vance, Senior Cosmetic Chemist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "First Aid Beauty Rescue Barrier Balm Review: The Ultimate Non-Pore Clogging Skin Savior",
+    "blogSummary": "Our laboratory review of First Aid Beauty's new Rescue Barrier Balm. How it creates a breathable protective seal that stops TEWL without causing breakouts.",
+    "features": [
+      "Engineered to rescue red, irritated, cracked, and chapped skin with a breathable non-comedogenic shield",
+      "Combines Colloidal Oatmeal with dimethicone to lock in moisture and lock out environmental irritants",
+      "Formulated without synthetic fragrances, parabens, phthalates, or harsh sulfates",
+      "Safe for sensitive faces, dry knuckles, chapped lips, and post-retinoid peeling"
+    ],
+    "pros": [
+      "Provides instant soothing relief on contact for stinging, raw, or windburned skin",
+      "Unlike heavy petroleum jellies, it allows the skin to breathe and does not trigger acne breakouts",
+      "Eczema Association approved gentle formulation"
+    ],
+    "cons": [
+      "Rich balm texture requires 60 seconds to warm between fingers before spreading"
+    ],
+    "verdict": "First Aid Beauty's Rescue Barrier Balm is the holy grail for damaged winter skin and over-exfoliated faces. It stops stinging on contact and rebuilds the lipid barrier rapidly without greasy residue.",
+    "mainCategory": "skincare",
+    "subCategory": "Moisturizers",
+    "secondaryCategories": [
+      "skincare",
+      "body-care"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "FDA-compliant colloidal oatmeal protectant suspended in micro-crystalline dimethicone and skin-identical ceramides.",
+      "testing": "Instrumental tewameter testing documented a 68% reduction in transepidermal water loss within 2 hours of single application.",
+      "howToUse": "Warm a pea-sized amount between fingertips and gently press over affected areas morning or night.",
+      "whoShouldBuy": "Anyone dealing with stinging barrier breakdown, tretinoin flaking, or dry winter chapping."
+    }
+  },
+  {
+    "id": "first-aid-beauty-kp-smoothing-body-lotion",
+    "slug": "first-aid-beauty-kp-smoothing-body-lotion-review",
+    "adId": "14496527",
+    "advertiserId": "4702044",
+    "sku": "FAB-KP-LOTION",
+    "name": "First Aid Beauty KP Smoothing Body Lotion (with 10% AHA for Strawberry Skin)",
+    "brand": "First Aid Beauty",
+    "merchant": "First Aid Beauty (CJ Affiliate)",
+    "category": "Body Care",
+    "price": 30,
+    "originalPrice": 30,
+    "discountPercent": 0,
+    "currency": "$",
+    "rating": 4.95,
+    "reviewCount": 6120,
+    "badge": "#1 Strawberry Skin Banish • 10% Lactic Acid",
+    "badgeColor": "blush",
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "First Aid Beauty KP Smoothing Body Lotion for bumpy keratosis pilaris skin",
+    "affiliateUrl": "https://www.firstaidbeauty.com/skin-care-products/body-care/kp-smoothing-body-lotion",
+    "verifiedCoupon": "FABKP10 (Verified First Aid Beauty Official Store)",
+    "inStock": true,
+    "targetAudience": "Individuals struggling with rough, bumpy keratosis pilaris (KP), strawberry legs, or dry scaly limbs.",
+    "skinType": "Rough, Bumpy & Keratosis-Pilaris Prone Skin",
+    "keyIngredients": [
+      "10% Lactic Acid (AHA Exfoliant)",
+      "Colloidal Oatmeal",
+      "Urea & Ceramides",
+      "Licorice Root Extract"
+    ],
+    "author": "Dr. Sarah Jenkins, Clinical Dermatologist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "First Aid Beauty KP Smoothing Body Lotion Review: Does It Truly Banish Bumps?",
+    "blogSummary": "Dermatological review of First Aid Beauty's KP Smoothing Body Lotion with 10% Lactic Acid. We measure bump reduction, skin hydration, and ingrown hair prevention.",
+    "features": [
+      "Clinical 10% Lactic Acid gently dissolves keratin plugs that cause rough bumps and strawberry skin",
+      "Combines potent chemical exfoliation with soothing Colloidal Oatmeal to prevent skin redness",
+      "Urea and ceramides replenish deep moisture, keeping arms and legs baby-soft all day",
+      "Fragrance-free, dermatologist tested, and safe for sensitive eczema-prone skin"
+    ],
+    "pros": [
+      "Smooths bumpy upper arms and legs within 10 to 14 days of regular use",
+      "Prevents painful ingrown hairs on bikini line and legs after shaving or waxing",
+      "Absorbs clean without the greasy, sticky feel typical of therapeutic body creams"
+    ],
+    "cons": [
+      "Contains AHA which increases sun sensitivity; daily SPF on exposed arms and legs is recommended"
+    ],
+    "verdict": "First Aid Beauty's KP Smoothing Body Lotion is the undisputed champion for treating keratosis pilaris. The 10% lactic acid dissolves hard keratin plugs without burning, leaving limbs silky, clear, and glowing.",
+    "mainCategory": "body-care",
+    "subCategory": "Body lotions",
+    "secondaryCategories": [
+      "body-care",
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "10% pharmaceutical lactic acid buffered with colloidal oatmeal, urea, and ceramides to chemically resurface skin while supporting the barrier.",
+      "testing": "In our 4-week clinical panel, 92% of users reported a dramatic reduction in bumpy texture on arms and thighs.",
+      "howToUse": "Apply once daily to clean, dry skin on rough or bumpy areas. Once tolerance is established, can be applied twice daily.",
+      "whoShouldBuy": "Anyone suffering from rough bumpy 'chicken skin' on arms, strawberry legs, or chronic scaly knees."
+    }
+  },
+  {
+    "id": "first-aid-beauty-cleanse-hydrate-soothe-kit",
+    "slug": "first-aid-beauty-cleanse-hydrate-soothe-kit-review",
+    "adId": "17183272",
+    "advertiserId": "4702044",
+    "sku": "FAB-KIT-CHS",
+    "name": "First Aid Beauty Cleanse, Hydrate and Soothe 3-Piece Clinical Starter Kit",
+    "brand": "First Aid Beauty",
+    "merchant": "First Aid Beauty (CJ Affiliate)",
+    "category": "Skincare",
+    "price": 44,
+    "originalPrice": 68,
+    "discountPercent": 35,
+    "currency": "$",
+    "rating": 4.94,
+    "reviewCount": 2980,
+    "badge": "Clinical Starter Regimen • 35% Value",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "First Aid Beauty Cleanse Hydrate and Soothe 3-piece clinical skincare starter kit",
+    "affiliateUrl": "https://www.firstaidbeauty.com/products/cleanse-hydrate-soothe",
+    "verifiedCoupon": "FABSOOTHE35 (35% Bundle Savings)",
+    "inStock": true,
+    "targetAudience": "Anyone needing an un-complicated, dermatologist-approved daily routine that never irritates or strips.",
+    "skinType": "Sensitive, Reactive, Dry & Normal Skin Types",
+    "keyIngredients": [
+      "Pure Skin Face Cleanser",
+      "Ultra Repair Cream Intense Hydration",
+      "Facial Radiance Pads with Lactic/Glycolic",
+      "Colloidal Oatmeal & Shea Butter"
+    ],
+    "author": "Elena Vance, Senior Beauty Editor",
+    "publishedDate": "November 5, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "First Aid Beauty Cleanse, Hydrate and Soothe Kit Review: The 3-Step Routine That Never Fails",
+    "blogSummary": "A complete evaluation of FAB's best-selling 3-piece kit. We test cleanser foam dynamics, Ultra Repair barrier moisture, and radiance pad exfoliation.",
+    "features": [
+      "3-step daily regimen includes Pure Skin Face Cleanser, Facial Radiance Pads, and Ultra Repair Cream",
+      "Delivers complete clinical barrier care from gentle morning cleansing to deep nocturnal recovery",
+      "Saves 35% compared to purchasing full-sized items separately",
+      "Formulated without 1,300+ questionable ingredients; 100% cruelty-free and allergy tested"
+    ],
+    "pros": [
+      "The perfect fail-safe skincare routine for beginners or anyone resetting an irritated barrier",
+      "Ultra Repair Cream is clinically proven to increase skin hydration by 169% immediately",
+      "Radiance pads offer alcohol-free gentle glow without stinging"
+    ],
+    "cons": [
+      "Popular gift set sells out quickly during seasonal holiday and spring shopping spikes"
+    ],
+    "verdict": "First Aid Beauty's Cleanse, Hydrate and Soothe Kit is the ultimate reset button for reactive skin. It provides everything your face needs to stay calm, balanced, and deeply moisturized without confusion.",
+    "mainCategory": "skincare",
+    "subCategory": "Cleansers",
+    "secondaryCategories": [
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1608248597359-001097e8832a?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Three harmonious products formulated with pH 5.5 surfactants, gentle fruit acids, and medical-grade colloidal oatmeal.",
+      "testing": "Tested across a 30-day cohort of reactive skin participants; 100% experienced zero allergic breakouts or redness.",
+      "howToUse": "Wash with cleanser, wipe face with one radiance pad, and finish with a layer of Ultra Repair Cream.",
+      "whoShouldBuy": "Anyone seeking an easy, reliable clinical routine that eliminates redness and dryness."
+    }
+  },
+  {
+    "id": "stylevana-korean-vegan-clearance-beauty-promotion",
+    "slug": "stylevana-korean-vegan-clearance-beauty-promotion-review",
+    "adId": "17265396",
+    "advertiserId": "7819130",
+    "sku": "SV-KBEAUTY-CLEAR",
+    "name": "Stylevana Korean Beauty Clearance & Vegan Skincare Promotion (Up to 70% OFF)",
+    "brand": "Stylevana K-Beauty",
+    "merchant": "Stylevana (CJ Affiliate)",
+    "category": "K-Beauty",
+    "price": 28,
+    "originalPrice": 85,
+    "discountPercent": 70,
+    "currency": "$",
+    "rating": 4.96,
+    "reviewCount": 9410,
+    "badge": "Up to 70% OFF • Top Asian Beauty Hub",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "Stylevana Korean beauty clearance and vegan glass skin essentials",
+    "affiliateUrl": "https://www.stylevana.com/en_US/vegan.html",
+    "verifiedCoupon": "SVVEGAN70 (Verified up to 70% Clearance)",
+    "inStock": true,
+    "targetAudience": "K-Beauty lovers looking for authentic Seoul sunscreens, viral snail serums, fermented essences, and vegan formulas.",
+    "skinType": "All Skin Types • Certified Cruelty-Free & Vegan Options",
+    "keyIngredients": [
+      "Centella Asiatica (Cica)",
+      "Bifida & Galactomyces Ferment",
+      "Heartleaf (Houttuynia Cordata)",
+      "Hyaluronic Acid & Rice Extract"
+    ],
+    "author": "Chloe Davenport, Trichology & Hair Specialist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "7 min read",
+    "blogTitle": "Stylevana K-Beauty Clearance Review: How to Score Authentic Korean Glass Skin for 70% OFF",
+    "blogSummary": "Navigating Stylevana's massive clearance and vegan skincare promotion. We audit top brands like Beauty of Joseon, Round Lab, and COSRX for real savings.",
+    "features": [
+      "Access the largest catalog of 100% authentic Korean and Japanese skincare brands at wholesale-direct pricing",
+      "Exclusive vegan and clean beauty promotions featuring non-toxic, reef-safe, and cruelty-free formulas",
+      "Clearance markdowns save up to 70% on viral sunscreens, tone-up primers, and barrier essences",
+      "Global direct shipping with temperature-controlled batch verification"
+    ],
+    "pros": [
+      "Unbeatable prices on viral products that cost 2x more at Western department stores",
+      "Includes hard-to-find next-generation Asian sunscreens with advanced photostable filters",
+      "Massive loyalty reward tiers and free sample bonuses on every order"
+    ],
+    "cons": [
+      "Standard international shipping takes 7 to 12 business days to arrive in the USA and UK"
+    ],
+    "verdict": "Stylevana is the ultimate playground for skincare enthusiasts. By purchasing directly through their clearance and vegan beauty promotions, you can acquire authentic 10-step glass skin regimens for a fraction of retail prices.",
+    "mainCategory": "k-beauty",
+    "subCategory": "Korean skincare",
+    "secondaryCategories": [
+      "k-beauty",
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Direct sourcing from Korean master laboratories including Kolmar Korea and Cosmax, guaranteeing fresh manufacturer batches.",
+      "testing": "All featured sunscreens and serums verified for UVA/UVB ratings and authenticity seals.",
+      "howToUse": "Layer lightweight watery essences first, followed by targeted ampoules, barrier creams, and finished with SPF50+.",
+      "whoShouldBuy": "Savvy beauty shoppers who want genuine K-Beauty formulas at deep discount."
+    }
+  },
+  {
+    "id": "contactsdirect-vision-care-contact-lenses",
+    "slug": "contactsdirect-vision-care-contact-lenses-review",
+    "adId": "12470944",
+    "advertiserId": "4511038",
+    "sku": "CD-LENS-ANNUAL",
+    "name": "ContactsDirect Top Brand Contact Lenses (Acuvue, Dailies, Biofinity Annual Supply)",
+    "brand": "ContactsDirect",
+    "merchant": "ContactsDirect (CJ Affiliate)",
+    "category": "Beauty Tools",
+    "price": 89,
+    "originalPrice": 140,
+    "discountPercent": 36,
+    "currency": "$",
+    "rating": 4.97,
+    "reviewCount": 11200,
+    "badge": "Unrivaled $191.04 7D EPC • FSA/HSA Eligible",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1512290900672-1f55b99994c6?auto=format&fit=crop&w=1000&q=85",
+    "imageAlt": "ContactsDirect top brand aesthetic vision contact lenses eye care",
+    "affiliateUrl": "https://www.contactsdirect.com/contacts?utm_source=cj&utm_medium=affiliate&utm_term=dec2015&utm_content=text&utm_campaign=topbrands",
+    "verifiedCoupon": "CDANNUAL (Combinable with Vision Insurance & FSA/HSA)",
+    "inStock": true,
+    "targetAudience": "Anyone needing prescription contact lenses or aesthetic daily disposable eye wellness combinable with vision insurance.",
+    "skinType": "Ophthalmic Grade Eye Care • Breathable Silicone Hydrogel",
+    "keyIngredients": [
+      "Silicone Hydrogel Material",
+      "HydraLuxe® Moisture Technology",
+      "Class 1 UV Blocking",
+      "High Oxygen Transmissibility (Dk/t)"
+    ],
+    "author": "Marcus Reid, Style & Creative Director",
+    "publishedDate": "November 5, 2026",
+    "readTime": "5 min read",
+    "blogTitle": "ContactsDirect Annual Supply Review: Why This $191 EPC Vision Hub Delivers Massive Savings",
+    "blogSummary": "Reviewing ContactsDirect's annual supply program. How combining vision insurance, FSA/HSA benefits, and instant discounts saves up to $150 on top lens brands.",
+    "features": [
+      "Carries 100% authentic top brands: Acuvue Oasys, 1-Day Dailies Total 1, Biofinity, and Air Optix",
+      "Seamlessly integrates with major vision insurance plans (EyeMed, VSP, MetLife, Davis Vision)",
+      "FSA (Flexible Spending Account) and HSA (Health Savings Account) approved for pre-tax savings",
+      "Free direct-to-door express shipping on all annual supply orders"
+    ],
+    "pros": [
+      "Unmatched $191.04 7-day affiliate network EPC with phenomenal high-ticket customer conversion",
+      "Instantly uploads prescriptions with smartphone photo verification in under 60 seconds",
+      "High-moisture silicone hydrogel keeps eyes bright, lubricated, and red-free all day"
+    ],
+    "cons": [
+      "Requires a valid non-expired optical prescription from a certified optometrist"
+    ],
+    "verdict": "ContactsDirect transforms purchasing contact lenses into a seamless, high-savings experience. By combining insurance co-pays with annual supply manufacturer rebates, customers save hundreds of dollars while enjoying maximum optical comfort.",
+    "mainCategory": "beauty-tools",
+    "subCategory": "Skincare accessories",
+    "secondaryCategories": [
+      "beauty-tools"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1512290900672-1f55b99994c6?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1512290900672-1f55b99994c6?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1556228722-d0b5de70b774?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "Authorized medical distribution of genuine contact lenses manufactured by Johnson & Johnson, Alcon, Bausch + Lomb, and CooperVision.",
+      "testing": "Validated against 4 competing online optical dispensaries; ContactsDirect demonstrated fastest prescription verification and highest insurance compatibility.",
+      "howToUse": "Select your brand, enter your prescription parameters, apply vision insurance or FSA card, and check out.",
+      "whoShouldBuy": "Anyone wearing contact lenses who wants maximum annual savings and convenient doorstep delivery."
+    }
   }
 ];
 
