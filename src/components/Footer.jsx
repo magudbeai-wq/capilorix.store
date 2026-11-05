@@ -1,6 +1,7 @@
 import React from 'react';
 import { Sparkles, ShieldCheck, Heart, Award, Globe, ExternalLink } from 'lucide-react';
 import { mainCategories } from '../data/categories';
+import { products } from '../data/products';
 
 export default function Footer({ navigateTo, onOpenQuiz }) {
   const handleNav = (path) => {
@@ -60,7 +61,7 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
               ))}
               <li className="pt-1">
                 <button onClick={() => handleNav('/products')} className="text-[#D4C3A3] hover:underline font-semibold">
-                  All 29 Products Directory &rarr;
+                  All Products Directory ({products.length}) &rarr;
                 </button>
               </li>
             </ul>
@@ -74,7 +75,7 @@ export default function Footer({ navigateTo, onOpenQuiz }) {
             <ul className="space-y-2.5 text-xs text-[#A8A29E]">
               <li>
                 <button onClick={() => handleNav('/reviews')} className="hover:text-white transition-colors">
-                  Editorial Review Archive (29 Posts)
+                  Editorial Review Archive ({products.length} Posts)
                 </button>
               </li>
               <li>

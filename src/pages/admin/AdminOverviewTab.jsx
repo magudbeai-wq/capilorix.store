@@ -78,7 +78,7 @@ export default function AdminOverviewTab({ products, articles, metrics, setActiv
             <span className="text-xs font-bold uppercase tracking-wider text-[#A4895C]">Affiliate Engine</span>
             <ArrowUpRight className="w-4 h-4 text-[#8A847F] group-hover:text-[#1A1A1A] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </div>
-          <h3 className="text-lg font-serif font-bold text-[#1A1A1A] mb-1">Manage 29 Beauty Products</h3>
+          <h3 className="text-lg font-serif font-bold text-[#1A1A1A] mb-1">Manage {products.length} Beauty Products</h3>
           <p className="text-xs text-[#8A847F]">Edit affiliate URLs, track EPCs, update merchant disclosures, or toggle live status.</p>
         </button>
 

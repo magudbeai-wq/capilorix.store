@@ -47,7 +47,7 @@ export const productService = {
     } catch (e) {
       console.warn('Failed to parse managed products from localStorage:', e);
     }
-    // Seed with the verified 29 products
+    // Seed with all verified catalog products
     const initialized = defaultProducts.map((p) => ({
       ...p,
       status: p.status || 'published',

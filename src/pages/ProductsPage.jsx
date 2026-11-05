@@ -62,12 +62,12 @@ export default function ProductsPage({ navigateTo, initialCategory = 'All' }) {
                 All Benchmarked Beauty Formulas
               </h1>
               <p className="mt-2 text-sm text-[#5A5552] max-w-2xl font-light">
-                Browse our complete catalog of 29 laboratory-tested skincare, haircare, cosmetics, anti-aging, and dermal recovery products with verified direct merchant pricing.
+                Browse our complete catalog of {products.length} laboratory-tested skincare, haircare, cosmetics, anti-aging, and dermal recovery products with verified direct merchant pricing.
               </p>
             </div>
 
             <div className="text-xs text-[#8A847F] font-mono">
-              Showing <span className="font-bold text-[#1A1A1A]">{sorted.length}</span> of 29 Formulas
+              Showing <span className="font-bold text-[#1A1A1A]">{sorted.length}</span> of {products.length} Formulas
             </div>
           </div>
         </div>

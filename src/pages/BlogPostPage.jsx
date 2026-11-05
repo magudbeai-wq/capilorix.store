@@ -392,7 +392,7 @@ export default function BlogPostPage({ slug, navigateTo }) {
     );
   }
 
-  // Fallback: Individual Product Review Page (for any of the 29 products) with complete 13-Section Specification
+  // Fallback: Individual Product Review Page (for any catalog product) with complete 13-Section Specification
   return (
     <ProductReviewTemplate
       product={product}

@@ -218,7 +218,7 @@ export default function AdminLayout({ navigateTo, onLogout }) {
       <footer className="border-t border-[#EFE8DA] bg-white py-4 text-center text-xs text-[#8A847F]">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>Capilorix Beauty Editorial Architecture • Internal Management Mode</span>
-          <span className="font-mono text-[11px]">System Status: All 29 Commercial Links Operational</span>
+          <span className="font-mono text-[11px]">System Status: All {products.length} Commercial Links Operational</span>
         </div>
       </footer>
 

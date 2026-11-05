@@ -18,7 +18,7 @@ export const seoService = {
     if (norm === '' || norm === '/') {
       return {
         title: 'Capilorix | Discover Better Beauty. Make Smarter Choices.',
-        description: 'Independent luxury beauty editorial and smart affiliate shopping guide. In-depth clinical skincare analyses, haircare benchmarks, and verified merchant pricing across the USA, UK, Canada, and Australia.',
+        description: 'Discover luxury skincare, Korean skin care routines, and clinical reviews on top beauty devices and serums across the USA, UK, and Canada.',
         canonical: `${SITE_URL}/`,
         image: DEFAULT_IMAGE,
         type: 'website',
@@ -29,8 +29,8 @@ export const seoService = {
     // 2. Products Directory
     if (norm === '/products') {
       return {
-        title: 'Beauty Products Directory: 29 Curated Formulations | Capilorix',
-        description: 'Browse our complete catalog of 29 laboratory-tested skincare, haircare, cosmetics, anti-aging, and dermal recovery products with verified direct merchant pricing.',
+        title: 'Beauty Products Directory: 50 Curated Formulations | Capilorix',
+        description: 'Browse our complete catalog of 50 laboratory-tested skincare, haircare, cosmetics, and dermal recovery products with verified merchant pricing.',
         canonical: `${SITE_URL}/products`,
         image: DEFAULT_IMAGE,
         type: 'website',
@@ -218,14 +218,18 @@ export const seoService = {
     // 1. Title
     document.title = meta.title;
 
-    // 2. Description
+    // 2. Description (Strictly capped to 155 chars to satisfy Bing & Google SEO guidelines)
+    let safeDesc = meta.description || '';
+    if (safeDesc.length > 155) {
+      safeDesc = safeDesc.substring(0, 152).trim() + '...';
+    }
     let descEl = document.querySelector('meta[name="description"]');
     if (!descEl) {
       descEl = document.createElement('meta');
       descEl.name = 'description';
       document.head.appendChild(descEl);
     }
-    descEl.setAttribute('content', meta.description);
+    descEl.setAttribute('content', safeDesc);
 
     // 3. Canonical
     let canonicalEl = document.querySelector('link[rel="canonical"]');
@@ -238,14 +242,14 @@ export const seoService = {
 
     // 4. Open Graph
     this.setMetaProperty('og:title', meta.title);
-    this.setMetaProperty('og:description', meta.description);
+    this.setMetaProperty('og:description', safeDesc);
     this.setMetaProperty('og:url', meta.canonical);
     this.setMetaProperty('og:image', meta.image);
     this.setMetaProperty('og:type', meta.type);
 
     // 5. Twitter
     this.setMetaProperty('twitter:title', meta.title);
-    this.setMetaProperty('twitter:description', meta.description);
+    this.setMetaProperty('twitter:description', safeDesc);
     this.setMetaProperty('twitter:image', meta.image);
 
     // 6. JSON-LD Structured Data

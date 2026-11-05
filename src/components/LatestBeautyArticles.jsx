@@ -29,7 +29,7 @@ export default function LatestBeautyArticles({ navigateTo }) {
             onClick={() => navigateTo && navigateTo('/blog')}
             className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#8A7147] hover:text-[#1A1A1A] transition-colors self-start md:self-auto"
           >
-            <span>View All 29 Articles</span>
+            <span>View All Curated Reviews</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

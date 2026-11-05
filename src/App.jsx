@@ -229,7 +229,7 @@ export default function App() {
                 No Matching Beauty Formulas
               </h3>
               <p className="text-xs text-[#5A5552] leading-relaxed mb-6">
-                No products match the filter criteria for "{searchTerm}". Clear search to view all 29 formulas.
+                No products match the filter criteria for "{searchTerm}". Clear search to view all {products.length} formulas.
               </p>
               <button
                 onClick={() => {
@@ -248,7 +248,7 @@ export default function App() {
               onClick={() => navigateTo('/products')}
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-[#FAF8F5] hover:bg-[#F2ECE4] border border-[#D4C3A3] text-xs font-bold uppercase tracking-wider text-[#1A1A1A] transition-all shadow-xs"
             >
-              <span>Explore All 29 Formulas in Products Directory</span>
+              <span>Explore All {products.length} Formulas in Products Directory</span>
               <ArrowRight className="w-4 h-4 text-[#8A7147]" />
             </button>
           </div>

@@ -31,7 +31,7 @@ export default function CategoryShowcase({ navigateTo }) {
             onClick={() => navigateTo && navigateTo('/products')}
             className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#8A7147] hover:text-[#1A1A1A] transition-colors self-start md:self-auto"
           >
-            <span>View Complete Directory (29 Formulas)</span>
+            <span>View Complete Directory ({products.length} Formulas)</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

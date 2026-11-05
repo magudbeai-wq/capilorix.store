@@ -14,6 +14,7 @@ import {
   Layers
 } from 'lucide-react';
 import { mainCategories } from '../data/categories';
+import { products } from '../data/products';
 
 export default function Navbar({ 
   currentPath = '/',
@@ -216,7 +217,7 @@ export default function Navbar({
                     : 'text-[#5A5552] hover:text-[#1A1A1A] hover:bg-[#F2ECE4]'
                 }`}
               >
-                All (29)
+                All ({products.length})
               </button>
 
               {mainCategories.map((cat) => {
@@ -264,7 +265,7 @@ export default function Navbar({
               onClick={() => handleNav('/products')}
               className="block w-full text-left py-2 px-3 rounded-lg hover:bg-[#F2ECE4]"
             >
-              Full Products Directory (29)
+              Full Products Directory ({products.length})
             </button>
             <button
               onClick={() => handleNav('/reviews')}

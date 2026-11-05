@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, ArrowRight, ShieldCheck, Award, Star, ExternalLink, BookOpen } from 'lucide-react';
+import { products } from '../data/products';
 
 export default function HeroEditorial({ onOpenQuiz, navigateTo, featuredProduct }) {
   const product = featuredProduct || {
@@ -58,7 +59,7 @@ export default function HeroEditorial({ onOpenQuiz, navigateTo, featuredProduct 
             </h1>
 
             <p className="text-base sm:text-lg text-[#5A5552] leading-relaxed max-w-2xl font-light">
-              We conduct forensic ingredient breakdowns, laboratory efficacy benchmarks, and real-world 30-day trials on the season's 29 most potent beauty and wellness formulas—connecting you directly to verified merchant pricing.
+              We conduct forensic ingredient breakdowns, laboratory efficacy benchmarks, and real-world 30-day trials on the season's {products.length} most potent beauty and wellness formulas—connecting you directly to verified merchant pricing.
             </p>
 
             {/* Author Byline & Verification Credentials */}
@@ -91,7 +92,7 @@ export default function HeroEditorial({ onOpenQuiz, navigateTo, featuredProduct 
                 }}
                 className="px-7 py-3.5 rounded-full bg-[#1A1A1A] hover:bg-[#2D2D2A] text-[#FDFBF7] text-sm font-semibold tracking-wide transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
               >
-                <span>Explore All 29 Verified Reviews</span>
+                <span>Explore All {products.length} Verified Reviews</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
 
@@ -107,7 +108,7 @@ export default function HeroEditorial({ onOpenQuiz, navigateTo, featuredProduct 
             {/* Trust Highlights */}
             <div className="pt-4 grid grid-cols-3 gap-3 border-t border-[#EFE8DA] text-center sm:text-left">
               <div>
-                <span className="block text-xl sm:text-2xl font-serif font-black text-[#1A1A1A]">29</span>
+                <span className="block text-xl sm:text-2xl font-serif font-black text-[#1A1A1A]">{products.length}</span>
                 <span className="text-[11px] text-[#8A847F] uppercase tracking-wider">Formulas Benchmarked</span>
               </div>
               <div>

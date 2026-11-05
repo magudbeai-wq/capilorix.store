@@ -144,7 +144,7 @@ export default function ComparisonTable({ navigateTo }) {
             onClick={() => navigateTo && navigateTo('/products')}
             className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#8A7147] hover:text-[#1A1A1A] transition-colors"
           >
-            <span>View All 29 Formulas in Interactive Catalog</span>
+            <span>View All {products.length} Formulas in Interactive Catalog</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

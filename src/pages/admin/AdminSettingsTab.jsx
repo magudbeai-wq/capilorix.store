@@ -61,7 +61,7 @@ export default function AdminSettingsTab({ onDataReload }) {
   };
 
   const handleResetFactory = () => {
-    if (window.confirm('Are you sure you want to restore the verified 29 factory seed products and articles? Any custom additions will be reset.')) {
+    if (window.confirm('Are you sure you want to restore all verified factory seed products and articles? Any custom additions will be reset.')) {
       productService.resetToDefaults();
       articleService.resetToDefaults();
       if (onDataReload) onDataReload();
@@ -137,7 +137,7 @@ export default function AdminSettingsTab({ onDataReload }) {
           Network Credentials &amp; Automatic Feed Sync
         </h3>
         <p className="text-xs text-[#8A847F] max-w-2xl">
-          All 29 existing products currently use verified manual tracking links with sub-IDs. When your developer API tokens are issued by CJ or Impact, configure them below for automated price and stock synchronization.
+          All catalog products currently use verified manual tracking links with sub-IDs. When your developer API tokens are issued by CJ or Impact, configure them below for automated price and stock synchronization.
         </p>
 
         <form onSubmit={handleSaveApiKeys} className="space-y-4 pt-2 text-xs">

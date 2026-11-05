@@ -44,7 +44,7 @@ export default function AdminLinksTab({ products }) {
         <div className="bg-[#FFFFFF] p-5 rounded-2xl border border-[#EFE8DA] shadow-xs">
           <div className="text-xs font-semibold text-[#8A847F] mb-1">Total Monitored Links</div>
           <div className="text-3xl font-serif font-black text-[#1A1A1A]">{healthData.total}</div>
-          <div className="text-xs text-[#8A847F] mt-1 font-mono">29 active merchant targets</div>
+          <div className="text-xs text-[#8A847F] mt-1 font-mono">{healthData.total} active merchant targets</div>
         </div>
 
         <div className="bg-[#FFFFFF] p-5 rounded-2xl border border-green-200 bg-green-50/20 shadow-xs">
