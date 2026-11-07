@@ -17,7 +17,7 @@ export default function HeroEditorial({ onOpenQuiz, navigateTo, featuredProduct 
     reviewCount: 3890,
     badge: "Viral Micro-Spicule Sensation • High EPC",
     image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85",
-    affiliateUrl: "http://www.revolve.com/content/deeplink/womens/product/RUHL-WU33",
+    affiliateUrl: "https://www.anrdoezrs.net/click-101917646-13237228?url=http%3A%2F%2Fwww.revolve.com%2Fcontent%2Fdeeplink%2Fwomens%2Fproduct%2FRUHL-WU33&sid=capilorix_hero_rael",
     verifiedCoupon: "REVOLVEDEAL (Verified $23.00 Price)"
   };
 

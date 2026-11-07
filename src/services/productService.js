@@ -3,6 +3,9 @@
 
 import { products as defaultProducts } from '../data/products';
 
+export const CJ_PUBLISHER_ID = '101917646';
+export const CJ_COMPANY_ID = '8114627';
+
 const PRODUCTS_STORAGE_KEY = 'capilorix_managed_products';
 
 export const productService = {
@@ -27,7 +30,9 @@ export const productService = {
                     subCategory: fresh.subCategory,
                     imageAlt: fresh.imageAlt || p.imageAlt,
                     frontImage: fresh.frontImage || p.frontImage,
-                    image: fresh.image || p.image
+                    image: fresh.image || p.image,
+                    affiliateUrl: fresh.affiliateUrl || p.affiliateUrl,
+                    destinationUrl: fresh.destinationUrl || p.destinationUrl
                   }
                 : p;
             });

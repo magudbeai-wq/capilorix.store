@@ -4,7 +4,7 @@ import { articleService } from '../../services/articleService';
 import { Download, Upload, RotateCcw, Key, Save, CheckCircle2, ShieldCheck, Database } from 'lucide-react';
 
 export default function AdminSettingsTab({ onDataReload }) {
-  const [cjPublisherId, setCjPublisherId] = useState(() => localStorage.getItem('capilorix_cj_pid') || '7819130');
+  const [cjPublisherId, setCjPublisherId] = useState(() => localStorage.getItem('capilorix_cj_pid') || '101917646');
   const [cjApiKey, setCjApiKey] = useState(() => localStorage.getItem('capilorix_cj_key') || '');
   const [impactSid, setImpactSid] = useState(() => localStorage.getItem('capilorix_impact_sid') || '');
   const [impactToken, setImpactToken] = useState(() => localStorage.getItem('capilorix_impact_token') || '');
