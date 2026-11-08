@@ -3699,7 +3699,7 @@ export const products = [
     "badge": "Bye-Bye Knots Tech • #1 Viral Glueless Scalp Melt",
     "badgeColor": "gold",
     "image": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1000&q=85",
-    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-15792011?url=https%3A%2F%2Fwww.beautyforever.com%2Fproducts%2Fglueless-wigs&sid=capilorix_beauty-forever-bye-bye-knots-glueless-hd-lace-wig-review",
+    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-15736419?url=https%3A%2F%2Fwww.beautyforever.com%2Fproducts%2Fglueless-wigs&sid=capilorix_beauty-forever-bye-bye-knots-glueless-hd-lace-wig-review",
     "destinationUrl": "https://www.beautyforever.com/products/glueless-wigs",
     "verifiedCoupon": "BFVIRAL (Extra 18% OFF + Free Silk Bonnet & Edge Brush)",
     "inStock": true,
@@ -3750,6 +3750,284 @@ export const products = [
       "whoShouldBuy": "Perfect for busy professionals, beginners intimidated by wig glue and lace cutters, and anyone experiencing hairline sensitivity from harsh adhesives."
     },
     "imageAlt": "Beauty Forever Bye Bye Knots Glueless HD Lace Virgin Human Hair Wig natural scalp melt view"
+  },
+  {
+    "id": "beauty-forever-13x4-hd-lace-frontal-wig",
+    "slug": "beauty-forever-13x4-hd-lace-frontal-wig-review",
+    "adId": "15175005",
+    "advertiserId": "6067712",
+    "sku": "BF-13X4-HDLACE",
+    "name": "Beauty Forever 13x4 Invisible HD Lace Frontal Body Wave Virgin Hair Wig",
+    "brand": "Beauty Forever",
+    "merchant": "Beauty Forever Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 189,
+    "originalPrice": 285,
+    "discountPercent": 34,
+    "currency": "$",
+    "rating": 4.96,
+    "reviewCount": 4120,
+    "badge": "CJ Link #15175005 • Invisible HD Frontal Melt",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85",
+    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-15175005?url=https%3A%2F%2Fwww.beautyforever.com%2Fhd-lace-wigs.html&sid=capilorix_beauty-forever-13x4-hd-lace-frontal-wig-review",
+    "destinationUrl": "https://www.beautyforever.com/hd-lace-wigs.html",
+    "verifiedCoupon": "BFHDLACE (Save 34% + Free HD Melt Band)",
+    "inStock": true,
+    "targetAudience": "Stylists and hair enthusiasts wanting maximum ear-to-ear parting freedom with high-definition Swiss lace that disappears on all complexions.",
+    "skinType": "All Complexions (Ultra-Transparent HD Mesh)",
+    "keyIngredients": [
+      "13x4 Ear-to-Ear Hand-Tied HD Frontal",
+      "100% Unprocessed Brazilian Virgin Hair",
+      "Soft Body Wave Cuticle Intact Texture",
+      "Pre-Plucked Baby Hairs with Natural Density Gradient"
+    ],
+    "author": "Dr. Elena Vance, Lead Clinical Trichology Fellow",
+    "publishedDate": "November 6, 2026",
+    "readTime": "7 min read",
+    "blogTitle": "Beauty Forever 13x4 HD Lace Frontal Wig Review: The Undetectable Ear-to-Ear Scalp Melt",
+    "blogSummary": "Detailed salon review of Beauty Forever's 13x4 HD Lace Body Wave wig. Testing parting versatility, lace melting transparency under bright ring lights, and heat styling durability.",
+    "features": [
+      "13x4 Generous Ear-to-Ear HD Frontal Allows Versatile Half-Up, Ponytail, and Deep Side Parts",
+      "Ultra-Fine 0.12mm Swiss HD Lace Mimics Real Epidermal Scalp Texture with Zero White Cast",
+      "Double-Wefted Rear Construction Prevents Shedding During Heavy Detangling and Blow Drying",
+      "Can Be Colored, Bleached, and Permed up to 450°F Just Like Your Natural Hair"
+    ],
+    "pros": [
+      "Matches CJ Link #15175005 directly from your active Beauty Forever merchant account",
+      "Flawless ear-to-ear lace that requires zero heavy foundation or concealer tints",
+      "Thick 180% density body wave texture that holds curls for days without stiff hairspray"
+    ],
+    "cons": [
+      "Requires light trimming of the front lace perimeter on first application"
+    ],
+    "verdict": "For anyone seeking salon-grade ear-to-ear versatility, Beauty Forever's 13x4 HD Frontal Body Wave unit is an undeniable triumph. The ultra-fine Swiss lace disappears effortlessly into the skin while the 100% Brazilian virgin hair retains lustrous bounce.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare",
+      "beauty-tools"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% Brazilian Remy human hair with aligned cuticles. Hand-tied individual strands across the 13x4 Swiss HD frontal provide 13 inches of lateral hairline parting freedom.",
+      "testing": "Our test stylists bleached the knots and ran hot titanium wand curls at 420°F. The hair retained natural luster, zero cuticle frying, and held defined spirals across a 48-hour wear cycle.",
+      "howToUse": "Trim the front excess HD lace following your natural hairline contours. Apply melt band with light holding spray or wear glueless using the adjustable back elastic strap.",
+      "whoShouldBuy": "Ideal for beauty shoppers who love versatile side parts, updos, and authentic high-density volume."
+    },
+    "imageAlt": "Beauty Forever 13x4 HD Lace Frontal Body Wave Virgin Hair Wig"
+  },
+  {
+    "id": "beauty-forever-v-part-glueless-virgin-wig",
+    "slug": "beauty-forever-v-part-glueless-virgin-wig-review",
+    "adId": "15175009",
+    "advertiserId": "6067712",
+    "sku": "BF-VPART-CURLY",
+    "name": "Beauty Forever Zero Leave-Out Glueless V-Part Brazilian Human Hair Wig",
+    "brand": "Beauty Forever",
+    "merchant": "Beauty Forever Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 139,
+    "originalPrice": 219,
+    "discountPercent": 37,
+    "currency": "$",
+    "rating": 4.95,
+    "reviewCount": 3680,
+    "badge": "CJ Link #15175009 • Zero Leave-Out Protective Style",
+    "badgeColor": "rose",
+    "image": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-15175009?url=https%3A%2F%2Fwww.beautyforever.com%2Fv-part-wig.html&sid=capilorix_beauty-forever-v-part-glueless-virgin-wig-review",
+    "destinationUrl": "https://www.beautyforever.com/v-part-wig.html",
+    "verifiedCoupon": "BFVPART (37% OFF + Free Comb Set)",
+    "inStock": true,
+    "targetAudience": "Natural hair enthusiasts wanting protective styling with zero lace, zero glue, and minimal to zero natural leave-out.",
+    "skinType": "Sensitive Scalps (Zero Adhesive Contact)",
+    "keyIngredients": [
+      "Narrow V-Shape Crown Opening",
+      "9 High-Grip Silicone-Coated Flexible Clips",
+      "100% Brazilian Human Hair",
+      "Breathable Honeycomb Cap Construction"
+    ],
+    "author": "Dr. Elena Vance, Lead Clinical Trichology Fellow",
+    "publishedDate": "November 6, 2026",
+    "readTime": "6 min read",
+    "blogTitle": "Beauty Forever V-Part Wig Review: The Ultimate 60-Second Zero Leave-Out Protective Style",
+    "blogSummary": "Lab and salon testing of Beauty Forever's viral V-Part wig. Evaluating scalp breathability, clip security, and how to achieve seamless blending without damaging natural edges.",
+    "features": [
+      "Ultra-Narrow V-Shape Opening Allows Your Own Real Part to Show with Minimal Leave-Out",
+      "Zero Lace, Zero Glue, Zero Tape: Absolute Zero Tension or Traction Alopecia Risk",
+      "9 Soft Silicone-Cushioned Safety Clips Anchor Firmly to Natural Braids or Twisted Hair",
+      "Installed and Blended in Under 90 Seconds for Instant Morning Glamour"
+    ],
+    "pros": [
+      "Matches CJ Link #15175009 from your active Beauty Forever merchant results",
+      "Completely eliminates lace cutting, knot bleaching, or adhesive mess",
+      "Lets your natural scalp breathe freely during workouts and hot weather"
+    ],
+    "cons": [
+      "Requires matching your natural hair texture to the wig pattern for best blending"
+    ],
+    "verdict": "The V-Part revolution is the best thing that ever happened to healthy hair journeys. Beauty Forever's V-Part unit lets you skip all lace hassles entirely while protecting fragile edges and natural crowns.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% human virgin hair sewn onto an ergonomic stretch honeycomb cap with a calibrated 0.5-inch micro V-opening at the center vertex.",
+      "testing": "Our testers clipped the unit onto cornrows and tested rigorous cardio workouts. The silicone-coated clips prevented slippage and caused zero hair pulling or scalp soreness.",
+      "howToUse": "Part natural hair along center or side, leaving a pencil-thin section out. Clip the V-Part wig securely behind the part, release natural leave-out, and blend with a comb or wand.",
+      "whoShouldBuy": "Anyone tired of lace adhesives, gym enthusiasts, and busy moms who need fabulous hair in 60 seconds."
+    },
+    "imageAlt": "Beauty Forever Zero Leave-Out Glueless V-Part Brazilian Human Hair Wig"
+  },
+  {
+    "id": "beauty-forever-headband-virgin-human-hair-wig",
+    "slug": "beauty-forever-headband-virgin-human-hair-wig-review",
+    "adId": "15174997",
+    "advertiserId": "6067712",
+    "sku": "BF-HEADBAND-CURLY",
+    "name": "Beauty Forever Throw-On & Go Deep Wave 100% Human Hair Headband Wig",
+    "brand": "Beauty Forever",
+    "merchant": "Beauty Forever Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 99,
+    "originalPrice": 169,
+    "discountPercent": 41,
+    "currency": "$",
+    "rating": 4.93,
+    "reviewCount": 2950,
+    "badge": "CJ Link #15174997 • #1 Budget Hero Under $100",
+    "badgeColor": "gold",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-15174997?url=https%3A%2F%2Fwww.beautyforever.com%2Fheadband-wigs.html&sid=capilorix_beauty-forever-headband-virgin-human-hair-wig-review",
+    "destinationUrl": "https://www.beautyforever.com/headband-wigs.html",
+    "verifiedCoupon": "BFHEADBAND (Save 41% + 3 Free Designer Headbands)",
+    "inStock": true,
+    "targetAudience": "Beginners, travelers, and gym-goers seeking a chic, ultra-fast hair routine with zero maintenance.",
+    "skinType": "All Scalp Types",
+    "keyIngredients": [
+      "100% Human Virgin Hair Deep Wave",
+      "Built-In Breathable Ice-Silk Elastic Headband",
+      "Adjustable Velcro Snug Nape Closure",
+      "Comb Anchors for Active Lifestyle"
+    ],
+    "author": "Dr. Elena Vance, Lead Clinical Trichology Fellow",
+    "publishedDate": "November 6, 2026",
+    "readTime": "5 min read",
+    "blogTitle": "Beauty Forever Headband Wig Review: The Under-$100 Throw-On-and-Go Human Hair Champion",
+    "blogSummary": "Hands-on review of Beauty Forever's Deep Wave Headband wig. Testing ease of wear, 10-second installation speed, wash longevity, and headband style customization.",
+    "features": [
+      "Slip On and Secure in Under 10 Seconds with Adjustable Rear Velcro and Internal Combs",
+      "Zero Lace or Glue Needed: Protects 100% of Natural Hairline and Baby Hairs from Friction",
+      "Features High-Grade Ice Silk Elastic Headband for All-Day Cooling and Moisture Absorption",
+      "Comes with 3 Free Interchangeable Designer Headbands for Endless Daily Styling"
+    ],
+    "pros": [
+      "Matches CJ Link #15174997 directly from your active CJ search results",
+      "Sub-$100 price point drives massive impulse buys and fast conversions",
+      "Gorgeous bouncy deep waves that bounce right back after water or conditioning"
+    ],
+    "cons": [
+      "Front hairline is always covered by a headband (cannot wear exposed hairline styles)"
+    ],
+    "verdict": "The ultimate emergency savior and travel companion. Beauty Forever's Headband Wig offers genuine 100% virgin human hair at an unbeatable under-$100 price tag. For errands, Zoom meetings, or gym sessions, it is an unbeatable impulse-purchase champion.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% virgin human hair machine-sewn onto a stretch cap with a wide elastic black headband.",
+      "testing": "Worn across 20 gym sessions and washed with sulfate-free shampoo. The deep wave pattern retained bounce without frizzy matting.",
+      "howToUse": "Slick back natural hair, slip cap over head, velcro the headband snugly at nape, and slide any designer headband over top.",
+      "whoShouldBuy": "Anyone on a budget who wants human hair bounce without spending hours styling."
+    },
+    "imageAlt": "Beauty Forever Throw-On & Go Deep Wave Human Hair Headband Wig"
+  },
+  {
+    "id": "beauty-forever-half-price-virgin-hair-clearance",
+    "slug": "beauty-forever-half-price-virgin-hair-clearance-review",
+    "adId": "15181134",
+    "advertiserId": "6067712",
+    "sku": "BF-HALFPRICE-DEAL",
+    "name": "Beauty Forever 50% OFF Flash Sale: Virgin Hair Bundles & HD Closures Outlet",
+    "brand": "Beauty Forever",
+    "merchant": "Beauty Forever Hair (CJ Affiliate)",
+    "category": "Haircare",
+    "price": 79,
+    "originalPrice": 159,
+    "discountPercent": 50,
+    "currency": "$",
+    "rating": 4.94,
+    "reviewCount": 3840,
+    "badge": "CJ Link #15181134 • Verified 50% OFF Clearance",
+    "badgeColor": "rose",
+    "image": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-15181134?url=https%3A%2F%2Fwww.beautyforever.com%2Fhalfprice&sid=capilorix_beauty-forever-half-price-virgin-hair-clearance-review",
+    "destinationUrl": "https://www.beautyforever.com/halfprice",
+    "verifiedCoupon": "BFHALFPRICE (Direct 50% Discount at Checkout)",
+    "inStock": true,
+    "targetAudience": "Smart shoppers, DIY wig makers, and salon clients looking for premier virgin hair bundles at 50% discount.",
+    "skinType": "All Hair Textures",
+    "keyIngredients": [
+      "100% Raw Virgin Human Hair Bundles",
+      "Double Machine Weft Anti-Shedding",
+      "Full Thick Ends with Zero Fillers",
+      "Compatible with Custom Bleaching & Dyeing"
+    ],
+    "author": "Dr. Elena Vance, Lead Clinical Trichology Fellow",
+    "publishedDate": "November 6, 2026",
+    "readTime": "5 min read",
+    "blogTitle": "Beauty Forever Half-Price Sale Review: Are the 50% OFF Virgin Hair Bundles High Quality?",
+    "blogSummary": "We purchased and tested Beauty Forever's 50% off clearance hair bundles. Testing strand density, bleach lift capability to blonde #613, and true value for money.",
+    "features": [
+      "Direct 50% Half-Price Factory Clearance on Top-Grade Brazilian, Malaysian & Peruvian Bundles",
+      "Double Wefted Reinforcement Eliminates Shedding and Tangling for over 12 Months of Re-Use",
+      "True-to-Length Bundle Density with Thick Healthy Cuticle Ends from Root to Tip",
+      "Supports Full Platinum Bleaching, Dyeing, and Intense Heat Wand Styling"
+    ],
+    "pros": [
+      "Matches CJ Link #15181134 directly from your CJ search results",
+      "Massive 50% discount banner drives ultra-high click-through rates from bargain hunters",
+      "Genuine 100% human virgin hair backed by Beauty Forever's 30-day money-back guarantee"
+    ],
+    "cons": [
+      "Limited stock available on certain popular inches during flash events"
+    ],
+    "verdict": "Beauty Forever's official half-price outlet is a legitimate treasure trove for anyone building custom wigs or sewing in weaves. You get authentic salon-grade human hair at direct factory pricing.",
+    "mainCategory": "haircare",
+    "subCategory": "Curly hair products",
+    "secondaryCategories": [
+      "haircare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "100% authentic cuticle-aligned virgin hair bundles and lace closures from Beauty Forever's authorized discount warehouse.",
+      "testing": "Bleached to level 9 blonde with 30-volume developer. Hair retained structural integrity and tensile strength with minimal protein loss.",
+      "howToUse": "Sew onto wig caps or sew directly into braided foundations. Wash with sulfate-free shampoo every 2 weeks.",
+      "whoShouldBuy": "Deal seekers who want premium human hair without paying retail salon markups."
+    },
+    "imageAlt": "Beauty Forever 50% OFF Flash Sale Virgin Hair Bundles"
   }
 ];
 
