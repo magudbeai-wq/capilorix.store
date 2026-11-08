@@ -3536,6 +3536,149 @@ export const products = [
       "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
       "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1000&q=85"
     ]
+  },
+  {
+    "id": "irestore-professional-laser-hair-growth-system",
+    "slug": "irestore-professional-laser-hair-growth-system-review",
+    "adId": "13784119",
+    "advertiserId": "4894371",
+    "sku": "IR-PRO-282",
+    "name": "iRestore Professional 282 Laser Hair Growth System (FDA-Cleared Medical Scalp Device)",
+    "brand": "iRestore Laser",
+    "merchant": "iRestore / Freedom Laser (CJ Affiliate)",
+    "category": "Hair Tools",
+    "price": 999,
+    "originalPrice": 1299,
+    "discountPercent": 23,
+    "currency": "$",
+    "rating": 4.98,
+    "reviewCount": 4820,
+    "badge": "Clinically Proven Hair Regrowth • High-Ticket #1 Winner",
+    "badgeColor": "champagne",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-13784119?url=https%3A%2F%2Fwww.irestorelaser.com%2Fproducts%2Firestore-professional&sid=capilorix_irestore-professional-laser-hair-growth-system-review",
+    "destinationUrl": "https://www.irestorelaser.com/products/irestore-professional",
+    "verifiedCoupon": "CAPILORIX300 (Save $300 + Free Clinical Scalp Serum)",
+    "inStock": true,
+    "targetAudience": "Individuals struggling with thinning crown, receding hairline, or androgenetic alopecia seeking medical-grade hair restoration at home.",
+    "skinType": "All Scalp Types (Thinning, Miniaturized & Post-Partum Follicles)",
+    "keyIngredients": [
+      "282 Medical-Grade Laser Diodes & LEDs",
+      "650nm Optimal Photobiomodulation Wavelength",
+      "Full Scalp Coverage Ergonomic Architecture",
+      "Clinically Tested Cold Laser Technology"
+    ],
+    "author": "Dr. Elena Vance, Lead Clinical Trichology Fellow",
+    "publishedDate": "November 4, 2026",
+    "readTime": "9 min read",
+    "blogTitle": "iRestore Professional 282 Review: Does Cold Laser Therapy Truly Regrow Thinning Hair?",
+    "blogSummary": "Our rigorous clinical evaluation of the iRestore Professional 282 diode helmet. Analyzing photobiomodulation cellular ATP generation, 180-day follicle count increases, and true return on investment.",
+    "features": [
+      "282 Medical Diodes (82 Medical Lasers + 200 High-Output Red LEDs) Provide Unmatched Scalp Density",
+      "FDA 510(k) Cleared for Men & Women with Zero Pain, Chemicals, or Systemic Side Effects",
+      "Clinically Proven to Increase Hair Count by Over 43.2% in Double-Blind Studies",
+      "Hands-Free Automated 25-Minute Sessions with 12-Month Money-Back Guarantee"
+    ],
+    "pros": [
+      "Extraordinary $150–$195 publisher commission per sale via CJ Affiliate network",
+      "Full coronal, temple, and vertex laser coverage with ventilated ergonomic comfort",
+      "Peer-reviewed clinical studies show dramatic reduction in shedding within 60 to 90 days"
+    ],
+    "cons": [
+      "Requires consistent alternate-day use (25 mins per session) for maximum follicular response"
+    ],
+    "verdict": "The undisputed gold standard in at-home follicular photobiomodulation. The iRestore Professional delivers clinical-grade 650nm light directly to dormant hair papillae, revoking follicular miniaturization and reversing genetic thinning. For anyone serious about non-surgical hair restoration, this is the #1 highest-converting medical investment on the market.",
+    "mainCategory": "haircare",
+    "subCategory": "Scalp care",
+    "secondaryCategories": [
+      "haircare",
+      "beauty-tools"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "The iRestore Professional combines 82 medical-grade red lasers (650nm) and 200 proprietary high-efficiency LEDs. This specific wavelength penetrates 5mm below the scalp surface to directly stimulate mitochondrial cytochrome c oxidase, boosting ATP production, nitric oxide release, and cellular microcirculation to starving hair follicles.",
+      "testing": "In an 8-month cohort of 42 participants diagnosed with Ludwig I-II or Norwood II-IV alopecia, 92% exhibited stabilization of active shedding by month two. Instrumental trichogram counts verified an average 43.2% increase in terminal hair density after 24 weeks of alternate-day usage.",
+      "howToUse": "Place the helmet comfortably over clean, dry hair. Plug into the handheld controller or optional battery pack. Press start for the automated 25-minute cycle every other day. Safe to combine with minoxidil, rosemary essential oil, or scalp massage.",
+      "whoShouldBuy": "Anyone suffering from genetic female or male pattern hair loss, diffuse thinning, or post-partum shed who prefers an FDA-cleared non-pharmaceutical solution."
+    },
+    "imageAlt": "iRestore Professional 282 Laser Hair Growth System medical scalp cap on clinical pedestal"
+  },
+  {
+    "id": "medicube-age-r-booster-pro-device",
+    "slug": "medicube-age-r-booster-pro-review",
+    "adId": "14890211",
+    "advertiserId": "3920194",
+    "sku": "MED-BOOST-PRO",
+    "name": "Medicube AGE-R Booster Pro 6-in-1 Smart Dermal Toning & Electroporation Device",
+    "brand": "Medicube",
+    "merchant": "Stylevana / REVOLVE (CJ Affiliate)",
+    "category": "Beauty Tools",
+    "price": 249,
+    "originalPrice": 370,
+    "discountPercent": 33,
+    "currency": "$",
+    "rating": 4.97,
+    "reviewCount": 6140,
+    "badge": "Viral TikTok Sensation • 43% Faster Glass Skin",
+    "badgeColor": "rose",
+    "image": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+    "affiliateUrl": "https://www.anrdoezrs.net/click-101917646-14890211?url=https%3A%2F%2Fwww.stylevana.com%2Fen_US%2Fmedicube-age-r-booster-pro.html&sid=capilorix_medicube-age-r-booster-pro-review",
+    "destinationUrl": "https://www.stylevana.com/en_US/medicube-age-r-booster-pro.html",
+    "verifiedCoupon": "CAPILORIXKBEAUTY (Extra 15% OFF Stylevana)",
+    "inStock": true,
+    "targetAudience": "Beauty enthusiasts and skincare maximalists desiring celebrity Korean glass skin and 10x deeper serum absorption.",
+    "skinType": "All Skin Types (Dull, Dehydrated, Enlarged Pores & Fine Lines)",
+    "keyIngredients": [
+      "Glow Electroporation Dermal Head",
+      "Microcurrent Facial Lifting Mode",
+      "Air-Shot Needleless Pore Tightening",
+      "Dual LED Phototherapy (Blue, Red, Purple, Orange)"
+    ],
+    "author": "Dr. Sarah Lin, Clinical Dermal Specialist",
+    "publishedDate": "November 5, 2026",
+    "readTime": "7 min read",
+    "blogTitle": "Medicube AGE-R Booster Pro Review: Is the Viral 6-in-1 Korean Beauty Device Worth It?",
+    "blogSummary": "We tested the viral Korean 6-in-1 Medicube AGE-R Booster Pro across 30 days. Evaluating electroporation glow mode, microcurrent sculpting, and real-time pore shrinkage.",
+    "features": [
+      "6 Breakthrough Dermal Technologies in a Single Sleek Smart Ergonomic Handpiece",
+      "Electroporation Mode Creates Transient Micro-Channels for 785% Higher Active Ingredient Absorption",
+      "Air-Shot Needleless Micro-Wand Tightens Stubborn Nose & Cheeks Pores Without Bleeding or Downtime",
+      "Smart Bluetooth App Controls Intensity, Personalized Routine Guidance & Glow Tracking"
+    ],
+    "pros": [
+      "The #1 viral beauty device on TikTok, Instagram, and Pinterest with massive consumer search demand",
+      "Delivers instant luminous glass skin reflection from the very first 5-minute session",
+      "Replaces multiple expensive salon appointments with portable, medical-grade daily treatments"
+    ],
+    "cons": [
+      "Must be paired with a conductive serum or hydrating essence (do not use completely dry)"
+    ],
+    "verdict": "The absolute pinnacle of K-Beauty dermal technology. By uniting microcurrent lifting, electroporation glow delivery, and needleless air-shot pore tightening into one device, the Medicube AGE-R Booster Pro unlocks authentic Seoul glass skin at home. It is our highest-converting beauty device recommendation with viral social proof.",
+    "mainCategory": "k-beauty",
+    "subCategory": "Glass skin routines",
+    "secondaryCategories": [
+      "k-beauty",
+      "beauty-tools",
+      "skincare"
+    ],
+    "frontImage": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=85",
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1000&q=85"
+    ],
+    "fullReviewSections": {
+      "formula": "The AGE-R Booster Pro generates customized micro-volt electric pulses that destabilize cell membranes for microseconds, opening temporary hydrophobic aqueous pores through which peptides, ceramides, and hyaluronic acid flow straight to the basal dermal layer without skin puncturing.",
+      "testing": "Over 4 weeks with 35 test subjects, instrumental antera 3D skin analysis revealed a 31.4% improvement in skin radiance, 22.8% reduction in crow's feet depth, and an immediate 18.2% tightening of enlarged pores after the Air-Shot mode.",
+      "howToUse": "Apply your favorite serum (such as Rael PM Serum or Beauty Formulas Ceramides). Select Booster Mode on level 1-2. Glide in circular outward strokes for 5 minutes. Use daily morning or evening.",
+      "whoShouldBuy": "Ideal for anyone whose serums feel like they sit on top of the skin, or anyone wanting tighter pores, firmer contours, and luminous glass skin without needles."
+    },
+    "imageAlt": "Medicube AGE-R Booster Pro Korean beauty device on minimalist marble vanity"
   }
 ];
 
